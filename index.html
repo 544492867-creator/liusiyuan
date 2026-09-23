@@ -1,0 +1,2822 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#1f2430">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="泗月">
+<link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    @font-face{font-family:'DINCond-Bold';src:local('DINCond-Bold'),local('DIN Alternate Bold'),local('Helvetica Condensed Bold');font-weight:900;font-stretch:condensed}
+    @font-face{font-family:'DINCond-Light';src:local('DINCond-Light'),local('DIN Alternate'),local('Helvetica Condensed');font-weight:300;font-stretch:condensed}
+  </style>
+  <title>泗月 · 个人工作台</title>
+<style>
+  :root{
+    /* flomo 风格 · 白底绿字 · 大量留白 */
+    --bg:#FFFFFF;
+    --bg-grad:radial-gradient(130% 70% at 15% -10%, #fafafa 0%, rgba(250,250,250,0) 55%),
+              linear-gradient(168deg,#fefefe 0%,#f8f8f8 55%,#f3f3f3 100%);
+    --panel:#FFFFFF; --ink:#1A3C2A; --ink2:#2D5A3D;
+    --text:#1D1D1F; --muted:#8E8E93; --muted2:#AEAEB2;
+    --line:#E5E5EA; --line-light:#F2F2F7;
+    /* 森系手绘 · 深墨绿导航主题（苹果美学精炼版） */
+    --sidebar:#FAFAFA; --sidebar-hover:#F0F0F0; --sidebar-active:#1A3C2A;
+    --accent:#34C759; --accent2:#30B050; --accent-grad:linear-gradient(135deg,#34C759,#248A3D);
+    --c-content:#FF6B6B; --c-re:#5AC8FA; --c-biz:#AF52DE; --c-tour:#00C7BE;
+    --c-old:#FF9500; --c-int:#FF2D55; --c-life:#34C759; --c-schedule:#FF9500; --c-hotel:#E07A5F;
+    --shadow-sm:0 1px 3px rgba(0,0,0,.04),0 1px 2px rgba(0,0,0,.03);
+    --shadow:0 2px 12px rgba(0,0,0,.06),0 4px 20px rgba(0,0,0,.04);
+    --shadow-lg:0 8px 30px rgba(0,0,0,.08),0 16px 48px rgba(0,0,0,.06);
+    --radius:16px; --radius-sm:10px;
+    --ease-hw:cubic-bezier(.22,.61,.36,1);
+    --ease-emph:cubic-bezier(.2,.65,.15,1);
+    --glass:rgba(26,60,42,.85);
+    /* flomo 字体系统 */
+    --font-title:'DINCond-Bold','Helvetica Neue Condensed Bold',Arial Narrow,sans-serif;
+    --font-body:'DINCond-Light','Helvetica Neue Condensed','Noto Sans SC','PingFang SC',sans-serif;
+    --font-cn:'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:var(--font-body);font-size:15px;line-height:1.7;
+    background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    display:flex;overflow:hidden;
+    letter-spacing:.01em;
+  }
+  /* Sidebar — 苹果网页美学 · 极简白底 + 精致导航 */
+  .sidebar{
+    width:236px;flex:0 0 236px;background-color:var(--sidebar);
+    border-right:1px solid var(--line-light);
+    color:#1A3C2A;display:flex;flex-direction:column;height:100vh;padding:20px 14px;overflow-y:auto;
+  }
+  .brand{display:flex;align-items:center;gap:10px;padding:4px 8px 16px}
+  .brand .logo{
+    width:36px;height:36px;border-radius:10px;flex:0 0 36px;overflow:hidden;
+    background:#1A3C2A;box-shadow:0 0 0 1px rgba(26,60,42,.12) inset;
+  }
+  .brand .logo img{width:100%;height:100%;object-fit:cover;display:block;border-radius:10px}
+  .brand .name{font-family:var(--font-title);font-size:20px;font-weight:900;color:#1A3C2A;letter-spacing:3px}
+  .brand .sub{font-size:10px;color:#AEAEB2;letter-spacing:1.5px;margin-top:3px;font-weight:500;text-transform:uppercase}
+  .nav{display:flex;flex-direction:column;gap:2px;margin-top:8px}
+  .nav a{
+    display:flex;align-items:center;gap:9px;padding:9px 11px;border-radius:10px;
+    color:#3C3C43;cursor:pointer;font-size:13px;font-weight:500;transition:all .2s var(--ease-hw);
+    text-decoration:none;border-left:3px solid transparent;
+    letter-spacing:.02em;
+  }
+  .nav a .dot{width:8px;height:8px;border-radius:50%;flex:0 0 8px;transition:transform .2s}
+  .nav a:hover{background:var(--sidebar-hover);color:#1A3C2A}
+  .nav a:hover .dot{transform:scale(1.25)}
+  .nav a.active{
+    background:#1A3C2A;color:#FFFFFF;border-left-color:var(--accent);
+    box-shadow:0 2px 8px rgba(26,60,42,.18),inset 0 0 0 1px rgba(255,255,255,.06);
+    font-weight:600;
+  }
+  .nav a.active .dot{transform:scale(1.3);box-shadow:0 0 6px rgba(255,255,255,.4)}
+  .nav a .emo{width:18px;text-align:center;font-size:14px}
+  .nav a .nav-icon{flex:0 0 16px;width:16px;height:16px;transition:transform .2s}
+  .nav a:hover .nav-icon{transform:scale(1.1)}
+  .nav a.active .nav-icon{stroke:#FFFFFF}
+  .side-foot{margin-top:auto;padding:14px 8px 0;font-size:10.5px;color:#C7C7CC;line-height:1.8;letter-spacing:.3px;font-weight:500}
+  .install-btn{
+    margin-top:14px;width:100%;padding:10px;border:none;border-radius:10px;cursor:pointer;
+    background:var(--accent);color:#fff;
+    font-family:var(--font-body);font-weight:700;font-size:12.5px;display:none;letter-spacing:.5px;
+    transition:all .2s;
+  }
+  .install-btn:hover{background:var(--accent2);transform:scale(.98)}
+  .nav-toggle{display:none;background:none;border:none;color:#3C3C43;font-size:20px;cursor:pointer;padding:4px 8px;border-radius:8px;line-height:1}
+  .nav-toggle:hover{color:#1A3C2A;background:var(--sidebar-hover)}
+  .forest-deco{display:none}
+
+  /* Main — flomo 风格 · 白底 · 大量留白 */
+  .main{flex:1;height:100vh;overflow-y:auto;padding:32px 40px 60px;background:var(--bg)}
+  .topbar{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:28px;flex-wrap:wrap;gap:14px}
+  .topbar h1{font-family:var(--font-title);font-size:28px;font-weight:900;color:#1A3C2A;letter-spacing:1px}
+  .topbar .date{font-family:var(--font-body);font-size:12.5px;color:var(--muted);margin-top:5px;letter-spacing:.5px;font-weight:500}
+  .topbar .hello{font-family:var(--font-body);font-size:13.5px;color:var(--muted2);font-weight:500}
+  .pill{display:inline-flex;align-items:center;gap:5px;padding:5px 12px;border-radius:999px;background:#F2F2F7;font-size:11.5px;color:var(--muted);font-weight:500;letter-spacing:.3px}
+
+  /* ===== HarmonyOS 7.0 风格视图切换：淡入淡出 + 滑动 + 缩放 ===== */
+  .view{display:none}
+  .view.active{display:block;animation:viewIn .5s var(--ease-hw) both}
+  .view.view-exit{display:block;animation:viewOut .22s var(--ease-emph) both}
+  @keyframes viewIn{
+    from{opacity:0;transform:translateY(20px) scale(.985)}
+    to{opacity:1;transform:none}
+  }
+  @keyframes viewOut{
+    from{opacity:1;transform:none}
+    to{opacity:0;transform:translateX(-22px) scale(.99)}
+  }
+  .ptab{display:none}
+  .ptab.active{display:block;animation:ptabIn .4s var(--ease-hw) both}
+  @keyframes ptabIn{
+    from{opacity:0;transform:translateX(14px) scale(.99)}
+    to{opacity:1;transform:none}
+  }
+  @media (prefers-reduced-motion: reduce){
+    .view,.ptab,.card{animation:none!important}
+  }
+
+  .card{background:#FFFFFF;border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:24px 26px;margin-bottom:20px;border:1px solid var(--line-light);transition:box-shadow .3s}
+  .card:hover{box-shadow:var(--shadow)}
+  .card h2{font-family:var(--font-cn);font-size:18px;font-weight:700;color:#1A3C2A;margin-bottom:5px;display:flex;align-items:center;gap:8px;letter-spacing:.3px}
+  .card h2 .tag{font-size:10.5px;font-weight:600;color:#fff;padding:2.5px 8px;border-radius:6px;letter-spacing:.3px}
+  .card .lead{font-family:var(--font-body);font-size:13px;color:var(--muted);margin:6px 0 18px;line-height:1.75}
+  .sec-title{font-family:var(--font-body);font-size:12.5px;font-weight:700;color:#1A3C2A;margin:22px 0 12px;display:flex;align-items:center;gap:8px;letter-spacing:.5px;text-transform:uppercase}
+  .sec-title::before{content:"";width:3.5px;height:14px;border-radius:2px;background:linear-gradient(180deg,var(--accent),var(--accent2))}
+
+  /* Grids */
+  .grid{display:grid;gap:14px}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .g4{grid-template-columns:repeat(4,1fr)}
+  @media(max-width:1100px){.g4{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:760px){.g2,.g3,.g4{grid-template-columns:1fr}}
+
+  /* ===== iPad / 平板 适配 (≤1024px) ===== */
+  @media(max-width:1024px){
+    body{flex-direction:column}
+    .sidebar{
+      width:100%; flex:0 0 auto; height:auto; flex-direction:row;
+      padding:10px 12px; overflow-x:auto; overflow-y:hidden; gap:6px;
+      align-items:center; border-right:none; border-bottom:1px solid rgba(26,60,42,.16);
+    }
+    .brand{padding:0 0 0 4px; gap:8px; flex:0 0 auto}
+    .brand .logo{width:34px;height:34px;border-radius:9px;flex:0 0 34px}
+    .brand .name{font-size:16px;letter-spacing:1.5px}
+    .brand .sub{display:none}
+    .nav{flex-direction:row; gap:4px; margin-top:0; flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch}
+    .nav a{white-space:nowrap; padding:8px 12px; font-size:12.5px; border-left:none; gap:7px; border-bottom:3px solid transparent}
+    .nav a .dot{width:7px;height:7px;flex:0 0 7px}
+    .nav a.active{border-left-color:transparent; border-bottom-color:var(--accent)}
+    .side-foot{display:none}
+    .install-btn{margin-top:0; width:auto; padding:8px 16px; font-size:12px; display:none !important}
+    .nav-toggle{display:flex; align-items:center; justify-content:center; flex:0 0 auto}
+    .nav.collapsed{display:none}
+    .main{height:auto; min-height:100vh; padding:20px 18px 40px}
+    .topbar h1{font-size:20px}
+    .card{padding:18px 16px; margin-bottom:14px}
+    .card h2{font-size:16px}
+    .rbody{max-height:420px; font-size:13px}
+  }
+
+  /* ===== MatePad Mini / 小尺寸平板 (≤768px) ===== */
+  @media(max-width:768px){
+    .sidebar{padding:8px 10px; gap:5px}
+    .brand{padding:0 0 0 2px; gap:6px}
+    .brand .logo{width:30px;height:30px;flex:0 0 30px;border-radius:8px}
+    .brand .name{font-size:15px}
+    .nav a{padding:7px 10px; font-size:11.5px; gap:5px; border-radius:8px}
+    .nav a .dot{width:6px;height:6px;flex:0 0 6px}
+    .nav a .emo{font-size:14px}
+    .main{padding:18px 14px 36px}
+    .topbar{flex-direction:column; align-items:flex-start; gap:8px; margin-bottom:16px}
+    .topbar h1{font-size:19px}
+    .topbar .hello{font-size:13px}
+    .card{padding:16px 14px; margin-bottom:12px; border-radius:14px}
+    .card h2{font-size:15px; flex-wrap:wrap}
+    .card h2 .tag{font-size:10px; padding:2px 7px}
+    .card .lead{font-size:12px; margin:4px 0 12px}
+    .g2,.g3,.g4{grid-template-columns:1fr; gap:12px}
+    .rbody{max-height:380px; font-size:12.5px; padding:11px 13px}
+    .rhead{padding:10px 12px; gap:7px}
+    .rt{font-size:13px}
+    .rcard{border-radius:12px}
+    .grid{gap:12px}
+    .task{padding:10px 11px; gap:7px; font-size:12px}
+    .task .num{flex:0 0 20px;height:20px;font-size:11px;border-radius:6px}
+    .task .tx{font-size:12px}
+    .btn{padding:8px 14px; font-size:12px}
+    .btn.sm{padding:4px 9px; font-size:11px}
+    .rtools{gap:8px; margin-bottom:10px}
+    .rtools .search input{padding:8px 11px 8px 30px; font-size:12px}
+    .rtools select,.brsel{padding:8px 10px; font-size:12px}
+    .bcard{padding:13px 14px; border-radius:12px}
+    .bcard .emo{font-size:19px}
+    .bcard .t{font-size:13px}
+    .bcard .d{font-size:11px}
+    .checkin{padding:11px 14px}
+    .checkin .lbl{font-size:12.5px}
+    .switch{width:44px;height:24px;flex:0 0 44px}
+    .slider::before{width:18px;height:18px;left:3px;top:3px}
+    .switch input:checked + .slider::before{transform:translateX(20px)}
+    .rexpand{padding:7px; font-size:11px}
+    .footer{font-size:11px; margin-top:20px}
+  }
+
+  /* ===== iPad mini / 竖屏 手机 (≤600px) ===== */
+  @media(max-width:600px){
+    .sidebar{padding:8px 10px; gap:4px}
+    .nav a{padding:7px 10px; font-size:11px; gap:4px}
+    .nav a .emo{font-size:13px}
+    .brand .logo{width:28px;height:28px;flex:0 0 28px;border-radius:7px}
+    .brand .name{font-size:14px}
+    .main{padding:14px 10px 30px}
+    .topbar h1{font-size:18px}
+    .card{padding:14px 12px; margin-bottom:10px; border-radius:12px}
+    .card h2{font-size:15px}
+    .grid{gap:10px}
+    .task{padding:10px 12px; gap:8px}
+    .rbody{max-height:350px}
+    .btn.sm{padding:4px 9px; font-size:11px}
+  }
+
+  /* Task item */
+  .task{display:flex;gap:11px;padding:12px 14px;background:#fafbfc;border:1px solid var(--line);border-radius:12px;align-items:flex-start}
+  .task .num{flex:0 0 22px;height:22px;border-radius:7px;background:var(--ink);color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+  .task .tx{font-size:13px;line-height:1.65;color:var(--text)}
+  .task .tx b{color:var(--ink2)}
+
+  /* Platform / tab */
+  .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .tab{padding:8px 15px;border-radius:10px;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:13px;color:var(--muted);font-weight:600}
+  .tab.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .ptab{display:none}.ptab.active{display:block}
+
+  /* Template block */
+  .tpl{background:#fbf7ee;border:1px dashed var(--accent2);border-radius:12px;padding:16px 18px;line-height:1.9;font-size:13.5px;color:#5a4a2a}
+  .tpl .k{font-weight:700;color:var(--accent2)}
+
+  /* Check-in */
+  .checkin{display:flex;align-items:center;justify-content:space-between;background:linear-gradient(135deg,#f3f7ff,#eef6f1);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-top:6px}
+  .checkin .lbl{font-size:13.5px;font-weight:600;color:var(--ink2)}
+  .checkin .st{font-size:12px;color:var(--muted)}
+  .switch{position:relative;width:52px;height:28px;flex:0 0 52px}
+  .switch input{opacity:0;width:0;height:0}
+  .slider{position:absolute;inset:0;background:#cfd4dd;border-radius:999px;cursor:pointer;transition:.25s}
+  .slider::before{content:"";position:absolute;width:22px;height:22px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.25s;box-shadow:0 2px 5px rgba(0,0,0,.2)}
+  .switch input:checked + .slider{background:var(--c-life)}
+  .switch input:checked + .slider::before{transform:translateX(24px)}
+
+  /* Overview board cards */
+  .bcard{background:var(--panel);border-radius:14px;box-shadow:var(--shadow);padding:16px 17px;border:1px solid var(--line);border-top:4px solid var(--accent);position:relative;cursor:pointer;transition:.2s}
+  .bcard:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(31,36,48,.13)}
+  .bcard .emo{font-size:22px}
+  .bcard .t{font-size:14.5px;font-weight:700;color:var(--ink);margin:8px 0 3px}
+  .bcard .d{font-size:11.5px;color:var(--muted);line-height:1.5;min-height:34px}
+  .bcard .badge{position:absolute;top:13px;right:13px;font-size:11px;font-weight:600;padding:3px 9px;border-radius:8px}
+  .badge.done{background:#e6f6ec;color:#2f8a52}
+  .badge.todo{background:#fdeee6;color:#d4642c}
+  .badge.pend{background:#eef0f3;color:#7a8190}
+
+  /* Closed-loop list */
+  .loop{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+  .loop:last-child{border-bottom:none}
+  .loop .ck{width:18px;height:18px;border-radius:6px;border:2px solid var(--line);flex:0 0 18px;margin-top:1px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:12px;color:#fff}
+  .loop.done .ck{background:var(--c-life);border-color:var(--c-life)}
+  .loop.done .tx{color:var(--muted);text-decoration:line-through}
+  .loop .tx{line-height:1.6}
+
+  /* Personal life forms */
+  .field{display:flex;flex-direction:column;gap:5px;margin-bottom:12px}
+  .field label{font-size:12.5px;font-weight:600;color:var(--ink2)}
+  .field input,.field textarea,.field select{
+    border:1px solid var(--line);border-radius:9px;padding:9px 11px;font-size:13px;font-family:inherit;background:#fafbfc;color:var(--text);outline:none;
+  }
+  .field input:focus,.field textarea:focus{border-color:var(--accent);background:#fff}
+  .field textarea{resize:vertical;min-height:54px}
+  .btn{padding:9px 16px;border:none;border-radius:9px;background:var(--ink);color:#fff;font-size:13px;font-weight:600;cursor:pointer}
+  .btn:hover{background:var(--ink2)}
+  .btn.green{background:var(--c-life)}
+  .btn.sm{padding:5px 11px;font-size:12px;border-radius:7px}
+  .btn.ghost{background:#f0f2f5;color:var(--text)}
+  .reset{float:right;font-size:12px;color:var(--muted);background:none;border:none;cursor:pointer;text-decoration:underline}
+
+  .records{margin-top:14px;display:flex;flex-direction:column;gap:9px}
+  .rec{background:#fafbfc;border:1px solid var(--line);border-radius:11px;padding:12px 14px;position:relative}
+  .rec .rh{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-bottom:6px}
+  .rec .rb{font-size:13px;line-height:1.65;color:var(--text);white-space:pre-wrap}
+  .rec .del{position:absolute;top:10px;right:12px;color:#c45;cursor:pointer;font-size:16px;line-height:1;background:none;border:none}
+  .module-tabs{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:16px}
+  .module-tabs .mt{padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:13px;font-weight:600;color:var(--muted)}
+  .module-tabs .mt.active{background:var(--c-life);color:#fff;border-color:var(--c-life)}
+  .mtab{display:none}.mtab.active{display:block}
+
+  .empty{font-size:12.5px;color:var(--muted);font-style:italic;padding:8px 0}
+  .hint{font-size:12px;color:var(--muted);background:#f6f7f9;border-radius:9px;padding:10px 13px;line-height:1.7;margin-top:10px}
+  .archive-note{font-size:12.5px;color:var(--muted);line-height:1.8;background:#f6f8fa;border-radius:10px;padding:12px 15px;margin-top:6px}
+  .archive-note code{background:#e8ebf0;padding:1px 6px;border-radius:5px;font-size:12px;color:#41506a}
+  /* Latest reports inline */
+  .rcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;border-top:4px solid var(--accent)}
+  .rhead{display:flex;align-items:center;gap:9px;padding:13px 15px;background:var(--panel);border-bottom:1px solid var(--line)}
+  .remo{display:flex;align-items:center}
+  .remo-svg{flex:0 0 18px;width:18px;height:18px;vertical-align:middle}
+  .h2-icon{vertical-align:text-bottom;margin-right:6px;flex-shrink:0}
+  .rt{font-size:14px;font-weight:700;color:var(--ink2)}
+  .rdate{margin-left:auto;font-size:11.5px;color:var(--muted)}
+  .rbody{padding:15px 17px;font-size:17px;line-height:1.8;color:var(--text);max-height:340px;overflow:auto;background:#FBFBFD}
+  .rbody h2{font-size:20px;font-weight:700;color:var(--ink2);margin:0 0 10px;display:flex;align-items:center;gap:8px}
+  .rbody h2::before{content:"";width:15px;height:15px;flex:0 0 15px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 16 16'%3E%3Cpath d='M8 1 L12 7 H9.5 L13 12 H3 L6.5 7 H4 Z' fill='%237DBF8A'/%3E%3C/svg%3E") no-repeat center/contain}
+  .rbody h3{font-size:20px;font-weight:700;color:#fa8b80;margin:16px 0 7px}
+  .rbody h4{font-size:20px;font-weight:700;color:#fa8b80;margin:12px 0 5px}
+  .rbody h2:first-child,.rbody h3:first-child,.rbody h4:first-child{margin-top:0}
+  .rbody p{margin:6px 0}
+  .rbody ul,.rbody ol{margin:6px 0 10px;padding-left:20px}
+  .rbody li{margin:4px 0}
+  .rbody b{color:var(--ink2)}
+  .rbody hr{border:none;border-top:1px solid var(--line);margin:12px 0}
+  .rbody .k{font-weight:700;color:var(--accent2)}
+  .rbody .quote{border-left:3px solid var(--accent);padding-left:10px;color:var(--muted);margin:8px 0}
+  .rbody pre.code{background:#16291d;color:#e6e9f0;padding:10px 12px;border-radius:8px;font-size:12px;overflow:auto;white-space:pre-wrap}
+  .rbody table.mdtbl{border-collapse:collapse;width:100%;margin:8px 0;font-size:13px;background:var(--panel)}
+  .rbody table.mdtbl th,.rbody table.mdtbl td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top;line-height:1.5}
+  .rbody table.mdtbl th{background:#eef2ee;color:var(--ink2);font-weight:700}
+  .rbody table.mdtbl tr:nth-child(even) td{background:#f4f6f4}
+  /* 收藏详情内的表格样式（与报告正文一致） */
+  .rfull table.mdtbl{border-collapse:collapse;width:100%;margin:8px 0;font-size:13px;background:var(--panel)}
+  .rfull table.mdtbl th,.rfull table.mdtbl td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top;line-height:1.5}
+  .rfull table.mdtbl th{background:#eef2ee;color:var(--ink2);font-weight:700}
+  .rfull table.mdtbl tr:nth-child(even) td{background:#f4f6f4}
+  .rexpand{text-align:center;font-size:12px;color:var(--accent2);padding:9px;cursor:pointer;background:var(--panel);border-top:1px solid var(--line);user-select:none;font-weight:600}
+  .rexpand:hover{background:#eef2ee}
+  /* Reports toolbar: search + filter dropdown */
+  .rtools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+  .rtools .search{flex:1;min-width:190px;position:relative}
+  .rtools .search input{width:100%;padding:9px 13px 9px 34px;border:1px solid var(--line);border-radius:10px;font-size:13px;background:#fafbfc;color:var(--text);outline:none;font-family:inherit}
+  .rtools .search input:focus{border-color:var(--accent);background:#fff}
+  .rtools .search::before{content:"🔍";position:absolute;left:11px;top:50%;transform:translateY(-50%);font-size:13px;opacity:.55}
+  .rtools select,.brsel{padding:9px 12px;border:1px solid var(--line);border-radius:10px;font-size:13px;background:#fafbfc;color:var(--text);outline:none;cursor:pointer;font-family:inherit}
+  .rtools select:focus,.brsel:focus{border-color:var(--accent);background:#fff}
+  .rtitle{cursor:pointer;transition:.15s}
+  .rtitle:hover{color:var(--accent2);text-decoration:underline}
+  .footer{text-align:center;color:#9aa1ad;font-size:12px;margin-top:30px;line-height:1.8}
+
+  /* Favorite star button */
+  .favStar{
+    background:none;border:1px solid var(--line);border-radius:7px;
+    padding:1px 6px;font-size:11px;cursor:pointer;margin-left:6px;
+    color:var(--muted);transition:.15s;line-height:1;vertical-align:middle;display:inline-block;
+  }
+  .favStar:hover{background:var(--accent);color:#fff;border-color:var(--accent);transform:scale(1.08)}
+  .favStar.starred{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .favStar[data-fav-type="case"]{color:#7b5ea7;border-color:#d4c5ec}
+  .favStar[data-fav-type="case"]:hover,.favStar[data-fav-type="case"].starred{background:#7b5ea7;color:#fff;border-color:#7b5ea7}
+  .favStar[data-fav-type="quote"]{color:#5a8a72;border-color:#cee0d4}
+  .favStar[data-fav-type="quote"]:hover,.favStar[data-fav-type="quote"].starred{background:#5a8a72;color:#fff;border-color:#5a8a72}
+  /* Favorites view */
+  .favboard{font-size:12px;padding:2px 8px;border-radius:6px;background:#fbf7ee;color:var(--accent2);font-weight:600;margin-right:6px;display:inline-flex;align-items:center;gap:3px}
+  .favboard .remo-svg{width:14px;height:14px;flex-shrink:0}
+  .favtype{font-size:11px;padding:2px 7px;border-radius:6px;background:#eef0f3;color:#5a6478;font-weight:600}
+
+  /* ===== 世界级审美增强 (HarmonyOS 7.0 风) ===== */
+  body{background:var(--bg-grad);background-attachment:fixed}
+  .main{background:transparent}
+  .topbar h1{letter-spacing:.5px;background:linear-gradient(120deg,#1a1e28,#3a4150);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .brand .name{background:linear-gradient(120deg,#eafff0,#9fe0b4);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:2.5px}
+  .brand .logo{box-shadow:0 4px 12px rgba(0,0,0,.25),0 0 0 1px rgba(255,255,255,.06) inset}
+  .card{border:1px solid var(--line);box-shadow:var(--shadow);transition:transform .35s var(--ease-hw),box-shadow .35s var(--ease-hw);border-radius:var(--radius)}
+  .card:hover{box-shadow:var(--shadow-lg)}
+  .card h2 .tag{box-shadow:0 2px 6px rgba(0,0,0,.14);letter-spacing:.3px}
+  .pill{box-shadow:var(--shadow-sm);border:1px solid var(--line)}
+  .sec-title{letter-spacing:.5px}
+  .bcard{box-shadow:var(--shadow);border:1px solid var(--line);transition:transform .4s var(--ease-hw),box-shadow .4s var(--ease-hw)}
+  .bcard:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg)}
+  .rcard{box-shadow:var(--shadow);border:1px solid var(--line)}
+  .btn{box-shadow:var(--shadow-sm);transition:transform .15s var(--ease-hw),box-shadow .2s var(--ease-hw),background .2s;letter-spacing:.3px}
+  .btn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
+  .btn:active{transform:translateY(0) scale(.97)}
+  .btn.green{background:linear-gradient(135deg,#56b082,#3f9370)}
+  .tab.active{box-shadow:var(--shadow-sm);background:var(--ink);color:#fff;border-color:var(--ink)}
+  .module-tabs .mt.active{box-shadow:var(--shadow-sm)}
+  .install-btn{box-shadow:var(--shadow-sm)}
+  /* 聚焦光晕 */
+  .field input:focus,.field textarea:focus,.rtools .search input:focus,.rtools select:focus,.brsel:focus{box-shadow:0 0 0 3px rgba(200,164,92,.18);border-color:var(--accent);background:#fff}
+  /* 收藏星标微交互 */
+  .favStar:active{transform:scale(.9)}
+  .favStar.starred{animation:pop .3s var(--ease-emph)}
+  @keyframes pop{0%{transform:scale(.7)}60%{transform:scale(1.18)}100%{transform:scale(1)}}
+  /* 收藏列表：可点击展开/收起 */
+  .rec.fav-rec{cursor:pointer;transition:background .15s;border-radius:10px}
+  .rec.fav-rec:hover{background:#f6f7f9}
+  .rec.fav-rec .rb{line-height:1.7}
+  .rec.fav-rec .rpreview{font-size:14px;color:var(--text);line-height:1.6}
+  .rec.fav-rec .rfull{margin-top:8px;padding-top:8px;border-top:1px dashed #e0e0e4;font-size:14px;line-height:1.85;color:var(--text)}
+  .rec.fav-rec .rfull h2,.rec.fav-rec .rfull h3,.rec.fav-rec .rfull h4{font-size:15px;font-weight:700;color:#fa8b80;margin:10px 0 4px}
+  .rec.fav-rec .rfull p{margin:4px 0}
+  /* 列表项样式：以 ● / - / ☆ / 数字 开头的段落，左缩进对齐 */
+  .rec.fav-rec .rfull p::before{content:''}
+  /* 自动收录标记 */
+  .favauto{margin-left:8px;padding:1px 7px;border-radius:99px;background:#eef6ff;color:#3b82f6;font-size:11px;font-weight:600;line-height:1.6;white-space:nowrap}
+  .rec.fav-rec .rfull ul,.rec.fav-rec .rfull ol{padding-left:18px;margin:4px 0}
+  .rec.fav-rec .rfull li{margin:2px 0}
+  .rec.fav-rec .rfull blockquote{border-left:3px solid var(--accent);padding:4px 10px;margin:6px 0;background:rgba(200,164,92,.06);border-radius:0 6px 6px 0}
+  .rec.fav-rec .fav-toggle{font-size:11px;color:var(--accent2);cursor:pointer;user-select:none;font-weight:600;margin-left:6px;flex:0 0 auto}
+  .rec.fav-rec .fav-toggle:hover{text-decoration:underline}
+  /* 滚动条美化 */
+  .main::-webkit-scrollbar,.rbody::-webkit-scrollbar,.sidebar::-webkit-scrollbar{width:9px;height:9px}
+  .main::-webkit-scrollbar-thumb,.rbody::-webkit-scrollbar-thumb,.sidebar::-webkit-scrollbar-thumb{background:rgba(120,128,145,.32);border-radius:9px;border:2px solid transparent;background-clip:padding-box}
+  .main::-webkit-scrollbar-thumb:hover,.rbody::-webkit-scrollbar-thumb:hover{background:rgba(120,128,145,.55);background-clip:padding-box}
+  /* 概览卡片入场微错峰 */
+  .view.active .grid.g4 > *{animation:cardIn .55s var(--ease-hw) both}
+  .view.active .grid.g4 > *:nth-child(1){animation-delay:.04s}
+  .view.active .grid.g4 > *:nth-child(2){animation-delay:.09s}
+  .view.active .grid.g4 > *:nth-child(3){animation-delay:.14s}
+  .view.active .grid.g4 > *:nth-child(4){animation-delay:.19s}
+  .view.active .grid.g4 > *:nth-child(n+5){animation-delay:.24s}
+  @keyframes cardIn{from{opacity:0;transform:translateY(14px) scale(.98)}to{opacity:1;transform:none}}
+
+  /* ===== 飞书式日程管理 ===== */
+  .cal-topbar{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid var(--line-light);background:#fff;border-radius:var(--radius) var(--radius) 0 0}
+  .cal-nav-left{display:flex;align-items:center;gap:4px}
+  .cal-today-btn{padding:5px 14px;border:1px solid var(--line);border-radius:7px;background:#fff;font-size:12.5px;font-weight:600;color:#1A3C2A;cursor:pointer;transition:all .15s;font-family:var(--font-body)}
+  .cal-today-btn:hover{background:#1A3C2A;color:#fff;border-color:#1A3C2A}
+  .cal-arrow-btn{width:30px;height:30px;border:none;background:none;font-size:18px;color:#3C3C43;cursor:pointer;border-radius:7px;display:flex;align-items:center;justify-content:center;transition:background .15s}
+  .cal-arrow-btn:hover{background:#f0f0f2}
+  .cal-month-label{font-family:var(--font-title);font-size:17px;font-weight:700;color:#1A3C2A;padding:5px 14px;border-radius:7px;cursor:pointer;transition:background .15s;min-width:110px;text-align:center;border:none;background:none}
+  .cal-month-label:hover{background:#f0f0f2}
+  .cal-nav-right{display:flex;gap:2px;background:#f5f5f7;padding:3px;border-radius:8px}
+  .cal-view-tab{padding:5px 16px;border:none;background:none;font-size:12.5px;font-weight:500;color:var(--muted);cursor:pointer;border-radius:6px;transition:all .15s;font-family:var(--font-body)}
+  .cal-view-tab.active{background:#fff;color:#1A3C2A;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+  .cal-view-tab:hover:not(.active){color:#1A3C2A}
+
+  /* 飞书式日历网格 */
+  .cal-grid-wrap{padding:8px 20px 20px;background:#fff}
+  .cal-feishu-table{width:100%;border-collapse:collapse;table-layout:fixed;font-family:var(--font-body)}
+  .cal-feishu-table th{height:36px;font-size:12px;font-weight:600;color:var(--muted);text-align:center;border-bottom:1px solid var(--line-light);padding:0 4px}
+  .cal-feishu-table td{vertical-align:top;padding:6px 4px;border:1px solid #F0F0F2;min-height:72px;height:88px;position:relative;cursor:pointer;transition:background .12s}
+  .cal-feishu-table td:hover{background:#FAFAFB}
+  .cal-feishu-table td.cal-today{background:#F8FAFF}
+  .cal-feishu-table td.cal-today .cal-day-num{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;background:#007AFF;color:#fff;font-weight:700}
+  .cal-feishu-table td.cal-other-month{background:#FAFAFB}
+  .cal-feishu-table td.cal-other-month .cal-day-num{color:#C7C7CC}
+  .cal-day-num{font-size:16px;font-weight:600;color:#1D1D1F;display:block;margin-bottom:3px;line-height:1.4;font-family:var(--font-body)}
+
+  /* 节假日标签 */
+  .cal-holiday-tag{display:inline-block;font-size:9px;font-weight:600;padding:1px 5px;border-radius:4px;line-height:1.4;vertical-align:middle;margin-left:3px}
+  .cal-holiday-tag.holiday{background:#FFF3E0;color:#E65100}
+  .cal-holiday-tag.workday{background:#FFEBEE;color:#C62828}
+  .cal-holiday-tag.weekend{background:#ECEFF1;color:#546E7A}
+
+  /* 卡片式事件（底色 + 左边框 + 文字 — 对齐截图风格） */
+  .cal-events{display:flex;flex-direction:column;gap:2px;margin-top:2px}
+  .cal-event-item{display:flex;align-items:center;gap:5px;padding:3px 8px;border-radius:6px;font-size:13px;line-height:1.5;cursor:pointer;transition:opacity .15s;white-space:nowrap;overflow:hidden;text-ellipsis;font-family:var(--font-body);border-left:3px solid #007AFF}
+  .cal-event-item:hover{opacity:.75}
+  .cal-ev-dot{display:none}
+  .cal-ev-time{flex:0 0 auto;font-weight:600;font-size:11px}
+  .cal-ev-title{overflow:hidden;text-ellipsis;font-weight:500}
+
+  /* 当日详情面板 */
+  .cal-day-panel{margin:0 20px 16px;background:#fff;border-radius:var(--radius-sm);border:1px solid var(--line-light);overflow:hidden;animation:panelSlideIn .25s var(--ease-hw)}
+  @keyframes panelSlideIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+  .cal-day-panel-head{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid var(--line-light)}
+  .cal-day-panel-head span{font-family:var(--font-title);font-size:16px;font-weight:700;color:#1A3C2A}
+  .cal-panel-close{width:26px;height:26px;border:none;background:#f0f0f2;border-radius:50%;font-size:13px;color:#86868B;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s}
+  .cal-panel-close:hover{background:#e0e0e2;color:#FF3B30}
+  .cal-day-panel-body{padding:14px 18px;min-height:60px;max-height:240px;overflow-y:auto}
+  .cal-day-panel-foot{padding:10px 18px;border-top:1px solid var(--line-light);text-align:right}
+  .cal-panel-event{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;margin-bottom:6px;cursor:pointer;transition:background .12s;border:1px solid transparent}
+  .cal-panel-event:hover{background:#FAFAFB;border-color:var(--line-light)}
+  .cal-panel-event-dot{width:10px;height:10px;border-radius:50%;flex:0 0 auto}
+  .cal-panel-event-info{flex:1;min-width:0}
+  .cal-panel-event-title{font-size:13.5px;font-weight:600;color:#1D1D1F}
+  .cal-panel-event-meta{font-size:11px;color:var(--muted);margin-top:2px}
+  .cal-panel-event-del{opacity:0;flex:0 0 auto;font-size:12px;color:#FF3B30;cursor:pointer;padding:4px;border-radius:6px;transition:all .15s}
+  .cal-panel-event:hover .cal-panel-event-del{opacity:1}
+
+  /* 底部工具栏 */
+  .cal-bottom-bar{display:flex;gap:16px;padding:16px 20px;background:#fff;border-radius:0 0 var(--radius) var(--radius);border-top:1px solid var(--line-light);align-items:flex-start}
+  .cal-memo-section{flex:1}
+  .cal-memo-label{font-size:12px;font-weight:700;color:#1A3C2A;margin-bottom:6px}
+  .cal-memo-section textarea{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:9px;font-family:var(--font-body);font-size:12.5px;color:var(--text);resize:vertical;background:#FAFAFA;outline:none;transition:border-color .2s;line-height:1.6}
+  .cal-memo-section textarea:focus{border-color:#1A3C2A}
+  .cal-tools{display:flex;gap:6px;padding-top:22px}
+
+  /* 日程弹窗 */
+  .modal-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.35);z-index:999;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+  .modal-overlay.show{display:flex}
+  .modal-box{background:#fff;border-radius:16px;padding:24px;width:420px;max-width:92vw;box-shadow:var(--shadow-lg)}
+  .modal-box h3{font-family:var(--font-title);font-size:18px;color:#1A3C2A;margin-bottom:16px}
+  .modal-box label{display:block;font-size:12px;font-weight:600;color:var(--muted);margin-bottom:4px;margin-top:12px}
+  .modal-box input,.modal-box select,.modal-box textarea{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:9px;font-family:var(--font-body);font-size:13px;outline:none;transition:border-color .2s}
+  .modal-box input:focus,.modal-box select:focus,.modal-box textarea:focus{border-color:var(--accent)}
+  .modal-btns{display:flex;gap:8px;margin-top:18px;justify-content:flex-end}
+
+  /* ===== 访谈板块专用样式（重构版） ===== */
+  .interview-overview{background:linear-gradient(135deg,#fef9f0,#fff5eb);border:1px solid #f0d9b5;border-radius:12px;padding:16px 18px;margin-bottom:16px;position:relative}
+  .interview-overview::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:12px 12px 0 0;background:linear-gradient(90deg,#FF6B6B,#FF2D55,#AF52DE)}
+  .interview-overview h3{font-size:15px;font-weight:700;color:#1A3C2A;margin:0 0 10px;display:flex;align-items:center;gap:8px}
+  .interview-overview h3 svg{flex:0 0 16px;width:16px;height:16px}
+  .interview-program-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:14px;box-shadow:var(--shadow-sm);transition:box-shadow .2s}
+  .interview-program-card:hover{box-shadow:var(--shadow)}
+  .interview-program-card .ipc-head{display:flex;align-items:flex-start;gap:10px;margin-bottom:10px}
+  .interview-program-card .ipc-num{flex:0 0 28px;width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,#FF2D55,#ff6b8a);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center}
+  .interview-program-card .ipc-title{font-size:16px;font-weight:700;color:#1A3C2A;line-height:1.4;flex:1}
+  .interview-program-card .ipc-meta{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:12px;color:var(--muted);margin-bottom:8px;padding:8px 12px;background:#fafbfc;border-radius:8px}
+  .interview-program-card .ipc-meta span{display:inline-flex;align-items:center;gap:4px}
+  .interview-program-card .ipc-meta a{color:var(--c-int);text-decoration:none;font-weight:600;display:inline-flex;align-items:center;gap:3px;transition:color .15s}
+  .interview-program-card .ipc-meta a:hover{text-decoration:underline;color:#d41a4a}
+  .interview-program-card .ipc-meta svg{width:13px;height:13px;flex-shrink:0}
+  .interview-program-card .ipc-body{font-size:14px;line-height:1.8;color:var(--text)}
+  .interview-section{margin-bottom:18px}
+  .interview-section h2{font-size:17px;font-weight:700;color:#1A3C2A;margin:0 0 10px;display:flex;align-items:center;gap:8px;padding-bottom:6px;border-bottom:2px solid #f0e5e8}
+  .interview-section h2 .is-icon{width:20px;height:20px;border-radius:6px;display:inline-flex;align-items:center;justify-content:center}
+  /* 2.4 全文直接展示 */
+  .iv2-fulltext-body{padding:10px 14px;background:#fefefe;border:1px solid #f0e8e8;border-radius:8px;line-height:1.85;font-size:13.5px;color:#333}
+  .iv2-fulltext-body p{margin:7px 0}
+  .iv2-fulltext-body b{color:#1A3C2A;font-weight:700}
+  .iv2-fulltext-body blockquote{border-left:3px solid #FF2D55;padding-left:12px;color:#666;margin:8px 0;font-style:italic}
+  .interview-export-bar{display:flex;flex-wrap:wrap;gap:8px;padding:12px 16px;background:#f8f6ff;border:1px solid #e8e0f0;border-radius:10px;margin-top:12px;align-items:center}
+  .interview-export-bar .ieb-label{font-size:12px;color:var(--muted);font-weight:600;margin-right:4px}
+  .interview-export-bar button{padding:6px 14px;border:1px solid var(--line);border-radius:8px;background:#fff;font-size:12px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:5px;color:var(--text)}
+  .interview-export-bar button:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .interview-export-bar button.ieb-primary{background:var(--c-int);color:#fff;border-color:var(--c-int)}
+  .interview-export-bar button.ieb-primary:hover{background:#d41a4a;border-color:#d41a4a}
+  .interview-sync-hint{font-size:11px;color:var(--muted);margin-top:6px;line-height:1.6}
+  .interview-person-tag{display:inline-flex;align-items:center;gap:4px;padding:2px 10px;background:linear-gradient(135deg,#fff0f0,#ffe8e8);border:1px solid #ffcfd2;border-radius:99px;font-size:12px;font-weight:700;color:#c0392b}
+  .interview-part-label{font-size:11px;font-weight:700;color:#fff;background:var(--c-int);padding:2px 10px;border-radius:99px;display:inline-block;margin-bottom:8px;letter-spacing:.5px}
+  /* v4：节目为中心卡片 */
+  .ipc-v4{margin-bottom:22px}
+  .ipc-v4 .ipc-meta b{font-weight:700;color:#1A3C2A}
+  .ipc-v4 .ipc-sub-label{font-size:11px;font-weight:700;color:#fff;background:var(--c-int);padding:2px 10px;border-radius:99px;display:inline-block;margin-bottom:8px;letter-spacing:.5px}
+  .ipc-v4 .interview-subsection:last-child{margin-bottom:0}
+
+  /* ===== 访谈 v3 新结构样式 ===== */
+  /* 二、访谈内容 容器 */
+  .iv2-container{padding-left:16px;margin-top:4px}
+  /* 子节（2.1 梗概 / 2.2 核心观点 / 2.3 金句） */
+  .interview-subsection{margin-bottom:18px}
+  .iss-h3{font-size:15px;font-weight:700;color:#1A3C2A;margin:0 0 8px;display:flex;align-items:center;gap:8px}
+  .iss-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;display:inline-block}
+  .iss-body{font-size:13px;line-height:1.85;color:var(--text)}
+  .iss-body p{margin:4px 0}
+
+  /* 案例总览子区域（1.1 国内 / 1.2 国外） */
+  .co-sub{margin-bottom:14px;padding:12px 14px;background:rgba(255,255,255,.7);border-radius:10px;border:1px solid rgba(240,217,181,.5)}
+  .co-sub-h{font-size:14px;font-weight:700;color:#c0392b;margin:0 0 10px;display:flex;align-items:center;gap:6px}
+  .co-sub-h::before{content:'';width:4px;height:14px;background:#FF2D55;border-radius:2px;display:inline-block;flex-shrink:0}
+  .co-sub-h-fg{color:#1967d2}
+  .co-sub-h-fg::before{background:#1967d2}
+
+  /* 案例表格 */
+  .co-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .co-tbl{width:100%;border-collapse:collapse;font-size:12.5px}
+  .co-tbl th{background:#faf5ef;color:#5a3e1b;font-weight:700;text-align:left;padding:9px 12px;border-bottom:2px solid #f0d9b5;white-space:nowrap}
+  .co-tbl td{padding:9px 12px;border-bottom:1px solid #f5ede0;vertical-align:top;line-height:1.65}
+  .co-tbl tr:hover td{background:#fefcf7}
+  .co-name{font-weight:600;color:#1A3C2A;white-space:nowrap;min-width:100px}
+  .co-theme{color:#333}
+  .co-time{color:var(--muted);white-space:nowrap;font-size:11.5px}
+  .co-quote{color:#8B6914;font-style:italic;max-width:220px}
+  .co-extra{margin-top:12px;padding-top:10px;border-top:1px dashed #f0d9b5;font-size:12px;line-height:1.75}
+
+  @media(max-width:768px){
+    .interview-overview{padding:12px 14px}
+    .interview-program-card{padding:12px 14px}
+    .interview-program-card .ipc-title{font-size:14px}
+    .interview-export-bar{flex-direction:column;align-items:stretch}
+    .interview-export-bar button{justify-content:center}
+  }
+</style>
+</head>
+<body>
+
+<aside class="sidebar">
+  <button class="nav-toggle" id="navToggle" onclick="document.getElementById('nav').classList.toggle('collapsed')" title="折叠/展开导航">☰</button>
+  <div class="brand">
+    <div class="logo"><img src="icon-192.png" alt=""></div>
+    <div><div class="name">泗月</div><div class="sub">个人工作台</div></div>
+  </div>
+  <nav class="nav" id="nav">
+    <a data-view="overview" class="active"><svg class="nav-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="16" height="14" rx="2"/><path d="M2 7h16M6 11h3M11 11h3"/></svg>概览</a>
+    <a data-view="content"><svg class="nav-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="#FF6B6B" stroke-width="1.8"><path d="M4 3l12 7-12 7V3z"/></svg>内容创作热点</a>
+    <a data-view="realestate"><svg class="nav-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="#5AC8FA" stroke-width="1.8"><path d="M3 17V8l7-5 7 5v9H3z"/><rect x="8" y="12" width="4" height="5"/></svg>房地产市场</a>
+    <a data-view="business"><svg class="nav-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="#AF52DE" stroke-width="1.8"><circle cx="10" cy="9" r="6"/><path d="M10 3v2M10 15v2M3 9h2M15 9h2"/><circle cx="10" cy="9" r="2"/></svg>商业案例观察</a>
+    <a data-view="tourism"><svg class="nav-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="#00C7BE" stroke-width="1.8"><path d="M4 17l3-10h6l3 10"/><path d="M10 3c-1.5 0-3 1.5-3 4h6c0-2.5-1.5-4-3-4z"/></svg>文旅市场</a>
+    <a data-view="hotel"><svg class="nav-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="#E07A5F" stroke-width="1.8"><path d="M3 11V6a1 1 0 0 1 1-1h3v6M7 11h10v6M3 17h14"/></svg>酒店民宿案例</a>
+    <a data-view="elderly"><svg class="nav-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="#FF9500" stroke-width="1.8"><circle cx="10" cy="6" r="3.5"/><path d="M4 17c0-3.5 2.7-6 6-6s6 2.5 6 6"/></svg>养老市场</a>
+    <a data-view="interview"><svg class="nav-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="#FF2D55" stroke-width="1.8"><path d="M4 16V8l4 3V8l4 3V8l4 3v8"/><circle cx="4" cy="5" r="2"/><circle cx="8" cy="5" r="2"/><circle cx="12" cy="5" r="2"/><circle cx="16" cy="5" r="2"/></svg>优质访谈</a>
+    <a data-view="schedule"><svg class="nav-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="14" height="13" rx="2"/><path d="M3 8h14M7 2v3M13 2v3"/><circle cx="10" cy="13" r="1.5" fill="currentColor"/></svg>日程管理</a>
+    <a data-view="favorites"><svg class="nav-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="10,2 12.5,7.5 18,8 14,12 15,18 10,15 5,18 6,12 2,8 7.5,7.5"/></svg>我的收藏 <span id="favCount" class="badge pend" style="margin-left:auto">0</span></a>
+  </nav>
+  <div class="side-foot">
+    自动化监控运行中<br>日报 每天 10:00<br>周报 每周日 17:00<br>月报 月末 18:00
+    <button class="install-btn" id="installBtn">＋ 安装到桌面 / iPad</button>
+  </div>
+  <div class="forest-deco" aria-hidden="true">
+    <svg viewBox="0 0 120 26" width="100%" height="26" preserveAspectRatio="none">
+      <path d="M0 26 L0 19 Q30 14 60 19 T120 19 L120 26 Z" fill="rgba(26,60,42,.14)"/>
+      <path d="M16 19 L16 11 L13 14 L16 14 L12 8 L19 14 L16 14 L19 11 Z" fill="#1A3C2A" opacity=".5"/>
+      <path d="M100 19 L100 10 L97 13 L100 13 L96 7 L103 13 L100 13 L103 10 Z" fill="#1A3C2A" opacity=".5"/>
+    </svg>
+  </div>
+</aside>
+
+<main class="main">
+  <div class="topbar">
+    <div>
+      <h1 id="pageTitle">概览</h1>
+      <div class="date" id="todayDate"></div>
+    </div>
+    <div class="hello" id="hello"></div>
+  </div>
+
+  <!-- ===== OVERVIEW ===== -->
+  <section class="view active" id="view-overview">
+    <div class="card">
+      <h2>👋 欢迎回到泗月</h2>
+      <p class="lead">一站式整合 <b>热点内容创作 · 多行业商业洞察 · 个人备忘</b>。每日固定任务自动梳理、周/月度系统化复盘、个人备忘随时记录——所有板块标准化、可落地、可沉淀。</p>
+      <div class="pill">📅 <span id="cycleInfo"></span></div>
+    </div>
+
+    <div class="card" id="latestCard">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px">
+        <h2><svg class="h2-icon" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="var(--c-content)" stroke-width="1.8"><rect x="2" y="3" width="16" height="14" rx="2"/><path d="M2 7h16M6 11h3M11 11h3"/></svg> 最新日报速览 <span class="tag" style="background:var(--c-content)">内嵌实时</span></h2>
+        <div style="display:flex;align-items:center;gap:10px">
+          <span id="latestStamp" style="font-size:12px;color:var(--muted)"></span>
+          <button class="btn sm" id="refreshReports">🔄 刷新</button>
+          <button class="btn sm" id="clearCacheBtn" title="如果反复刷新都不显示最新日报，点此一键清空浏览器缓存 + Service Worker 旧版本 + 自动重新加载" style="background:#fff4e5;border:1px solid #ffb74d;color:#8a4b00">[!] 清缓存</button>
+        </div>
+      </div>
+      <p class="lead">自动抓取各板块日报并直接内嵌展示。<b>点击卡片标题</b>可跳转对应板块、查看该板块全部历史日报（含日期下拉与搜索）；上方支持按关键词搜索、按「只看今日」筛选。</p>
+      <div class="rtools">
+        <div class="search"><input id="rSearch" placeholder="搜索日报内容 / 板块关键词…"></div>
+        <select id="rMode" title="显示范围">
+          <option value="latest">显示最新一篇</option>
+          <option value="today">只看今日</option>
+        </select>
+      </div>
+      <div class="grid g2" id="latestReports"></div>
+      <div class="hint" id="latestHint" style="display:none"></div>
+    </div>
+
+    <div class="sec-title">今日任务总览（点击进入对应板块）</div>
+    <div class="grid g4" id="ovBoards"></div>
+
+    <div class="grid g2" style="margin-top:18px">
+      <div class="card">
+        <h2><svg class="h2-icon" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="var(--c-biz)" stroke-width="1.8"><path d="M3 17V8l7-5 7 5v9H3z"/><rect x="8" y="12" width="4" height="5"/></svg> 每周闭环 <span class="tag" style="background:var(--c-biz)">周日固定</span></h2>
+        <p class="lead">周日完成四大行业周总结 + 内容选题复盘 + 生活习惯打卡复盘 + 下周计划</p>
+        <div id="weekLoop"></div>
+      </div>
+      <div class="card">
+        <h2><svg class="h2-icon" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="var(--c-old)" stroke-width="1.8"><rect x="3" y="4" width="14" height="13" rx="2"/><path d="M3 8h14M7 2v3M13 2v3"/></svg> 每月闭环 <span class="tag" style="background:var(--c-old)">月末固定</span></h2>
+        <p class="lead">月末完成深度月复盘 + 优质选题汇总 + 访谈精华归档 + 个人成长月结 + 下月规划</p>
+        <div id="monthLoop"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🌟 备忘录</h2>
+      <p class="lead">灵感 · 待办 · 感悟随时记录，数据本地保存，离线可用。</p>
+      <div class="grid g4" id="lifeMini"></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTENT CREATION ===== -->
+  <section class="view" id="view-content">
+    <div class="card">
+      <h2><svg class="h2-icon" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#FF6B6B" stroke-width="1.8"><path d="M4 3l12 7-12 7V3z"/></svg> 内容创作热点洞察 <span class="tag" style="background:var(--c-content)">每日更新 + 随时复用</span></h2>
+      <p class="lead"><b>核心目标：</b>抓取三大平台实时爆款、热点话题，筛选可二创内容，输出精准选题灵感，为内容创作提供持续素材支撑。</p>
+
+      <div class="card" id="archive-content" style="border-top:4px solid var(--c-content);margin-top:8px">
+        <div class="rhead">
+          <span class="remo"><svg class="remo-svg" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="#FF6B6B" stroke-width="1.8"><path d="M4 3l12 7-12 7V3z"/></svg></span>
+          <span class="rt rtitle" onclick="navigateTo('content')">最新日报 · 内容创作热点</span>
+          <select class="brsel" id="brsel-content" style="margin-left:auto"></select>
+        </div>
+        <div class="rtools" style="padding:10px 15px 0">
+          <div class="search"><input id="brsearch-content" placeholder="搜索该板块日报内容…"></div>
+        </div>
+        <div class="rbody" id="brbody-content" style="max-height:420px"></div>
+        <div class="rexpand" onclick="toggleReport(this)">展开全部 ▾</div>
+        <div class="archive-note" style="margin:0;border-radius:0">📁 每日报告 <code>reports/trending/YYYY-MM-DD.md</code> ｜ 周/月报在 <code>summaries/</code> 对应目录 ｜ <b style='color:#7b1fa2'>周报已可在上方下拉框「周报」分组直接查看</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REAL ESTATE ===== -->
+  <section class="view" id="view-realestate">
+    <div class="card">
+      <h2><svg class="h2-icon" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#5AC8FA" stroke-width="1.8"><path d="M3 17V8l7-5 7 5v9H3z"/><rect x="8" y="12" width="4" height="5"/></svg> 国内房地产市场洞察 <span class="tag" style="background:var(--c-re)">日更 + 周/月复盘</span></h2>
+      <p class="lead"><b>核心目标：</b>实时追踪房产政策、市场行情、数据变化，沉淀行业认知，形成周期性总结。</p>
+      <div class="card" id="archive-realestate" style="border-top:4px solid var(--c-re);margin-top:8px">
+        <div class="rhead">
+          <span class="remo"><svg class="remo-svg" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="#5AC8FA" stroke-width="1.8"><path d="M3 17V8l7-5 7 5v9H3z"/><rect x="8" y="12" width="4" height="5"/></svg></span>
+          <span class="rt rtitle" onclick="navigateTo('realestate')">最新日报 · 房地产市场</span>
+          <select class="brsel" id="brsel-realestate" style="margin-left:auto"></select>
+        </div>
+        <div class="rtools" style="padding:10px 15px 0">
+          <div class="search"><input id="brsearch-realestate" placeholder="搜索该板块日报内容…"></div>
+        </div>
+        <div class="rbody" id="brbody-realestate" style="max-height:420px"></div>
+        <div class="rexpand" onclick="toggleReport(this)">展开全部 ▾</div>
+        <div class="archive-note" style="margin:0;border-radius:0">📁 日报 <code>reports/real-estate/YYYY-MM-DD.md</code> ｜ 周报 <code>summaries/weekly/real-estate-YYYY-WW.md</code> ｜ 月报 <code>summaries/monthly/real-estate-YYYY-MM.md</code> ｜ <b style='color:#7b1fa2'>周报已可在上方下拉框「周报」分组直接查看</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BUSINESS ===== -->
+  <section class="view" id="view-business">
+    <div class="card">
+      <h2><svg class="h2-icon" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#AF52DE" stroke-width="1.8"><circle cx="10" cy="9" r="6"/><path d="M10 3v2M10 15v2M3 9h2M15 9h2"/><circle cx="10" cy="9" r="2"/></svg> 国内外商业案例观察 <span class="tag" style="background:var(--c-biz)">日更 + 周/月复盘</span></h2>
+      <p class="lead"><b>核心目标：</b>聚焦国内新商业、泰国商业、日本商业，拆解优质案例，提炼可复用商业模式、运营逻辑、创新玩法。</p>
+      <div class="card" id="archive-business" style="border-top:4px solid var(--c-biz);margin-top:8px">
+        <div class="rhead">
+          <span class="remo"><svg class="remo-svg" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="#AF52DE" stroke-width="1.8"><circle cx="10" cy="9" r="6"/><path d="M10 3v2M10 15v2M3 9h2M15 9h2"/><circle cx="10" cy="9" r="2"/></svg></span>
+          <span class="rt rtitle" onclick="navigateTo('business')">最新日报 · 商业案例观察</span>
+          <select class="brsel" id="brsel-business" style="margin-left:auto"></select>
+        </div>
+        <div class="rtools" style="padding:10px 15px 0">
+          <div class="search"><input id="brsearch-business" placeholder="搜索该板块日报内容…"></div>
+        </div>
+        <div class="rbody" id="brbody-business" style="max-height:420px"></div>
+        <div class="rexpand" onclick="toggleReport(this)">展开全部 ▾</div>
+        <div class="archive-note" style="margin:0;border-radius:0">📁 日报 <code>reports/business/YYYY-MM-DD.md</code> ｜ 周报 <code>summaries/weekly/business-YYYY-WW.md</code> ｜ 月报 <code>summaries/monthly/business-YYYY-MM.md</code> ｜ <b style='color:#7b1fa2'>周报已可在上方下拉框「周报」分组直接查看</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TOURISM ===== -->
+  <section class="view" id="view-tourism">
+    <div class="card">
+      <h2><svg class="h2-icon" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#00C7BE" stroke-width="1.8"><path d="M4 17l3-10h6l3 10"/><path d="M10 3c-1.5 0-3 1.5-3 4h6c0-2.5-1.5-4-3-4z"/></svg> 国内文旅市场洞察 <span class="tag" style="background:var(--c-tour)">日更 + 周/月复盘</span></h2>
+      <p class="lead"><b>核心目标：</b>实时捕捉文旅行业新政策、新玩法、新消费趋势，掌握目的地、业态、消费人群变化。</p>
+      <div class="card" id="archive-tourism" style="border-top:4px solid var(--c-tour);margin-top:8px">
+        <div class="rhead">
+          <span class="remo"><svg class="remo-svg" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="#00C7BE" stroke-width="1.8"><path d="M4 17l3-10h6l3 10"/><path d="M10 3c-1.5 0-3 1.5-3 4h6c0-2.5-1.5-4-3-4z"/></svg></span>
+          <span class="rt rtitle" onclick="navigateTo('tourism')">最新日报 · 文旅市场</span>
+          <select class="brsel" id="brsel-tourism" style="margin-left:auto"></select>
+        </div>
+        <div class="rtools" style="padding:10px 15px 0">
+          <div class="search"><input id="brsearch-tourism" placeholder="搜索该板块日报内容…"></div>
+        </div>
+        <div class="rbody" id="brbody-tourism" style="max-height:420px"></div>
+        <div class="rexpand" onclick="toggleReport(this)">展开全部 ▾</div>
+        <div class="archive-note" style="margin:0;border-radius:0">📁 日报 <code>reports/tourism/YYYY-MM-DD.md</code> ｜ 周报 <code>summaries/weekly/tourism-YYYY-WW.md</code> ｜ 月报 <code>summaries/monthly/tourism-YYYY-MM.md</code> ｜ <b style='color:#7b1fa2'>周报已可在上方下拉框「周报」分组直接查看</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOTEL ===== -->
+  <section class="view" id="view-hotel">
+    <div class="card">
+      <h2><svg class="h2-icon" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#E07A5F" stroke-width="1.8"><path d="M3 11V6a1 1 0 0 1 1-1h3v6M7 11h10v6M3 17h14"/></svg> 酒店民宿案例洞察 <span class="tag" style="background:var(--c-hotel)">日更 + 周/月复盘</span></h2>
+      <p class="lead"><b>核心目标：</b>追踪全国酒店民宿市场趋势、价格与客群；监测新开业典型项目、出圈设计感酒店、设计师酒店，沉淀个案档案（建筑面积 / 客房数 / 淡旺季价格 / 客群 / 入住率 / 特色）。</p>
+      <div class="card" id="archive-hotel" style="border-top:4px solid var(--c-hotel);margin-top:8px">
+        <div class="rhead">
+          <span class="remo"><svg class="remo-svg" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="#E07A5F" stroke-width="1.8"><path d="M3 11V6a1 1 0 0 1 1-1h3v6M7 11h10v6M3 17h14"/></svg></span>
+          <span class="rt rtitle" onclick="navigateTo('hotel')">最新日报 · 酒店民宿案例</span>
+          <select class="brsel" id="brsel-hotel" style="margin-left:auto"></select>
+        </div>
+        <div class="rtools" style="padding:10px 15px 0">
+          <div class="search"><input id="brsearch-hotel" placeholder="搜索该板块日报内容…"></div>
+        </div>
+        <div class="rbody" id="brbody-hotel" style="max-height:420px"></div>
+        <div class="rexpand" onclick="toggleReport(this)">展开全部 ▾</div>
+        <div class="archive-note" style="margin:0;border-radius:0">📁 日报 <code>reports/hotel/YYYY-MM-DD.md</code> ｜ 周报 <code>summaries/weekly/hotel-YYYY-WW.md</code> ｜ 月报 <code>summaries/monthly/hotel-YYYY-MM.md</code> ｜ <b style='color:#7b1fa2'>周报已可在上方下拉框「周报」分组直接查看</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ELDERLY ===== -->
+  <section class="view" id="view-elderly">
+    <div class="card">
+      <h2><svg class="h2-icon" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#FF9500" stroke-width="1.8"><circle cx="10" cy="6" r="3.5"/><path d="M4 17c0-3.5 2.7-6 6-6s6 2.5 6 6"/></svg> 国内养老市场洞察 <span class="tag" style="background:var(--c-old)">日更 + 周/月复盘</span></h2>
+      <p class="lead"><b>核心目标：</b>聚焦养老赛道政策、业态、消费需求，捕捉银发经济新机遇、新商业模式。</p>
+      <div class="card" id="archive-elderly" style="border-top:4px solid var(--c-old);margin-top:8px">
+        <div class="rhead">
+          <span class="remo"><svg class="remo-svg" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="#FF9500" stroke-width="1.8"><circle cx="10" cy="6" r="3.5"/><path d="M4 17c0-3.5 2.7-6 6-6s6 2.5 6 6"/></svg></span>
+          <span class="rt rtitle" onclick="navigateTo('elderly')">最新日报 · 养老市场</span>
+          <select class="brsel" id="brsel-elderly" style="margin-left:auto"></select>
+        </div>
+        <div class="rtools" style="padding:10px 15px 0">
+          <div class="search"><input id="brsearch-elderly" placeholder="搜索该板块日报内容…"></div>
+        </div>
+        <div class="rbody" id="brbody-elderly" style="max-height:420px"></div>
+        <div class="rexpand" onclick="toggleReport(this)">展开全部 ▾</div>
+        <div class="archive-note" style="margin:0;border-radius:0">📁 日报 <code>reports/elderly-care/YYYY-MM-DD.md</code> ｜ 周报 <code>summaries/weekly/elderly-care-YYYY-WW.md</code> ｜ 月报 <code>summaries/monthly/elderly-care-YYYY-MM.md</code> ｜ <b style='color:#7b1fa2'>周报已可在上方下拉框「周报」分组直接查看</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INTERVIEW ===== -->
+  <section class="view" id="view-interview">
+    <div class="card">
+      <h2><svg class="h2-icon" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#FF2D55" stroke-width="1.8"><path d="M4 16V8l4 3V8l4 3V8l4 3v8"/><circle cx="4" cy="5" r="2"/><circle cx="8" cy="5" r="2"/><circle cx="12" cy="5" r="2"/><circle cx="16" cy="5" r="2"/></svg> 优质访谈 <span class="tag" style="background:var(--c-int)">每日更新沉淀</span></h2>
+      <p class="lead"><b>核心目标：</b>萃取优质访谈节目干货，沉淀认知、观点、方法论，用于创作、学习、思维提升。</p>
+      <div class="card" id="archive-interview" style="border-top:4px solid var(--c-int);margin-top:8px">
+        <div class="rhead">
+          <span class="remo"><svg class="remo-svg" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="#FF2D55" stroke-width="1.8"><path d="M4 16V8l4 3V8l4 3V8l4 3v8"/><circle cx="4" cy="5" r="2"/><circle cx="8" cy="5" r="2"/><circle cx="12" cy="5" r="2"/><circle cx="16" cy="5" r="2"/></svg></span>
+          <span class="rt rtitle" onclick="navigateTo('interview')">最新日报 · 优质访谈</span>
+          <select class="brsel" id="brsel-interview" style="margin-left:auto"></select>
+        </div>
+        <div class="rtools" style="padding:10px 15px 0">
+          <div class="search"><input id="brsearch-interview" placeholder="搜索该板块日报内容…"></div>
+        </div>
+        <div class="rbody" id="brbody-interview" style="max-height:420px"></div>
+        <div class="rexpand" onclick="toggleReport(this)">展开全部 ▾</div>
+        <div class="archive-note" style="margin:0;border-radius:0">📁 每日报告 <code>reports/interviews/YYYY-MM-DD.md</code> ｜ 周/月报在 <code>summaries/</code> 对应目录 ｜ <b style='color:#7b1fa2'>周报已可在上方下拉框「周报」分组直接查看</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AI VIDEO ===== -->
+
+  <!-- ===== PERSONAL MEMO ===== -->
+  <section class="view" id="view-life">
+    <div class="card">
+      <h2>📝 备忘录 <span class="tag" style="background:var(--c-life)">实时记录·本地保存</span></h2>
+      <p class="lead"><b>核心目标：</b>随时记录碎片想法、待办事项、灵感金句、购物清单、重要日期。所有数据保存在本机浏览器，离线可用，永久保留。</p>
+
+      <div class="field"><label>新增一条备忘录</label><textarea id="m_text" placeholder="灵感、待办、感悟、清单、提醒……（Ctrl+Enter 快速保存）"></textarea></div>
+      <div class="hint" style="margin-top:0">💡 提示：每篇日报中的金句、案例、引用块，作者认为非常重要时，可点击旁边的 <b>⭐ 收藏</b> 按钮单独存档；这些收藏会显示在 <b>📚 我的收藏</b> 板块，可一键导出并同步到 ima「泗月」知识库。</div>
+      <button class="btn green" onclick="addRec('memo')">＋ 添加备忘录</button>
+      <div class="records" id="r_memo"></div>
+    </div>
+  </section>
+
+  <!-- ===== FAVORITES ===== -->
+  <section class="view" id="view-favorites">
+    <div class="card">
+      <h2><svg class="h2-icon" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#FF9500" stroke-width="1.8"><polygon points="10,2 12.5,7.5 18,8 14,12 15,18 10,15 5,18 6,12 2,8 7.5,7.5"/></svg> 我的收藏 <span class="tag" style="background:var(--accent)">重点标录·一人一库</span></h2>
+      <p class="lead">从各板块日报中收藏的<b>金句 · 案例 · 引用</b>，统一归档于此。可按板块/类型筛选、搜索、单独删除；导出为 Markdown 文档后，可在主对话告诉小策「同步到 ima 泗月知识库」自动入库。</p>
+      <div class="rtools">
+        <div class="search"><input id="favSearch" placeholder="搜索收藏内容…"></div>
+        <select id="favFilterBoard" title="按板块筛选">
+          <option value="">全部板块</option>
+          <option value="content">内容创作</option>
+          <option value="realestate">房地产</option>
+          <option value="business">商业案例</option>
+          <option value="tourism">文旅</option>
+          <option value="hotel">酒店民宿</option>
+          <option value="elderly">养老</option>
+          <option value="interview">访谈</option>
+        </select>
+        <select id="favFilterType" title="按类型筛选">
+          <option value="">全部类型</option>
+          <option value="title">🏷 标题</option>
+          <option value="case">📌 案例</option>
+          <option value="item">📋 要点</option>
+          <option value="insight">💡 金句</option>
+          <option value="quote">❝ 引用</option>
+        </select>
+        <select id="favFilterSource" title="按来源筛选">
+          <option value="manual" selected>⭐ 仅手动收藏</option>
+          <option value="all">全部（手动+自动）</option>
+          <option value="auto">🤖 自动收录</option>
+        </select>
+        <button class="btn green" onclick="exportFavMd()">📤 导出 Markdown</button>
+        <button class="btn ghost" onclick="exportFavJson()">💾 备份收藏(JSON)</button>
+        <button class="btn ghost" onclick="importFavs()">📥 导入收藏</button>
+        <button class="btn ghost" onclick="refreshFavs()">🔄 刷新</button>
+        <button class="btn ghost" onclick="repairOldFavorites()" title="从源报告补全旧收藏中丢失的表格、图片等内容" style="color:#e67e22;border-color:#f5c842">🔧 修复旧收藏</button>
+        <button class="btn ghost" onclick="if(confirm('确定清空全部手动收藏？（自动收录不受影响）')){localStorage.removeItem('siyue_favorites');renderFavorites();updateFavCount();toast('🗑️ 手动收藏已清空');}">🗑️ 清空</button>
+        <button class="btn ghost" onclick="setFavBackend()" title="配置收藏后端地址（用于自动入库与同步 ima）">⚙ 后端</button>
+        <button class="btn ghost" onclick="syncFavsToIma()" title="把当前手动收藏同步到 ima「工作台收藏」知识库（已配置后端则自动推送）">☁️ 同步到 ima 工作台收藏</button>
+        <span id="favBackendStatus" style="margin-left:6px;font-size:12px"></span>
+      </div>
+      <div class="hint">💡 收藏栏默认只显示<b>手动 ⭐ 收藏</b>（你在日报金句 / 案例 / 引用旁点的星标）；系统每日自动收录的日报精华默认隐藏，可在上方「来源」切到「全部」查看。配置「⚙ 后端」后，每次点 ⭐ 会自动入库到后端并随每日部署持久化，重装 PWA 也不丢；点「☁️ 同步到 ima 工作台收藏」可把当前手动收藏推送到 ima「工作台收藏」知识库。</div>
+      <div class="records" id="favList"></div>
+    </div>
+  </section>
+
+  <!-- ===== SCHEDULE / 日程管理 ===== -->
+  <section class="view" id="view-schedule">
+    <div class="card" style="padding:0;overflow:hidden;border:none;box-shadow:none;background:transparent">
+
+      <!-- 飞书式顶栏：今天 | ◀ 年月 ▼ ▶ | 日/周/月 -->
+      <div class="cal-topbar">
+        <div class="cal-nav-left">
+          <button class="cal-today-btn" onclick="goToday()">今天</button>
+          <button class="cal-arrow-btn" onclick="shiftMonth(-1)">‹</button>
+          <button class="cal-month-label" id="calMonthLabel" onclick="toggleCalPicker()"></button>
+          <button class="cal-arrow-btn" onclick="shiftMonth(1)">›</button>
+        </div>
+        <div class="cal-nav-right">
+          <button class="cal-view-tab active" data-v="month" onclick="setCalView('month')">月</button>
+          <button class="cal-view-tab" data-v="week" onclick="setCalView('week')">周</button>
+        </div>
+      </div>
+
+      <!-- 日历网格（飞书风格：全宽、事件内联） -->
+      <div class="cal-grid-wrap">
+        <table class="cal-feishu-table" id="calTable">
+          <thead><tr id="calHeadRow"></tr></thead>
+          <tbody id="calBodyRows"></tbody>
+        </table>
+      </div>
+
+      <!-- 当日事件详情面板（点击日期展开） -->
+      <div class="cal-day-panel" id="calDayPanel" style="display:none">
+        <div class="cal-day-panel-head">
+          <span id="calDayPanelTitle"></span>
+          <button class="cal-panel-close" onclick="closeDayPanel()">✕</button>
+        </div>
+        <div class="cal-day-panel-body" id="calDayPanelBody"></div>
+        <div class="cal-day-panel-foot">
+          <button class="btn sm green" onclick="addEventForPanelDate()" style="border-radius:8px;padding:7px 18px;font-size:12px;font-weight:600">＋ 新增日程</button>
+        </div>
+      </div>
+
+      <!-- 底部工具栏：备忘 + 导入导出 -->
+      <div class="cal-bottom-bar">
+        <div class="cal-memo-section">
+          <div class="cal-memo-label"><span style="color:#FF3B30;margin-right:4px">✦</span>本月重点备忘</div>
+          <textarea id="calMemoInput" placeholder="记录本月重点事项、提醒、目标…" oninput="saveCalMemo()"></textarea>
+        </div>
+        <div class="cal-tools">
+          <button class="btn sm ghost" onclick="exportCalJson()" style="font-size:11.5px;border-radius:7px;padding:4px 10px">📤 导出</button>
+          <button class="btn sm ghost" onclick="importCalJson()" style="font-size:11.5px;border-radius:7px;padding:4px 10px">📥 导入</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="footer">
+    泗月 · 个人工作台 ｜ 数据本地保存，云端自动化监控<br>
+    PWA 应用 · 可安装到桌面与 iPad 主屏幕
+  </div>
+</main>
+
+<script>
+/* ===== Date & greeting ===== */
+const today = new Date();
+const ymd = today.getFullYear()+'-'+String(today.getMonth()+1).padStart(2,'0')+'-'+String(today.getDate()).padStart(2,'0');
+const weekday = ['周日','周一','周二','周三','周四','周五','周六'][today.getDay()];
+const hour = today.getHours();
+const hello = hour<11?'早上好':hour<14?'中午好':hour<18?'下午好':'晚上好';
+document.getElementById('todayDate').textContent = ymd+' '+weekday;
+document.getElementById('hello').textContent = hello+'，今天也辛苦了 🌿';
+// week/month cycle info
+const wk = getWeekNum(today);
+document.getElementById('cycleInfo').textContent = '第 '+wk+' 周 · 月度第 '+today.getMonth()+' 月档 · 周报周日 / 月报月末';
+function getWeekNum(d){const onejan=new Date(d.getFullYear(),0,1);return Math.ceil((((d-onejan)/86400000)+onejan.getDay()+1)/7);}
+
+/* ===== View switching ===== */
+const titles = {overview:'概览',content:'内容创作热点洞察',realestate:'房地产市场洞察',business:'商业案例观察',tourism:'文旅市场洞察',elderly:'养老市场洞察',hotel:'酒店民宿案例',interview:'优质访谈',schedule:'日程管理',favorites:'我的收藏'};
+const _nav=document.getElementById('nav');
+_nav.addEventListener('click',e=>{
+  const a=e.target.closest('a'); if(!a)return;
+  if(a.classList.contains('active'))return;
+  _nav.querySelectorAll('a').forEach(x=>x.classList.remove('active'));
+  a.classList.add('active');
+  const v=a.dataset.view;
+  const cur=document.querySelector('.view.active');
+  const nxt=document.getElementById('view-'+v);
+  if(cur&&cur!==nxt){
+    // 离场：淡出 + 左滑（fade through）
+    cur.classList.add('view-exit');
+    setTimeout(()=>{
+      cur.classList.remove('active','view-exit');
+      // 强制重排以重放入场动画
+      nxt.classList.add('active');
+      nxt.querySelectorAll('.card,.grid').forEach(c=>{c.style.animation='none';void c.offsetWidth;c.style.animation='';});
+    },190);
+  }else{
+    nxt.classList.add('active');
+  }
+  document.getElementById('pageTitle').textContent=titles[v];
+  if(v==='favorites')ensureAutoFavs();
+  window.scrollTo({top:0,behavior:'smooth'});
+});
+// content platform tabs（内容视图已重构，#ctabs/.ptab 不再存在时跳过，避免整脚本中断）
+const _ctabs=document.getElementById('ctabs');
+if(_ctabs){
+  _ctabs.addEventListener('click',e=>{
+    const t=e.target.closest('.tab'); if(!t)return;
+    document.querySelectorAll('#ctabs .tab').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    const p=t.dataset.pt;
+    document.querySelectorAll('#view-content .ptab').forEach(x=>x.classList.remove('active'));
+    const tp=document.querySelector('#view-content .ptab[data-pt="'+p+'"]');
+    if(tp) tp.classList.add('active');
+  });
+}
+// life module tabs — 已废弃（"个人生活"已简化为"备忘录"，lifeTabs DOM 不再存在）
+const _lifeTabs=document.getElementById('lifeTabs');
+if(_lifeTabs){
+  _lifeTabs.addEventListener('click',e=>{
+    const t=e.target.closest('.mt'); if(!t)return;
+    document.querySelectorAll('#lifeTabs .mt').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    const m=t.dataset.mt;
+    document.querySelectorAll('#view-life .mtab').forEach(x=>x.classList.remove('active'));
+    document.querySelector('#view-life .mtab[data-mt="'+m+'"]').classList.add('active');
+  });
+}
+
+/* ===== Daily check-in (per board, keyed by date) ===== */
+const BOARDS=['content','realestate','business','tourism','hotel','elderly','interview'];
+const boardMeta={
+  content:{t:'内容创作热点',d:'小红书/微信/抖音爆款与二创选题',c:'var(--c-content)',svg:'<svg class="remo-svg" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="#FF6B6B" stroke-width="1.8"><path d="M4 3l12 7-12 7V3z"/></svg>'},
+  realestate:{t:'房地产市场',d:'政策/房价/土拍/房企',c:'var(--c-re)',svg:'<svg class="remo-svg" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="#5AC8FA" stroke-width="1.8"><path d="M3 17V8l7-5 7 5v9H3z"/><rect x="8" y="12" width="4" height="5"/></svg>'},
+  business:{t:'商业案例观察',d:'国内/泰国/日本新业态',c:'var(--c-biz)',svg:'<svg class="remo-svg" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="#AF52DE" stroke-width="1.8"><circle cx="10" cy="9" r="6"/><path d="M10 3v2M10 15v2M3 9h2M15 9h2"/><circle cx="10" cy="9" r="2"/></svg>'},
+  tourism:{t:'文旅市场',d:'政策/业态/消费趋势',c:'var(--c-tour)',svg:'<svg class="remo-svg" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="#00C7BE" stroke-width="1.8"><path d="M4 17l3-10h6l3 10"/><path d="M10 3c-1.5 0-3 1.5-3 4h6c0-2.5-1.5-4-3-4z"/></svg>'},
+  hotel:{t:'酒店民宿案例',d:'市场趋势/价格客群/出圈设计酒店',c:'var(--c-hotel)',svg:'<svg class="remo-svg" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="#E07A5F" stroke-width="1.8"><path d="M3 11V6a1 1 0 0 1 1-1h3v6M7 11h10v6M3 17h14"/></svg>'},
+  elderly:{t:'养老市场',d:'银发经济/业态/政策',c:'var(--c-old)',svg:'<svg class="remo-svg" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="#FF9500" stroke-width="1.8"><circle cx="10" cy="6" r="3.5"/><path d="M4 17c0-3.5 2.7-6 6-6s6 2.5 6 6"/></svg>'},
+  interview:{t:'优质访谈',d:'观点提炼/金句/方法论',c:'var(--c-int)',svg:'<svg class="remo-svg" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="#FF2D55" stroke-width="1.8"><path d="M4 16V8l4 3V8l4 3V8l4 3v8"/><circle cx="4" cy="5" r="2"/><circle cx="8" cy="5" r="2"/><circle cx="12" cy="5" r="2"/><circle cx="16" cy="5" r="2"/></svg>'}
+};
+let daily = loadDaily();
+function loadDaily(){
+  try{const d=JSON.parse(localStorage.getItem('siyue_daily')||'{}');if(d.date!==ymd)return{date:ymd,done:{}};return d;}catch(e){return{date:ymd,done:{}};}
+}
+function saveDaily(){localStorage.setItem('siyue_daily',JSON.stringify(daily));}
+document.querySelectorAll('.switch input[data-board]').forEach(cb=>{
+  const b=cb.dataset.board;
+  cb.checked=!!daily.done[b];
+  cb.addEventListener('change',()=>{
+    daily.done[b]=cb.checked; saveDaily();
+    const st=document.getElementById('st-'+b);
+    if(st)st.textContent=cb.checked?'✅ 今日已完成':'待完成';
+    renderOverview();
+  });
+});
+
+/* ===== Overview render ===== */
+function renderOverview(){
+  const ov=document.getElementById('ovBoards'); ov.innerHTML='';
+  BOARDS.forEach(b=>{
+    const m=boardMeta[b]; const done=!!daily.done[b];
+    const el=document.createElement('div'); el.className='bcard'; el.style.borderTopColor=m.c;
+    el.innerHTML='<span class="remo">'+m.svg+'</span><div class="t">'+m.t+'</div><div class="d">'+m.d+'</div>'+
+      '<span class="badge '+(done?'done':'todo')+'">'+(done?'已完成':'待完成')+'</span>';
+    el.onclick=()=>document.querySelector('#nav a[data-view="'+b+'"]').click();
+    ov.appendChild(el);
+  });
+  // week loop
+  const wl=document.getElementById('weekLoop');
+  const weekTasks=['房地产周总结','商业案例周总结','文旅市场周总结','养老市场周总结','内容选题复盘','访谈周复盘','生活习惯打卡复盘','制定下周计划'];
+  wl.innerHTML=weekTasks.map(t=>loopRow('w_'+t,t)).join('');
+  // month loop
+  const ml=document.getElementById('monthLoop');
+  const monthTasks=['四大行业深度月复盘','月度优质二创选题汇总','访谈干货精华归档','个人成长月度总结','下月目标规划'];
+  ml.innerHTML=monthTasks.map(t=>loopRow('m_'+t,t)).join('');
+  bindLoops();
+  // life mini 已移除（备忘录栏目已取消）
+  const lm=document.getElementById('lifeMini');
+  if(lm) lm.innerHTML='';
+}
+function loopRow(id,txt){
+  const done=!!daily.loop&&!!daily.loop[id];
+  return '<div class="loop '+(done?'done':'')+'" data-loop="'+id+'"><div class="ck">'+(done?'✓':'')+'</div><div class="tx">'+txt+'</div></div>';
+}
+function bindLoops(){
+  document.querySelectorAll('#weekLoop .loop,#monthLoop .loop').forEach(el=>{
+    el.onclick=()=>{
+      const id=el.dataset.loop; daily.loop=daily.loop||{}; daily.loop[id]=!daily.loop[id]; saveDaily(); renderOverview();
+    };
+  });
+}
+// init status text
+BOARDS.forEach(b=>{const st=document.getElementById('st-'+b);if(st)st.textContent=daily.done[b]?'✅ 今日已完成':'待完成';});
+renderOverview();
+
+/* ===== Personal memo (only module) ===== */
+const fields={memo:['m_text']};
+const labels={memo:{title:'备忘录',fields:['内容']}};
+function addRec(mod){
+  if(mod!=='memo')return;
+  const arr=JSON.parse(localStorage.getItem('siyue_memo')||'[]');
+  const rec={id:Date.now()};
+  fields[mod].forEach(f=>{const el=document.getElementById(f);if(el){rec[f]=el.value;el.value='';}});
+  arr.unshift(rec);
+  localStorage.setItem('siyue_memo',JSON.stringify(arr.slice(0,500)));
+  renderRec('memo'); renderOverview();
+}
+function renderRec(mod){
+  const arr=JSON.parse(localStorage.getItem('siyue_'+mod)||'[]');
+  const box=document.getElementById('r_'+mod);
+  if(!arr.length){box.innerHTML='<div class="empty">暂无记录，留下今天的第一条想法 ✍️</div>';return;}
+  box.innerHTML=arr.map(r=>{
+    const ts=r.id?new Date(r.id).toLocaleString('zh-CN',{hour12:false}):'';
+    return '<div class="rec"><button class="del" onclick="delRec(\'memo\','+r.id+')">×</button>'+
+      (ts?'<div class="rh">'+ts+'</div>':'')+'<div class="rb">'+esc(r['m_text']||'')+'</div></div>';
+  }).join('');
+}
+function delRec(mod,id){
+  let arr=JSON.parse(localStorage.getItem('siyue_'+mod)||'[]');
+  arr=arr.filter(r=>r.id!==id);
+  localStorage.setItem('siyue_'+mod,JSON.stringify(arr));
+  renderRec(mod); renderOverview();
+}
+function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+renderRec('memo');
+// Ctrl+Enter 快速保存
+const memoEl=document.getElementById('m_text');
+if(memoEl) memoEl.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key==='Enter'){e.preventDefault();addRec('memo');}});
+// 清理已废弃的旧模块数据（一次性）
+['fitness','guqin','photo','english'].forEach(k=>localStorage.removeItem('siyue_'+k));
+
+/* ===== PWA install ===== */
+let deferredPrompt=null;
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;document.getElementById('installBtn').style.display='block';});
+document.getElementById('installBtn').addEventListener('click',async()=>{
+  if(!deferredPrompt)return;
+  deferredPrompt.prompt();
+  await deferredPrompt.userChoice; deferredPrompt=null;
+  document.getElementById('installBtn').style.display='none';
+});
+if(window.matchMedia('(display-mode: standalone)').matches){document.getElementById('installBtn').style.display='none';}
+if('serviceWorker' in navigator){
+  let refreshing=false;
+  navigator.serviceWorker.addEventListener('controllerchange',()=>{
+    if(refreshing)return; refreshing=true; window.location.reload();
+  });
+  window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js?v=35').catch(()=>{}));
+}
+
+/* ===== Inline latest daily reports on overview ===== */
+const reportDir={content:'trending',realestate:'real-estate',business:'business',tourism:'tourism',hotel:'hotel',elderly:'elderly-care',interview:'interviews'};
+const DAYS_LATEST=30, DAYS_ALL=365;
+const boardListCache={};
+function ymdOf(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+async function fetchReportList(dir, days){
+  const out=[]; const t=new Date(); let htmlHits=0, errHits=0;
+  for(let i=0;i<days;i++){
+    const d=new Date(t); d.setDate(t.getDate()-i);
+    const ds=ymdOf(d);
+    try{
+      const res=await fetch('reports/'+dir+'/'+ds+'.md?_='+Date.now()+Math.random().toString(36).slice(2,8),{cache:'no-store'});
+      if(res.ok){
+        const txt=await res.text();
+        // 兜底校验：拒绝被错当成 .md 返回的 HTML 文档（旧 SW 缓存 / CDN HTML 兜底）
+        if(txt && txt.trim() && !/^\s*<!doctype\s+html/i.test(txt) && !/^\s*<html[\s>]/i.test(txt)){
+          out.push({date:ds,text:txt});
+        } else { htmlHits++; }
+      } else { errHits++; }
+    }catch(e){ errHits++; }
+  }
+  return {list:out, htmlHits, errHits, total:days};
+}
+/* ===== 周报加载（summaries/weekly/<name>-YYYY-Www.md） =====
+   注意：周报文件名与日报目录名不同（trending→content-digest、interviews→interview-gems），
+   故单独维护 weeklyDir 映射；周报缓存独立于 boardListCache，避免「刷新日报」时被覆盖。 */
+const weeklyDir={content:'content-digest',realestate:'real-estate',business:'business',tourism:'tourism',hotel:'hotel',elderly:'elderly-care',interview:'interview-gems'};
+const boardWeeklyCache={};
+const WEEKS_BACK=16;
+function isoWeekLabel(d){
+  const t=new Date(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate()));
+  const dayNum=t.getUTCDay()||7;              // 周一=1 … 周日=7
+  t.setUTCDate(t.getUTCDate()+4-dayNum);      // 移到本周周四（ISO 周归属年由周四决定）
+  const yearStart=new Date(Date.UTC(t.getUTCFullYear(),0,1));
+  const weekNo=Math.ceil(((t-yearStart)/86400000+1)/7);
+  return t.getUTCFullYear()+'-W'+String(weekNo).padStart(2,'0');
+}
+async function fetchWeeklyList(b, weeks){
+  const name=weeklyDir[b]; if(!name)return [];
+  const out=[], seen={}; const t=new Date();
+  for(let i=0;i<weeks;i++){
+    const d=new Date(t); d.setDate(t.getDate()-i*7);
+    const wk=isoWeekLabel(d);
+    if(seen[wk])continue; seen[wk]=1;
+    try{
+      const res=await fetch('summaries/weekly/'+name+'-'+wk+'.md?_='+Date.now()+Math.random().toString(36).slice(2,8),{cache:'no-store'});
+      if(res.ok){
+        const txt=await res.text();
+        if(txt && txt.trim() && !/^\s*<!doctype\s+html/i.test(txt) && !/^\s*<html[\s>]/i.test(txt)){
+          out.push({date:wk,text:txt,kind:'weekly'});
+        }
+      }
+    }catch(e){}
+  }
+  return out;
+}
+function filterMd(md,q){
+  q=(q||'').trim(); if(!q)return md;
+  const blocks=md.split(/\n{2,}/).map(b=>b.trim()).filter(Boolean);
+  const out=[];
+  for(const b of blocks){
+    if(/^([-*]|\d+\.)\s/.test(b)){
+      const lines=b.split('\n').filter(l=>l.includes(q));
+      if(lines.length)out.push(lines.join('\n'));
+    }else if(b.includes(q)){ out.push(b); }
+  }
+  return out.length? out.join('\n\n') : '（无匹配「'+esc(q)+'」的内容）';
+}
+function inlineMd(s){
+  s=esc(s);
+  s=s.replace(/【([^】]*)】/g,'<span class="k">【$1】</span>');
+  s=s.replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>');
+  s=s.replace(/(^|[^*])\*([^*]+)\*/g,'$1<i>$2</i>');
+  return s;
+}
+function isTableRow(line){return /^\s*\|.*\|\s*$/.test(line);}
+function isTableSep(line){return /^\s*\|?[\s:|-]+\|?\s*$/.test(line) && line.includes('-');}
+function favBtn(rawText, type, mdText){
+  const data=esc(rawText).replace(/"/g,'&quot;').replace(/\n/g,' ');
+  // data-fav-md 只转义双引号（防属性断裂），保留 \n 和 Markdown 语法字符（>、<、& 等）
+  const md=mdText?(mdText+'').replace(/"/g,'&quot;'):data;
+  return '<button class="favStar" data-fav="'+data+'" data-fav-md="'+md+'" data-fav-type="'+type+'" onclick="addFavorite(this)" title="收藏到「我的收藏」">⭐</button>';
+}
+function mdToHtml(md){
+  const lines=md.replace(/\r/g,'').split('\n');
+  let html=''; let inUl=false,inOl=false,inCode=false,code='';
+  const closeLists=()=>{
+    if(secHead){
+      if(inUl){secBody+='</ul>';inUl=false;}
+      if(inOl){secBody+='</ol>';inOl=false;}
+    } else {
+      if(inUl){html+='</ul>';inUl=false;}
+      if(inOl){html+='</ol>';inOl=false;}
+    }
+  };
+  let i=0;
+  // ===== 标题章节缓冲区：所有标题 + 后续正文 → 收藏时携带完整内容 =====
+  let secHead='';   // 当前章节标题原始文本
+  let secBody='';   // 当前章节已累积的 HTML 正文
+  let secMd='';     // 当前章节已累积的原始 Markdown 文本（用于收藏）
+  let secLevel=0;   // 当前章节标题级别 (2=h2, 3=h3, 4=h4)
+  let secType='';   // 收藏类型：case=案例 / title=标题
+  const flushSection=()=>{
+    if(secHead){
+      // 关闭章节内可能未关闭的列表
+      if(inUl){secBody+='</ul>';inUl=false;}
+      if(inOl){secBody+='</ol>';inOl=false;}
+      html+='<h'+secLevel+'>'+inlineMd(secHead)+favBtn(secHead+(secBody?'\n'+secBody:''),secType,secHead+(secMd?'\n'+secMd:''))+'</h'+secLevel+'>';
+      if(secBody) html+=secBody;
+      secHead='';secBody='';secMd='';secLevel=0;secType='';
+    }
+  };
+  while(i<lines.length){
+    const line=lines[i].trimEnd();
+    if(/^```/.test(line)){
+      flushSection();
+      if(inCode){html+='<pre class="code">'+esc(code)+'</pre>';code='';inCode=false;}
+      else{closeLists();inCode=true;}
+      i++; continue;
+    }
+    if(inCode){code+=lines[i]+'\n'; i++; continue;}
+    if(line.trim()===''){closeLists(); i++; continue;}
+    // GFM table
+    if(isTableRow(line) && i+1<lines.length && isTableSep(lines[i+1].trim())){
+      // 表格：归入当前章节（不 flushSection），同时累积原始 Markdown 到 secMd
+      const splitRow=r=>r.trim().replace(/^\|/,'').replace(/\|$/,'').split('|').map(c=>c.trim());
+      const header=splitRow(line);
+      let j=i+2; const rows=[];
+      while(j<lines.length && isTableRow(lines[j].trim())){ rows.push(splitRow(lines[j])); j++; }
+      let t='<table class="mdtbl"><thead><tr>';
+      header.forEach(h=>t+='<th>'+inlineMd(h)+'</th>');
+      t+='</tr></thead><tbody>';
+      rows.forEach(r=>{ t+='<tr>'; header.forEach((_,k)=>{ t+='<td>'+inlineMd(r[k]||'')+'</td>'; }); t+='</tr>'; });
+      t+='</tbody></table>';
+      // 表格：如果在章节内则只写入 secBody（flush 时统一输出），避免重复渲染
+      if(secHead){ const tblMd=[line,lines[i+1],...rows.map(r=>'| '+r.join(' | ')+' |')].join('\n'); secBody+=t; secMd+='\n'+tblMd; }
+      else { html+=t; }
+      i=j; continue;
+    }
+    if(/^-{3,}$/.test(line.trim())){flushSection();html+='<hr>'; i++; continue;}
+    const h=line.match(/^(#{1,4})\s+(.*)$/);
+    if(h){
+      const lv=Math.min(h[1].length+1,4);
+      const isCase=h[1].length>=3;
+      // 所有标题统一缓冲：flush 上一章节（带收藏按钮），开启新章节
+      flushSection();
+      secHead=h[2];secBody='';secMd='';secLevel=lv;secType=isCase?'case':'title';
+      i++; continue;
+    }
+    if(/^>\s?/.test(line)){
+      const t=line.replace(/^>\s?/,'');
+      const qHtml='<div class="quote">'+inlineMd(t)+favBtn(t,'quote')+'</div>';
+      if(secHead){secBody+=qHtml;secMd+=line+'\n';}
+      else{closeLists();html+=qHtml;}
+      i++; continue;
+    }
+    const ul=line.match(/^[-*]\s+(.*)$/);
+    if(ul){
+      const t=ul[1];
+      const btn=favBtn(t, t.includes('【')?'insight':'item');
+      const liHtml='<li>'+inlineMd(t)+btn+'</li>';
+      if(secHead){
+        if(!inUl){secBody+='<ul>';inUl=true;}
+        secBody+=liHtml;secMd+=line+'\n';
+      } else {
+        closeLists();
+        if(!inUl){html+='<ul>';inUl=true;}
+        html+=liHtml;
+      }
+      i++; continue;
+    }
+    const ol=line.match(/^\d+\.\s+(.*)$/);
+    if(ol){
+      const t=ol[1];
+      const btn=favBtn(t, t.includes('【')?'insight':'item');
+      const liHtml='<li>'+inlineMd(t)+btn+'</li>';
+      if(secHead){
+        if(!inOl){secBody+='<ol>';inOl=true;}
+        secBody+=liHtml;secMd+=line+'\n';
+      } else {
+        closeLists();
+        if(!inOl){html+='<ol>';inOl=true;}
+        html+=liHtml;
+      }
+      i++; continue;
+    }
+    closeLists();
+    // 普通段落：含【】视为金句，加按钮
+    const btn=line.includes('【')&&line.includes('】')?favBtn(line,'insight'):'';
+    const pHtml='<p>'+inlineMd(line)+btn+'</p>';
+    // 如果当前在案例章节内，累积到 secBody；否则直接输出
+    if(secHead){secBody+=pHtml;secMd+=line+'\n';}
+    else {html+=pHtml;}
+    i++;
+  }
+  // 文件结束时 flush 最后一个章节（带收藏按钮）
+  flushSection();
+  closeLists();
+  if(inCode)html+='<pre class="code">'+esc(code)+'</pre>';
+  return html;
+}
+
+/* ===== 访谈板块专用渲染器（重构版 v2） =====
+ *
+ * 新结构顺序：
+ *   1. 国内头部案例总览（置顶概览卡片）
+ *   2. 每个节目的基础信息（含原链接）+ 梗概（明确人物）
+ *   3. 完整原文（可折叠：默认只露 PART ONE，点击展开全部 + 导出按钮）
+ *   4. 核心观点 + 金句
+ *
+ * 章节识别：按 ## 【X、】 拆分，X = 零/一/二/三/四/五/六/七
+ */
+/**
+ * renderInterviewReport — 访谈板块专用渲染器 v4（节目为中心）
+ *
+ * 新结构（用户确认）：
+ *   一、国内外头部案例观察
+ *     1.1 国内头部案例观察（栏目名 | 本期主题 | 录制时间 | 经典金句）
+ *     1.2 国外头部案例（栏目名 | 本期主题 | 录制时间 | 经典金句）
+ *   二、访谈内容
+ *     [每节目] 访谈信息卡片（基础信息+原链接）
+ *     2.1 访谈梗概
+ *     2.2 核心观点
+ *     2.3 访谈金句
+ *     2.4 完整原文（可折叠，点击展开）
+ */
+/* ===== 访谈板块专用渲染器（重构版 v4 — 以「节目」为中心） =====
+ *
+ * 用户确认的访谈日报框架：
+ *   一、国内外头部案例观察
+ *     1.1 国内头部案例观察（表格：栏目名称 | 本期主题 | 录制日期 | 经典金句）
+ *     1.2 国外头部案例（同上四列）
+ *   二、访谈节目（逐栏目重复）
+ *     节目一：《标题》
+ *       节目信息卡：对谈人(姓名/年龄/行业/核心成就)/形式/上线时间/访谈背景/访谈时长/原链接
+ *       2.1 访谈梗概  2.2 核心观点  2.3 访谈金句  2.4 访谈完整原文(可折叠+导出)
+ *     节目二：……（重复框架）
+ *   三、栏目模式拆解
+ *   四、访谈观后感文章标题 + 内容方向
+ *
+ * 解析策略：collect-heads 法（splitByHeading），所有正则带 g 标志，
+ * 循环内不嵌套 exec，杜绝死循环。
+ */
+
+// 通用：按 heading 正则把 md 切成块（安全，无死循环）
+function splitByHeading(md, re){
+  const heads=[];
+  let m;
+  while((m=re.exec(md))!==null){
+    heads.push({index:m.index, raw:m[0], key:(m[1]!==undefined?m[1]:m[0]).trim()});
+    if(m.index===re.lastIndex) re.lastIndex++;
+  }
+  const blocks=[];
+  for(let i=0;i<heads.length;i++){
+    const start=heads[i].index;
+    const end=(i+1<heads.length)?heads[i+1].index:md.length;
+    // 必须保留 index：_renderInterviewReportV4 用它切分「报告头」（第一个 ## 之前的内容）。
+    // 若缺失，md.substring(0, undefined) 在 JS 中等价于 substring(0, 全文)，会把整篇当头渲染 → 全报告尾部重复。
+    blocks.push({key:heads[i].key, index:start, raw:md.substring(start,end).trim()});
+  }
+  return blocks;
+}
+
+function renderInterviewReport(md, date){
+  try {
+    return _renderInterviewReportV4(md, date);
+  } catch(e) {
+    console.error('[访谈渲染器v4异常]', e.message, e.stack);
+    // 降级：返回带错误提示的原始 markdown 渲染，不让页面白屏
+    return '<div style="background:#fff3e0;border:2px solid #ff9800;color:#e65100;padding:10px 14px;border-radius:8px;margin-bottom:12px;font-size:13px;font-family:monospace">[<b>渲染器异常降级</b>] v4 出错('+e.message+')，已回退到原始 Markdown 渲染。请截图反馈给小策。</div>'+mdToHtml(md);
+  }
+}
+
+/* 渲染器核心逻辑（v4 节目为中心）—— 不直接调用，统一走 renderInterviewReport 的 try-catch 包装 */
+function _renderInterviewReportV4(md, date){
+  const _V4_MARKER='<!-- INTERVIEW_V4_ACTIVE -->';
+  const topRe=/^##\s+([^#\n].*)$/gm;
+  const tops=splitByHeading(md, topRe);
+  if(tops.length===0){ return _V4_MARKER+mdToHtml(md); }
+
+  // 报告头（第一个 ## 之前的内容）
+  const headerMd = md.substring(0, tops[0].index).trim();
+  let html=_V4_MARKER;
+  if(headerMd){ html+='<div class="interview-section">'+mdToHtml(headerMd)+'</div>'; }
+
+  const getTop=(cn)=>tops.find(s=>s.key.startsWith(cn));
+  const secOne=getTop('一');
+  const secTwo=getTop('二');
+  const secThree=getTop('三');
+  const secFour=getTop('四');
+
+  // 一、国内外头部案例观察（置顶）
+  if(secOne){ html+=buildCaseOverviewV4(secOne.raw); }
+
+  // 二、访谈节目（逐栏目重复）
+  if(secTwo){
+    html+='<div class="iv2-container">';
+    const progRe=/^###\s+(节目[一二三四五六七八九十]+|预告级[^\n]*)/gm;
+    const programs=splitByHeading(secTwo.raw, progRe);
+    const labels=['一','二','三','四','五','六','七','八','九','十','十一','十二','预告'];
+    let pIdx=0;
+    for(const prog of programs){
+      const lbl = prog.key.startsWith('预告') ? '预告' : (labels[pIdx]||String(pIdx+1));
+      html+=buildProgramBlock(prog, pIdx, lbl, date);
+      pIdx++;
+    }
+    html+='</div>';
+  }
+
+  // 三、栏目模式拆解
+  if(secThree){ html+='<div class="interview-section">'+mdToHtml(secThree.raw)+'</div>'; }
+  // 四、访谈观后感文章标题 + 内容方向（截断尾部「数据源说明」等非正文残留）
+  if(secFour){
+    let fourRaw = secFour.raw;
+    // 标准化换行（处理 CRLF）
+    fourRaw = fourRaw.replace(/\r\n/g, '\n');
+    // 截断 --- 分隔行之后的内容（数据源说明等）
+    const dashSep = fourRaw.indexOf('\n---\n');
+    if(dashSep > 0) fourRaw = fourRaw.substring(0, dashSep);
+    // 截断 > 数据源说明 行（如果上面没截到）
+    const dsIdx = fourRaw.indexOf('\n> **数据源说明**');
+    if(dsIdx > 0) fourRaw = fourRaw.substring(0, dsIdx);
+    html+='<div class="interview-section">'+mdToHtml(fourRaw.trim())+'</div>';
+  }
+
+  return html;
+}
+
+/* 一、国内外头部案例观察 → 1.1 国内 / 1.2 国外 两个表格 */
+function buildCaseOverviewV4(secRaw){
+  const subRe=/^###\s+(.+)$/gm;
+  const subs=splitByHeading(secRaw, subRe);
+  let domHtml='', forHtml='';
+  for(const s of subs){
+    const k=s.key.trim();
+    const body=s.raw.replace(/^###\s+.*$/m,'').trim();
+    if(k.startsWith('1.1')||k.includes('国内')) domHtml=buildCaseTable(body);
+    else if(k.startsWith('1.2')||k.includes('国外')) forHtml=buildCaseTable(body);
+    // 注：其他子节（如趋势判断、诚实标注等）不再渲染到表格下方，避免重复
+  }
+  let html='<div class="interview-overview">'+
+    '<h3><svg viewBox="0 0 20 20" fill="none" stroke="#FF6B6B" stroke-width="1.8"><rect x="2" y="4" width="16" height="12" rx="2"/><path d="M6 8h8M6 11h5"/></svg> 一、国内外头部案例观察</h3>';
+  if(domHtml) html+='<div class="co-sub"><h4 class="co-sub-h">1.1 国内头部案例观察</h4>'+domHtml+'</div>';
+  if(forHtml) html+='<div class="co-sub"><h4 class="co-sub-h co-sub-h-fg">1.2 国外头部案例</h4>'+forHtml+'</div>';
+  html+='</div>';
+  return html;
+}
+
+/* 单个节目的完整卡片：节目信息 + 2.1~2.4 */
+function buildProgramBlock(prog, pIdx, lbl, date){
+  const subRe=/^####\s+(.+)$/gm;
+  const subs=splitByHeading(prog.raw, subRe);
+  const firstSubIdx = subs.length ? subs[0].index : prog.raw.length;
+  const headAndInfo = prog.raw.substring(0, firstSubIdx).trim();
+
+  const titleMatch=headAndInfo.match(/^###\s+(.+)$/m);
+  const titleLine=titleMatch?titleMatch[1].trim():'访谈';
+  const infoLines=headAndInfo.split('\n').filter(l=>/^-+\s+\*\*[^*]+\*\*[：:]/.test(l.trim()));
+  const personMatch=titleLine.match(/[×x]\s*(.+?)(?:\s*[（(]|$)/);
+  const personName=personMatch?personMatch[1]:'';
+  const uid='icft_'+((date||'').replace(/-/g,''))+'_'+pIdx;
+
+  let html='<div class="interview-program-card ipc-v4">';
+  html+='<div class="ipc-head">'+
+    '<span class="ipc-num">'+esc(lbl)+'</span>'+
+    '<span class="ipc-title">'+esc(titleLine)+(personName?' <span class="interview-person-tag">'+esc(personName)+'</span>':'')+'</span>'+
+    '</div>';
+
+  if(infoLines.length>0){
+    let infoHtml='<div class="ipc-meta">';
+    for(const l of infoLines){
+      const m=l.trim().match(/^-+\s+\*\*([^*]+)\*\*[：:]\s*(.*)$/);
+      if(!m) continue;
+      const label=m[1].trim();
+      let val=m[2].trim();
+      if(label==='原链接'){
+        if(val.includes('待补充')||!/https?:\/\//.test(val)){
+          infoHtml+='<span><svg viewBox="0 0 20 20" fill="none" stroke="#FF2D55" stroke-width="1.8"><path d="M10 2a6 6 0 0 1 6 6c0 3-2 5-6 9-4-4-6-6-6-9a6 6 0 0 1 6-9z"/><circle cx="10" cy="8" r="2"/></svg> 原链接：<span style="color:var(--muted)">待补充</span></span>';
+        } else {
+          infoHtml+='<span><svg viewBox="0 0 20 20" fill="none" stroke="#FF2D55" stroke-width="1.8"><path d="M10 2a6 6 0 0 1 6 6c0 3-2 5-6 9-4-4-6-6-6-9a6 6 0 0 1 6-9z"/><circle cx="10" cy="8" r="2"/></svg> 原链接：<a href="'+esc(val)+'" target="_blank" rel="noopener">查看原访谈 →</a></span>';
+        }
+        continue;
+      }
+      infoHtml+='<span><b>'+esc(label)+'</b>：'+inlineMd(val)+'</span>';
+    }
+    infoHtml+='</div>';
+    html+=infoHtml;
+  }
+
+  // 子节映射
+  const subMap={};
+  for(const s of subs){
+    const k=s.key.trim();
+    if(k.startsWith('2.1')) subMap['2.1']=s.raw;
+    else if(k.startsWith('2.2')) subMap['2.2']=s.raw;
+    else if(k.startsWith('2.3')) subMap['2.3']=s.raw;
+    else if(k.startsWith('2.4')) subMap['2.4']=s.raw;
+    else subMap['_'+k]=s.raw;
+  }
+
+  if(subMap['2.1']) html+=subBlock('2.1','访谈梗概','#FF2D55', subMap['2.1']);
+  if(subMap['2.2']) html+=subBlock('2.2','核心观点','#1967d2', subMap['2.2']);
+  if(subMap['2.3']) html+=subBlock('2.3','访谈金句','#f9a825', subMap['2.3']);
+  if(subMap['2.4']) html+=buildCollapsibleV4(subMap['2.4'], uid, date);
+  for(const k in subMap){
+    if(k.charAt(0)==='_'){
+      const raw=subMap[k];
+      html+='<div class="interview-subsection"><h3 class="iss-h3"><span class="iss-dot" style="background:#888"></span> '+esc(k.substring(1))+'</h3><div class="iss-body">'+mdToHtml(raw.replace(/^####\s+.*$/m,'').trim())+'</div></div>';
+    }
+  }
+
+  html+='</div>';
+  return html;
+}
+
+// 子节（去掉自身 #### 标题后渲染）
+function subBlock(num, title, color, raw){
+  const body=raw.replace(/^####\s+.*$/m,'').trim();
+  return '<div class="interview-subsection">'+
+    '<h3 class="iss-h3"><span class="iss-dot" style="background:'+color+'"></span> '+num+' '+title+'</h3>'+
+    '<div class="iss-body">'+mdToHtml(body)+'</div>'+
+    '</div>';
+}
+
+// 2.4 完整逐字稿（直接展示 + 导出工具栏）
+function buildCollapsibleV4(secRaw, uid, date){
+  const body=secRaw.replace(/^####\s+.*$/m,'').trim();
+  const fullHtml=mdToHtml(body);
+  return '<div class="interview-section iv2-fulltext">'+
+    '<h2><span class="is-icon" style="background:#fce4ec;color:#c0392b">📝</span> 2.4 访谈逐字稿 <span style="font-size:12px;font-weight:400;color:var(--muted);margin-left:6px">(完整原文)</span></h2>'+
+    '<div class="iv2-fulltext-body" id="'+uid+'_body">'+
+      fullHtml+
+    '</div>'+
+    '<div class="interview-export-bar" id="'+uid+'_export">'+
+      '<span class="ieb-label">导出选项：</span>'+
+      '<button type="button" data-action="export-md" data-date="'+date+'">📄 Markdown</button>'+
+      '<button type="button" data-action="export-word" data-date="'+date+'">📝 Word</button>'+
+      '<button type="button" data-action="export-print">📕 打印 / PDF</button>'+
+      '<button class="ieb-primary" type="button" data-action="sync-ima" data-date="'+date+'">📚 同步到 ima 知识库</button>'+
+    '</div>'+
+    '<div class="interview-sync-hint" id="'+uid+'_hint" style="display:none">'+
+      '✅ 已复制到剪贴板！请在主对话窗口粘贴，告诉小策「同步到 ima 泗月知识库」即可完成入库。'+
+    '</div>'+
+    '</div>';
+}
+
+/* 从 rawMd 中提取行数据，渲染为案例表格（栏目名称 | 本期主题 | 录制日期 | 经典金句），自动跳过表头/分隔行 */
+function buildCaseTable(sectionMd){
+  const lines=sectionMd.split('\n');
+  const rows=[]; // [{name,theme,time,quote}]
+  const HEADER_SET=['栏目名称','本期主题','录制日期','经典金句','栏目','主题'];
+  let prevRow=null;
+  for(const line of lines){
+    const t=line.trim();
+    // Markdown 表格行
+    if(t.startsWith('|')){
+      const cells=t.split('|').slice(1,-1).map(c=>c.trim());
+      if(cells.some(c=>/^[-:]+$/.test(c))){ // 分隔行：上一行若是表头则丢弃
+        if(prevRow==='header' && rows.length>0) rows.pop();
+        prevRow=null;
+        continue;
+      }
+      if(cells.length>=2){
+        if(HEADER_SET.includes(cells[0])){ prevRow='header'; continue; } // 表头行跳过
+        rows.push({
+          name:cells[0]||'', theme:cells[1]||'', time:cells[2]||'', quote:cells[3]||(cells[2]||'')
+        });
+        prevRow='data';
+      }
+      continue;
+    }
+    // 也尝试从列表项提取（- 栏目名：xxx 格式）
+    if(t.startsWith('- ')||t.startsWith('* ')){
+      const m=t.match(/^[-*]\s+(.+?)[：:]\s*(.*)/);
+      if(m){ rows.push({name:m[1], theme:m[2], time:'', quote:''}); prevRow='data'; }
+    }
+  }
+
+  if(rows.length===0){
+    return '<div class="co-table-wrap">'+mdToHtml(sectionMd)+'</div>';
+  }
+
+  const hasTime=rows.some(r=>r.time!=='');
+  const hasQuote=rows.some(r=>r.quote!=='');
+
+  // 构建表头（避免三元嵌套在+链中的解析歧义）
+  let ths='<th>栏目名称</th><th>本期主题</th>';
+  if(hasTime) ths+='<th>录制日期</th>';
+  if(hasQuote) ths+='<th>经典金句</th>';
+
+  let tbl='<table class="co-tbl"><thead><tr>'+ths+'</tr></thead><tbody>';
+
+  for(const r of rows){
+    let tds='<td class="co-name">'+esc(r.name)+'</td><td class="co-theme">'+esc(r.theme)+'</td>';
+    if(hasTime) tds+='<td class="co-time">'+esc(r.time)+'</td>';
+    if(hasQuote) tds+='<td class="co-quote">'+esc(r.quote)+'</td>';
+    tbl+='<tr>'+tds+'</tr>';
+  }
+  tbl+='</tbody></table>';
+  return '<div class="co-table-wrap">'+tbl+'</div>';
+}
+
+/* ================================================================
+ * buildInfoCardsOnly — 仅提取并渲染每个节目的访谈信息卡片
+ * （不含梗概，梗概单独放在 2.1 区域）
+ * ================================================================ */
+function buildInfoCardsOnly(fullTextMd){
+  const progRe=/^###\s+(?:节目[一二三四五六七八九十]+[：:\s]|预告级[^\n]*)/gm;
+  const programs=[];
+  let lastIdx=0;
+  let match;
+  while((match=progRe.exec(fullTextMd))!==null){
+    if(programs.length>0){ programs[programs.length-1].text=fullTextMd.substring(lastIdx,match.index).trim(); }
+    programs.push({title:match[0].replace(/^###\s+/,''),text:''});
+    lastIdx=match.index;
+  }
+  if(programs.length>0){ programs[programs.length-1].text=fullTextMd.substring(lastIdx).trim(); }
+  if(programs.length===0){ programs.push({title:'访谈全文',text:fullTextMd}); }
+
+  const labels=['一','二','三','四','五','六','七','八','九','十','十一','十二','预告'];
+  let html='<div style="margin-bottom:16px">';
+
+  for(let pi=0;pi<programs.length;pi++){
+    const prog=programs[pi];
+    const lbl=labels[pi]||String(pi+1);
+    const lines=prog.text.split('\n');
+    let metaLines=[];
+    for(let li=0;li<lines.length;li++){
+      const l=lines[li].trim();
+      if(l.match(/^-+\s+\*\*[^*]+\*\*[：:]/)||l.match(/^-+\s+(形式|上线|背景|标题|发布|采访时间|状态|公开信息|原链接)/)){
+        metaLines.push(l);
+      } else if(metaLines.length>0 && !l.match(/^-+\s+/) && l.trim()!==''){
+        break;
+      }
+    }
+
+    const metaHtml=metaLines.length>0 ? mdToHtml(metaLines.join('\n')) : '';
+    const personMatch=prog.title.match(/[×\x×]\s*(.+?)(?:\s*(?:\(|（|$))/);
+    const personName=personMatch?personMatch[1]:'';
+
+    html+='<div class="interview-program-card">'+
+      '<div class="ipc-head">'+
+        '<span class="ipc-num">'+lbl+'</span>'+
+        '<span class="ipc-title">'+esc(prog.title)+(personName?' <span class="interview-person-tag">'+esc(personName)+'</span>':'')+'</span>'+
+      '</div>'+
+      (metaHtml?'<div class="ipc-meta">'+metaHtml+'</div>':'')+
+      '</div>';
+  }
+  html+='</div>';
+  return html;
+}
+
+// ---- 访谈展开/收起：事件委托（data-toggle-for） ----
+function toggleInterviewFullText(uid){
+  console.log('[访谈展开] toggleInterviewFullText 被调用, uid=', uid);
+  const body=document.getElementById(uid+'_body');
+  const btn=document.querySelector('[data-toggle-for="'+uid+'"]');
+  console.log('[访谈展开] body=', !!body, 'btn=', !!btn);
+  if(!body){ console.warn('[访谈展开] body 元素未找到: #'+uid+'_body'); }
+  if(!btn){ console.warn('[访谈展开] btn 元素未找到: [data-toggle-for="'+uid+'"]'); }
+  const fade=document.getElementById(uid+'_fade');
+  const exportBar=document.getElementById(uid+'_export');
+  if(!body||!btn){
+    // 兜底：尝试通过其他方式查找
+    const altBody=document.querySelector('[data-uid="'+uid+'"] > .ic-body');
+    const altBtn=document.querySelector('[data-uid="'+uid+'"] .interview-toggle-btn');
+    if(altBody&&altBtn){
+      const expanded=altBody.classList.contains('expanded');
+      if(expanded){
+        altBody.classList.remove('expanded'); altBtn.classList.remove('expanded');
+        altBtn.querySelector('span').textContent='展开完整原文';
+        // 恢复父容器 rbody 高度限制
+        const rbody=altBody.closest('.rbody');
+        if(rbody) rbody.style.maxHeight='';
+      } else {
+        altBody.classList.add('expanded'); altBtn.classList.add('expanded');
+        altBtn.querySelector('span').textContent='收起完整原文';
+        // 解除父容器 rbody 高度限制
+        const rbody=altBody.closest('.rbody');
+        if(rbody) rbody.style.maxHeight='none';
+      }
+      return;
+    }
+    return;
+  }
+  const isExpanded=body.classList.contains('expanded');
+  // 找到最近的 .rbody 祖先容器
+  const rbody=body.closest('.rbody');
+  if(isExpanded){
+    body.classList.remove('expanded'); btn.classList.remove('expanded');
+    btn.querySelector('span').textContent='展开完整原文';
+    if(fade) fade.classList.remove('hidden');
+    if(exportBar) exportBar.style.display='none';
+    // 恢复父容器高度限制
+    if(rbody) rbody.style.maxHeight='';
+  } else {
+    body.classList.add('expanded'); btn.classList.add('expanded');
+    btn.querySelector('span').textContent='收起完整原文';
+    if(fade) fade.classList.add('hidden');
+    if(exportBar) exportBar.style.display='';
+    // ⭐ 关键：解除父容器 rbody 的高度限制，否则内容被裁剪
+    if(rbody) rbody.style.maxHeight='none';
+    // 展开后滚动到日报容器顶部，让用户从头开始阅读逐字稿
+    const reportContainer=document.getElementById('brbody-interview');
+    if(reportContainer) reportContainer.scrollTo({top:0,behavior:'smooth'});
+    else window.scrollTo({top:0,behavior:'smooth'});
+  }
+}
+
+// ---- 导出功能（通过 data-action 事件委托调用） ----
+function handleInterviewExportAction(el){
+  const action=el.getAttribute('data-action');
+  const date=el.getAttribute('data-date')||'';
+  if(action==='export-md'){ exportInterviewMd(date); }
+  else if(action==='export-word'){ exportInterviewWord(date); }
+  else if(action==='export-print'){ exportInterviewPrint(); }
+  else if(action==='sync-ima'){ copyInterviewForIma(date); }
+}
+
+// 导出访谈为 MD 文件
+function exportInterviewMd(date){
+  const sel=document.getElementById('brsel-interview');
+  const item=(boardListCache['interview']||[]).find(x=>x.date===(sel?.value||date));
+  if(!item){ toast('❌ 未找到访谈数据'); return; }
+  const blob=new Blob([item.text],{type:'text/markdown;charset=utf-8'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='泗月_访谈日报_'+(item.date||date)+'.md';
+  a.click(); URL.revokeObjectURL(a.href);
+  toast('✅ Markdown 已下载');
+}
+
+// 打印/导出 PDF
+function exportInterviewPrint(){ window.print(); }
+
+// 导出为 Word（.doc，可用 Word 打开）
+function exportInterviewWord(date){
+  const sel=document.getElementById('brsel-interview');
+  const item=(boardListCache['interview']||[]).find(x=>x.date===(sel?.value||date));
+  if(!item){ toast('❌ 未找到访谈数据'); return; }
+  const safe=item.text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  const htmlDoc='<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="utf-8"><title>泗月_访谈日报_'+(item.date||date)+'</title></head><body><pre style="font-family:inherit;white-space:pre-wrap;word-break:break-all">'+safe+'</pre></body></html>';
+  const blob=new Blob(['﻿'+htmlDoc],{type:'application/msword;charset=utf-8'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='泗月_访谈日报_'+(item.date||date)+'.doc';
+  a.click(); URL.revokeObjectURL(a.href);
+  toast('✅ Word 已下载（.doc，可用 Word 打开）');
+}
+
+// 复制用于同步到 ima
+function copyInterviewForIma(date){
+  const sel=document.getElementById('brsel-interview');
+  const item=(boardListCache['interview']||[]).find(x=>x.date===(sel?.value||date));
+  if(!item){ toast('❌ 未找到访谈数据'); return; }
+  const text=item.text;
+  navigator.clipboard.writeText(text).then(()=>{
+    const hint=document.querySelector('.interview-sync-hint');
+    if(hint){ hint.style.display=''; setTimeout(()=>hint.style.display='none',4000); }
+    toast('✅ 已复制到剪贴板');
+  }).catch(()=>{
+    const ta=document.createElement('textarea');
+    ta.value=text; ta.style.position='fixed';ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select();
+    document.execCommand('copy'); document.body.removeChild(ta);
+    toast('✅ 已复制到剪贴板');
+  });
+}
+
+/**
+ * renderFavMd — 收藏详情专用渲染器（v3 数据归一化版）
+ * 
+ * 解决的完整问题链：
+ * 1. 旧收藏存储时 flushSection 导致表格内容丢失
+ * 2. 存储的数据中表格行与后续段落丢失换行符（挤成一行）
+ * 3. mdToHtml 把每行变成 <p>，表格被拆散
+ * 4. 列表项格式异常
+ * 
+ * v3 新增：数据归一化预处理（normalizeFavHtml），
+ * 在表格检测前修复所有已知的数据损坏模式。
+ */
+function renderFavMd(md){
+  let html=mdToHtml(md);
+  const wrap=document.createElement('div');
+  wrap.innerHTML=html;
+  
+  // ===== Step 1: 数据归一化 —— 修复存储时丢失的换行/格式损坏 =====
+  normalizeFavHtml(wrap);
+  
+  // ===== Step 2: 表格检测与重建 =====
+  const ps=wrap.querySelectorAll('p');
+  if(ps.length>=3){
+    const runs=[];
+    let i=0;
+    while(i<ps.length){
+      const firstText=ps[i].textContent.trim();
+      if(!firstText){ i++; continue; }
+      const pipeRe=/^\s*\|.*\|\s*$/;
+      const spaceRe=/^(?!\|)(\S+(?:\s{2,}|	)\S+){2,}\s*$/;
+      const delimType=pipeRe.test(firstText)?'pipe':(spaceRe.test(firstText)?'space':null);
+      if(!delimType){ i++; continue; }
+      const splitFn=delimType==='pipe'
+        ?(l=>l.trim().replace(/^\|/,'').replace(/\|$/,'').split('|').map(c=>c.trim()))
+        :(l=>l.trim().split(/\s{2,}|	/).map(c=>c.trim()));
+      const firstCols=splitFn(firstText);
+      if(firstCols.length<3){ i++; continue; }
+      let j=i+1;
+      while(j<ps.length){
+        const t=ps[j].textContent.trim();
+        if(!t) break;
+        const tc=splitFn(t);
+        // 模糊匹配：允许列数多出1（说明最后一列粘了额外文本）
+        // 多出时在后续处理中自动截断
+        if(tc.length<firstCols.length || tc.length>firstCols.length+1) break;
+        j++;
+      }
+      if(j-i>=3) runs.push({start:i,end:j,colCount:firstCols.length,delimType,splitFn});
+      i=j;
+    }
+    for(let r=runs.length-1;r>=0;r--){
+      const run=runs[r];
+      const rows=[];
+      for(let k=run.start;k<run.end;k++){
+        let cells=run.splitFn(ps[k].textContent.trim());
+        // 模糊匹配修复：若某行列数 > 预期（最后一列粘了额外文本），自动截断
+        if(cells.length>run.colCount){
+          const lastCell=cells[run.colCount-1];
+          const extraText=cells.slice(run.colCount).join('|'); // 溢出部分
+          cells[run.colCount-1]=lastCell; // 保留原始最后一列（normalizeFavHtml可能已处理）
+          cells=cells.slice(0,run.colCount);
+          // 如果溢出文本有意义，创建新 <p> 放到表格后面
+          if(extraText.trim().length>3){
+            const spillP=document.createElement('p');
+            spillP.innerHTML=inlineMd(extraText.trim());
+            ps[run.end-1].after(spillP);
+          }
+        }
+        rows.push(cells);
+      }
+      let sepIdx=-1;
+      for(let k=1;k<rows.length;k++){
+        if(rows[k].every(c=>/^[\s:|-]+$/.test(c))&&rows[k].some(c=>c.includes('-'))){sepIdx=k;break;}
+      }
+      let tbl='<table class="mdtbl">';
+      if(sepIdx>0){
+        tbl+='<thead><tr>'+rows[0].map(h=>'<th>'+inlineMd(h)+'</th>').join('')+'</tr></thead><tbody>';
+        for(let k=sepIdx+1;k<rows.length;k++) tbl+='<tr>'+rows[k].map(c=>'<td>'+inlineMd(c)+'</td>').join('')+'</tr>';
+      }else{
+        for(const row of rows) tbl+='<tr>'+row.map(c=>'<td>'+inlineMd(c)+'</td>').join('')+'</tr>';
+      }
+      tbl+='</tbody></table>';
+      const container=document.createElement('div');
+      container.innerHTML=tbl;
+      ps[run.end-1].after(container);
+      for(let k=run.start;k<run.end;k++) ps[k].remove();
+    }
+  }
+  return wrap.innerHTML;
+}
+
+/**
+ * normalizeFavHtml — 收藏数据归一化预处理
+ * 
+ * 修复旧收藏数据在存储过程中产生的各种格式损坏：
+ * 
+ * 模式1：表格最后一行与后续段落合并（丢失换行）
+ *   原始：| 开放世代 | ... | 核心力量 ** | \n **关键信号——...**：
+ *   损坏：| 开放世代 | ... | 核心力量 **关键信号——...**：
+ *   修复：检测管道符行尾部有非表格文本 → 截断，剩余文本生成新 <p>
+ * 
+ * 模式2：多个列表项合并成一个 <p>
+ *   原始：- item1\n- item2\n- item3
+ *   损坏：<p>- item1 - item2 - item3</p>（或 ● 混合）
+ *   修复：按列表前缀拆分
+ * 
+ * 模式3：标题与正文粘连
+ *   原原：\n**关键信号**：\n- item1
+ *   损坏：<p>**关键信号**：- item1</p>
+ *   修复：检测 **text**： 后紧跟列表项 → 分离
+ */
+function normalizeFavHtml(wrap){
+  const ps=wrap.querySelectorAll('p');
+  
+  // ---- 模式1：表格行尾部有多余文本 → 智能分离 ----
+  // 核心改进：不盲目在最后一个 | 处分割（会把表格最后一列内容误切）
+  // 而是：先按 | 分列 → 若最后一列"超长且含非表格特征(粗体/标题/列表)" → 从中分离出尾部文本
+  for(const p of ps){
+    const raw=p.innerHTML;
+    const text=p.textContent.trim();
+    // 处理以 | 开头的管道符行（标准 GFM 表格行）
+    // 注意：损坏数据可能丢失尾部的 |，所以不要求 pipeEnd
+    const pipeStart=text.match(/^\|/);
+    if(!pipeStart) continue;
+    
+    // 按 | 分列
+    const cells=text.replace(/^\|/,'').replace(/\|\s*$/,'').split('|').map(c=>c.trim());
+    if(cells.length<3) continue; // 至少3列才是表格
+    
+    const lastCell=cells[cells.length-1];
+    // 检测最后一列是否"异常长"且包含非表格内容特征
+    // 特征：含 **粗体标题**： 或 ● 列表标记 或连续的完整句子
+    const lastCellTooLong=lastCell.length>30;
+    const hasBoldTitle=/\*\*[^*]+\*\*[：:]/.test(lastCell);
+    const hasListMarker=/^[●\-\*☆]\s/.test(lastCell);
+    const hasMergedHeading=/\*\*[^*]{4,}\*\*[：:]\s/.test(lastCell);
+    
+    if(lastCellTooLong && (hasBoldTitle || hasListMarker || hasMergedHeading)){
+      // 尝试从最后一列中分离出尾部非表格文本
+      // 策略：找 **xxx**： 或 ● 或 - 的位置，其之前的内容归表格，之后归尾部
+      const splitPos=lastCell.search(/\*\*[^*]+\*\*[：:]\s|^[●\-\*☆]\s/);
+      if(splitPos>0){
+        // 找到分离点！重建正确的表格行
+        const cleanCells=[...cells];
+        const trailingText=cleanCells.pop().slice(splitPos); // 取出尾部
+        cleanCells[cleanCells.length-1]=lastCell.slice(0,splitPos).trim(); // 截断最后一列
+        
+        // 替换当前 <p> 为干净的表格行
+        const cleanRow='| '+cleanCells.join(' | ')+' |';
+        p.innerHTML=inlineMd(cleanRow);
+        
+        // 创建新 <p> 放尾部文本
+        const newP=document.createElement('p');
+        newP.innerHTML=inlineMd(trailingText.trim());
+        p.after(newP);
+      }
+    }
+  }
+  
+  // ---- 模式2 & 3：粘连的列表项和标题 → 按 pattern 分离 ----
+  // 重新获取 <p>（因为上面可能新增了）
+  const allPs=wrap.querySelectorAll('p');
+  const splits=[]; // 收集需要拆分的 {el, parts}
+  
+  for(const p of allPs){
+    const text=p.textContent.trim();
+    if(text.length<20) continue; // 太短不需要拆
+    
+    // 检测模式：包含 "：" 或 ":" 的粗体标题后紧跟内容
+    // 如 "**关键信号——新老人正在站上C位**：60 后新老人..."
+    const titleBodySplit=text.match(/^(.{10,}?[：:]\s*)([\s\S]+)$/);
+    if(titleBodySplit){
+      const titlePart=titleBodySplit[1].trim();
+      const bodyPart=titleBodySplit[2].trim();
+      // 标题部分以 ** 开头和结尾（或接近结尾），且正文足够长
+      if(/^\*\*.*\*\*$/.test(titlePart) && bodyPart.length>=10){
+        splits.push({el:p, parts:[titlePart, bodyPart]});
+        continue;
+      }
+    }
+    
+    // 检测模式：多个列表项粘连（● / - / ☆ / 数字. 开头）
+    // 匹配至少 2 个列表项
+    const listItemPattern=/^[●\-\*☆]\s*.+/gm;
+    const matches=text.match(listItemPattern);
+    if(matches && matches.length>=2){
+      // 将每个匹配项作为独立部分
+      const parts=[];
+      let remaining=text;
+      let match;
+      while((match=listItemPattern.exec(remaining))!==null){
+        if(match.index>0){
+          // 前面的非列表文本
+          parts.push(remaining.slice(0,match.index));
+        }
+        parts.push(match[0]);
+        remaining=remaining.slice(match.index+match[0].length);
+      }
+      if(remaining.trim()) parts.push(remaining);
+      if(parts.length>=2) splits.push({el:p, parts});
+    }
+  }
+  
+  // 执行拆分（从后往前，避免 DOM 位置偏移）
+  for(let s=splits.length-1;s>=0;s--){
+    const {el,parts}=splits[s];
+    // 保留第一个 part 在原元素中，后续 parts 创建新 <p>
+    el.innerHTML=inlineMd(parts[0]);
+    for(let pidx=1;pidx<parts.length;pidx++){
+      const newP=document.createElement('p');
+      newP.innerHTML=inlineMd(parts[pidx].trim());
+      el.after(newP);
+    }
+  }
+}
+function toggleReport(el){
+  const body=el.previousElementSibling;
+  // 记住原始 maxHeight（首次点击时记录），避免板块 420px 与概览 300px 写死混乱
+  if(body.style.maxHeight!=='none' && !body.dataset.origH){
+    body.dataset.origH=body.style.maxHeight||(getComputedStyle(body).maxHeight)||'300px';
+  }
+  if(body.style.maxHeight==='none'){
+    body.style.maxHeight=body.dataset.origH||'300px';
+    el.textContent='展开全部 ▾';
+  } else {
+    body.style.maxHeight='none';
+    el.textContent='收起 ▴';
+  }
+}
+async function loadLatestReports(){
+  const box=document.getElementById('latestReports');
+  const stamp=document.getElementById('latestStamp');
+  const hint=document.getElementById('latestHint');
+  if(!box)return;
+  if(location.protocol==='file:'){
+    hint.style.display='block';
+    hint.innerHTML='⚠️ 当前为本地文件打开模式，浏览器安全策略禁止读取 <code>reports/</code> 目录。请改用 <b>在线版（CloudStudio 链接）</b> 或已安装的 <b>PWA</b> 查看内嵌日报；本地模式仍可正常使用打卡与个人生活记录。';
+  }
+  const mode=(document.getElementById('rMode')||{}).value||'latest';
+  const q=(document.getElementById('rSearch')||{}).value||'';
+  box.innerHTML='<div class="empty">正在加载最新日报…</div>';
+  let fetchErr=0;
+  const results=await Promise.all(BOARDS.map(async b=>{
+    const fr=await fetchReportList(reportDir[b], mode==='today'?1:DAYS_LATEST);
+    const list=fr.list; boardListCache[b]=list;
+    if(fr.errHits>0) fetchErr++;
+    let sel=null;
+    if(mode==='today'){ sel=list.find(x=>x.date===ymdOf(new Date()))||null; }
+    else { sel=list[0]||null; }
+    return {b,sel};
+  }));
+  box.innerHTML='';
+  if(fetchErr>0){
+    const banner=document.createElement('div');
+    banner.style.cssText='background:#fff4e5;border:1px solid #ffb74d;color:#8a4b00;padding:10px 12px;border-radius:8px;margin-bottom:10px;font-size:13px;line-height:1.5';
+    banner.innerHTML='⚠️ 部分日报读取失败（网络/离线）。请检查网络后点击「刷新日报」。';
+    box.appendChild(banner);
+  }
+  results.forEach(({b,sel})=>{
+    const m=boardMeta[b];
+    const el=document.createElement('div');el.className='rcard';el.style.borderTopColor=m.c;
+    if(sel){
+      const txt=q?filterMd(sel.text,q):sel.text;
+      const rbodyHtml=(b==='interview')?renderInterviewReport(txt,sel.date):mdToHtml(txt);
+      el.innerHTML='<div class="rhead"><span class="remo">'+m.svg+'</span><span class="rt rtitle" onclick="navigateTo(\''+b+'\')">'+m.t+'</span><span class="rdate">'+sel.date+(mode==='today'?' · 今日':'')+'</span></div>'+
+        '<div class="rbody">'+rbodyHtml+'</div>'+
+        '<div class="rexpand" onclick="toggleReport(this)">展开全部 ▾</div>';
+    }else{
+      const tag=mode==='today'?'今日':'暂无';
+      const msg=mode==='today'?'今日暂无日报（自动化运行时自动填充）':'尚未生成日报（自动化运行时自动填充）';
+      el.innerHTML='<div class="rhead"><span class="remo">'+m.svg+'</span><span class="rt rtitle" onclick="navigateTo(\''+b+'\')">'+m.t+'</span><span class="rdate" style="color:var(--muted)">'+tag+'</span></div>'+
+        '<div class="rbody"><div class="empty">'+msg+'</div></div>';
+    }
+    box.appendChild(el);
+  });
+  if(stamp)stamp.textContent='更新于 '+new Date().toLocaleTimeString('zh-CN');
+}
+document.getElementById('refreshReports').addEventListener('click',loadLatestReports);
+document.getElementById('rMode').addEventListener('change',loadLatestReports);
+document.getElementById('rSearch').addEventListener('input',loadLatestReports);
+document.getElementById('clearCacheBtn').addEventListener('click',clearAllCache);
+loadLatestReports();
+
+/* ===== 访谈板块事件委托（v3：修复展开按钮不可用） ===== */
+document.addEventListener('click', function(e){
+  // 展开完整原文按钮
+  const toggleBtn=e.target.closest('[data-toggle-for]');
+  if(toggleBtn){
+    e.preventDefault();
+    toggleInterviewFullText(toggleBtn.getAttribute('data-toggle-for'));
+    return;
+  }
+  // 导出按钮
+  const exportBtn=e.target.closest('[data-action]');
+  if(exportBtn){
+    e.preventDefault();
+    handleInterviewExportAction(exportBtn);
+    return;
+  }
+});
+
+/* ===== 一键清缓存：解决旧 SW 顽固导致"刷新也看不到最新内容" ===== */
+async function clearAllCache(){
+  if(!confirm('将清空浏览器中本站的 Service Worker + 所有缓存，并自动重新加载。\n\n如果反复刷新都看不到最新日报，点这个能自救。\n\n是否继续？'))return;
+  try{
+    // 1) 注销所有 Service Worker
+    if('serviceWorker' in navigator){
+      const regs=await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map(r=>r.unregister()));
+    }
+    // 2) 清空所有 Cache Storage
+    if('caches' in window){
+      const keys=await caches.keys();
+      await Promise.all(keys.map(k=>caches.delete(k)));
+    }
+    // 3) 清空 localStorage 之外的全局 storage（保留收藏/备忘录/打卡）
+    try{
+      // 不清 localStorage，只清 sessionStorage（临时）
+      sessionStorage.clear();
+    }catch(e){}
+    alert('✅ 缓存已清空。页面即将重新加载……');
+    setTimeout(()=>window.location.reload(true),300);
+  }catch(e){
+    alert('清缓存时出错：'+(e&&e.message||e)+'\n请改用浏览器设置 → 清除本站数据。');
+  }
+}
+
+/* ===== Board-internal report viewer (date dropdown + search) ===== */
+async function loadBoardReports(b){
+  const wrap=document.getElementById('brbody-'+b);
+  const sel=document.getElementById('brsel-'+b);
+  const search=document.getElementById('brsearch-'+b);
+  if(!wrap)return;
+  if(location.protocol==='file:'){ wrap.innerHTML='<div class="empty">本地模式无法读取 reports/，请用在线版或 PWA 查看</div>'; return; }
+  wrap.innerHTML='<div class="empty">加载中…</div>';
+  const [fr, weeklies]=await Promise.all([
+    fetchReportList(reportDir[b], DAYS_ALL),
+    fetchWeeklyList(b, WEEKS_BACK)
+  ]);
+  const list=fr.list; boardListCache[b]=list; boardWeeklyCache[b]=weeklies;
+  if(!list.length && !weeklies.length){
+    const msg = fr.htmlHits>0
+      ? '⚠️ 读取到的是网页内容而非日报（疑似旧缓存污染）。请<b>硬刷新</b>：Windows 按 Ctrl+Shift+R，Mac 按 Cmd+Shift+R；或在浏览器设置清除本站数据后重新打开。'
+      : '该板块尚未生成日报（自动化运行时自动填充）';
+    wrap.innerHTML='<div class="empty">'+msg+'</div>'; if(sel)sel.innerHTML=''; return;
+  }
+  if(sel){
+    let opts='';
+    if(list.length){
+      opts+='<optgroup label="日报">'+list.map(x=>'<option value="'+x.date+'">'+x.date+'</option>').join('')+'</optgroup>';
+    }
+    if(weeklies.length){
+      opts+='<optgroup label="周报（本周复盘）">'+weeklies.map(x=>'<option value="W::'+x.date+'">'+x.date+' 周报</option>').join('')+'</optgroup>';
+    }
+    sel.innerHTML=opts;
+    if(list.length) sel.value=list[0].date;   // 显式锁定默认=最新日报（防御：optgroup 下个别浏览器不默认首项）
+    sel.onchange=()=>renderBoardReport(b);
+  }
+  if(search){ search.oninput=()=>renderBoardReport(b); }
+  renderBoardReport(b);
+}
+function renderBoardReport(b){
+  const wrap=document.getElementById('brbody-'+b);
+  const sel=document.getElementById('brsel-'+b);
+  const search=document.getElementById('brsearch-'+b);
+  if(!wrap||!sel)return;
+  const sv=sel.value||'';
+  // 周报条目 value 带 "W::" 前缀，走独立缓存 boardWeeklyCache
+  const item = sv.indexOf('W::')===0
+    ? (boardWeeklyCache[b]||[]).find(x=>x.date===sv.slice(3))
+    : (boardListCache[b]||[]).find(x=>x.date===sv);
+  const cacheLen=(boardListCache[b]||[]).length+(boardWeeklyCache[b]||[]).length;
+  if(!item){
+    wrap.innerHTML='<div class="empty">[诊断] 未找到 sel.value='+esc(sv)+' ｜ 列表 '+cacheLen+' 条 ｜ 请截图给小策</div>';
+    return;
+  }
+  const isWeekly=item.kind==='weekly';
+  const q=search?search.value:'';
+  const txt=q?filterMd(item.text,q):item.text;
+  // 访谈板块日报走专用 v4 渲染器；周报是普通 Markdown，必须走通用渲染器
+  const html=(b==='interview'&&!isWeekly)?renderInterviewReport(txt,item.date):mdToHtml(txt);
+  // 诊断条（蓝色边框，必可见）— 帮助排查"看不到日报"。注意：emoji 在 CloudStudio 部署会被吞，用 ASCII 符号。
+  const _v4tag = isWeekly
+    ? ' ｜ <b style="color:#7b1fa2">[周报]</b>'
+    : (b==='interview' && html.includes('INTERVIEW_V4_ACTIVE')) ? ' ｜ <b style="color:#2e7d32">[V4-RENDERER]</b>' : ' ｜ <b style="color:#c62828">[NOT-V4]</b>';
+  const diag='<div style="background:#e3f2fd;border:2px solid #1976d2;color:#0d47a1;padding:8px 12px;border-radius:6px;margin-bottom:10px;font-size:12px;font-family:monospace;line-height:1.5">[<b>DIAG</b>] 板块:<b>'+b+'</b> ｜ 日期:<b>'+item.date+'</b> ｜ 原文:<b>'+item.text.length+'</b>字 ｜ HTML:<b>'+html.length+'</b>字 ｜ 列表:<b>'+cacheLen+'</b>条 ｜ 查询:<b>'+esc(q||'(空)')+'</b>'+_v4tag+'</div>';
+  wrap.innerHTML=diag+html;
+}
+function navigateTo(b){
+  const a=document.querySelector('#nav a[data-view="'+b+'"]');
+  if(a)a.click();
+  // 切到板块时强制重跑一次日报加载（避免依赖页面初始 BOARDS.forEach 未完成/失败的情况）
+  setTimeout(()=>loadBoardReports(b),50);
+  setTimeout(()=>{const t=document.getElementById('archive-'+b); if(t)t.scrollIntoView({behavior:'smooth',block:'start'});},320);
+}
+BOARDS.forEach(loadBoardReports);
+
+/* ===== Favorites (收藏系统) ===== */
+/* 手动收藏持久化：三层合并 —— manual_favorites.json(部署文件/持久基线) ∪ localStorage(即时新增) ∪ autoFavors(自动收录) */
+let manualFavsFile=[];  // 来自 manual_favorites.json 的持久基线
+let manualFavsLoaded=false;
+async function loadManualFavsFile(){
+  try{
+    const r=await fetch('manual_favorites.json?_='+Date.now(),{cache:'no-store'});
+    if(r.ok){const j=await r.json(); manualFavsFile=j.items||[];}
+  }catch(e){ /* 离线或文件缺失：降级，仅用 localStorage */ }
+  manualFavsLoaded=true;
+}
+function loadFavorites(source){
+  source=(source!==undefined)?source:(document.getElementById('favFilterSource')?.value||'manual');
+  let arr;
+  try{arr=JSON.parse(localStorage.getItem('siyue_favorites')||'[]');}catch(e){arr=[];}
+  const hidden=loadHiddenFavs();
+  // 合并策略：文件基线(manualFavsFile) + localStorage新增(arr)，同id以localStorage为准(更新)
+  const idMap=new Map();
+  for(const it of manualFavsFile) if(it&&it.id) idMap.set(it.id,it);
+  for(const it of arr) if(it&&it.id) idMap.set(it.id,it);  // localStorage 覆盖文件
+  const mergedManual=[...idMap.values()];
+  // 仅手动收藏：直接返回手动集合
+  if(source==='manual') return mergedManual;
+  // 仅自动收录：返回自动集合（排除隐藏项）
+  if(source==='auto') return autoFavs.filter(x=>!hidden.includes(x.id));
+  // 全部：手动 + 自动，按文本去重，手动在前
+  const seen=new Set(); const result=[];
+  for(const it of mergedManual.concat(autoFavs.filter(x=>!hidden.includes(x.id)))){
+    const key=(it.text||'').replace(/\s+/g,' ').trim();
+    if(seen.has(key))continue;
+    seen.add(key); result.push(it);
+  }
+  return result;
+}
+function saveFavorites(a){localStorage.setItem('siyue_favorites',JSON.stringify(a.slice(0,800)));}
+/* ===== 自动收录的收藏（来自 favorites.json，由工作区脚本每日生成） ===== */
+let autoFavs=[];
+let autoFavsLoaded=false;
+const FAV_HIDDEN_KEY='siyue_fav_hidden';
+function loadHiddenFavs(){try{return JSON.parse(localStorage.getItem(FAV_HIDDEN_KEY)||'[]');}catch(e){return[];}}
+function hideFav(id){const h=loadHiddenFavs();if(!h.includes(id)){h.push(id);localStorage.setItem(FAV_HIDDEN_KEY,JSON.stringify(h));}}
+async function loadAutoFavs(){
+  try{
+    const r=await fetch('favorites.json?_='+Date.now(),{cache:'no-store'});
+    if(r.ok){const j=await r.json(); autoFavs=j.items||[];}
+  }catch(e){ /* 离线或文件缺失：静默降级，仅显示手动收藏 */ }
+  autoFavsLoaded=true;
+  updateFavCount();
+  renderFavorites();
+}
+function ensureAutoFavs(){ if(!autoFavsLoaded) loadAutoFavs(); if(!manualFavsLoaded) loadManualFavsFile(); }
+function refreshFavs(){ autoFavsLoaded=false; manualFavsLoaded=false; Promise.all([loadAutoFavs(),loadManualFavsFile()]).then(()=>{renderFavorites();toast('🔄 收藏已刷新（手动+自动收录）');}); }
+/* 🔧 修复旧收藏：从源报告补全丢失的表格/图片等内容 */
+function repairOldFavorites(){
+  const arr=loadFavorites('manual');
+  if(!arr.length){toast('没有需要修复的手动收藏');return;}
+  toast('🔧 正在从源报告补全旧收藏，请稍候...');
+  const boardPaths={
+    content:'trending',realestate:'real-estate',business:'business',
+    tourism:'tourism',hotel:'hotel',elderly:'elderly-care',interview:'interviews'
+  };
+  // 获取所有板块的最新日报日期
+  const reportDates={};
+  const fetchPromises=Object.entries(boardPaths).map(([bid,path])=>
+    fetch('reports/'+path+'/latest.json?_='+Date.now()).then(r=>r.json()).then(list=>{
+      if(list&&list.length) reportDates[bid]=list[0];
+    }).catch(()=>{})
+  );
+  Promise.all(fetchPromises).then(()=>{
+    let repaired=0;
+    const updated=arr.map(fav=>{
+      const bpath=boardPaths[fav.board];
+      if(!bpath||!reportDates[fav.board]) return fav;
+      const dateKey=reportDates[fav.board];
+      return fetch('reports/'+bpath+'/'+dateKey+'.md?_='+Date.now())
+        .then(r=>r.text())
+        .then(md=>{
+          // 用收藏文本第一行（去标签）作为匹配键
+          const firstLine=fav.text.replace(/<[^>]+>/g,'').split('\n')[0].trim().slice(0,60);
+          if(!firstLine) return fav;
+          // 在报告中查找包含该标题的章节
+          const idx=md.indexOf(firstLine);
+          if(idx===-1) return fav;
+          // 提取从该位置到下一个同级/更高级标题前的全部内容
+          const after=md.substring(idx);
+          const nextH=after.search(/\n(#{1,3})\s/m);
+          const fullText=(nextH>0?after.slice(0,nextH):after).trim();
+          // 只有当新内容明显更长时才替换（说明之前确实丢失了内容）
+          if(fullText.length>fav.text.length*1.3){
+            repaired++;
+            return {...fav,text:fullText};
+          }
+          return fav;
+        })
+        .catch(()=>fav);
+    });
+    return Promise.all(updated);
+  }).then(finalArr=>{
+    saveFavorites(finalArr.filter(f=>f));
+    renderFavorites();
+    updateFavCount();
+    if(repaired>0) toast('✅ 已修复 '+repaired+' 条收藏（表格/完整内容已补全）');
+    else toast('ℹ️ 所有收藏内容已是完整的，无需修复');
+  });
+}
+function detectBoard(el){
+  // 通过 DOM 上下文反向推断板块 id
+  let cur=el;
+  while(cur&&cur!==document.body){
+    if(cur.id&&/^(view-|brbody-|latestReports|^view-)/.test(cur.id)){
+      if(cur.id==='latestReports')return 'overview';
+      if(cur.id.startsWith('view-'))return cur.id.replace('view-','');
+      if(cur.id.startsWith('brbody-'))return cur.id.replace('brbody-','');
+    }
+    cur=cur.parentElement;
+  }
+  return '';
+}
+function addFavorite(btn){
+  const text=btn.getAttribute('data-fav-md')||btn.getAttribute('data-fav');
+  const type=btn.getAttribute('data-fav-type')||'insight';
+  const board=detectBoard(btn);
+  const arr=loadFavorites();
+  // 去重：同一文本+板块+类型只保留一条
+  const dup=arr.find(x=>x.text===text && x.board===board && x.type===type);
+  if(dup){
+    toast('已经在收藏夹里了');
+    return;
+  }
+  const _fav={id:'fav_'+Date.now()+'_'+Math.random().toString(36).slice(2,6),text,type,board,ts:Date.now()};
+  arr.unshift(_fav);
+  saveFavorites(arr);
+  pushFavToBackend(_fav); // 静默自动入库（若已配置后端）
+  btn.classList.add('starred');
+  btn.textContent='★';
+  updateFavCount();
+  toast('⭐ 已收藏到「我的收藏」（共 '+arr.length+' 条）');
+}
+function delFav(id){
+  // 自动收录项：加入隐藏集合（下次重新收录也不会再出现）
+  if(String(id).indexOf('auto_')===0){ hideFav(id); renderFavorites(); updateFavCount(); return; }
+  // 手动收藏：直接从 localStorage 移除，并通知后端删除
+  deleteFavOnBackend(id);
+  let arr=[]; try{arr=JSON.parse(localStorage.getItem('siyue_favorites')||'[]');}catch(e){arr=[];}
+  saveFavorites(arr.filter(x=>x.id!==id));
+  renderFavorites(); updateFavCount();
+}
+function updateFavCount(){
+  const el=document.getElementById('favCount');
+  if(el){
+    const src=document.getElementById('favFilterSource')?.value||'manual';
+    const n=loadFavorites(src).length;
+    el.textContent=n;
+    el.style.background=n>0?'var(--accent)':'#eef0f3';
+    el.style.color=n>0?'#fff':'';
+  }
+}
+function favTypeLabel(t){return ({title:'🏷 标题',case:'📌 案例',item:'📋 要点',insight:'💡 金句',quote:'❝ 引用'})[t]||t;}
+function renderFavorites(){
+  updateFavBackendStatus();
+  const box=document.getElementById('favList');
+  if(!box)return;
+  const board=document.getElementById('favFilterBoard')?.value||'';
+  const type=document.getElementById('favFilterType')?.value||'';
+  const source=document.getElementById('favFilterSource')?.value||'manual';
+  const q=(document.getElementById('favSearch')?.value||'').trim();
+  let arr=loadFavorites(source);
+  if(board)arr=arr.filter(x=>x.board===board);
+  if(type)arr=arr.filter(x=>x.type===type);
+  if(q)arr=arr.filter(x=>x.text.includes(q));
+  if(!arr.length){
+    let msg;
+    if(source==='manual') msg='你还没有手动收藏任何内容。在任意日报的金句、案例、引用块旁点 ⭐ 即可归档到这里。';
+    else if(source==='auto') msg='暂无可显示的自动收录（系统每日 10:35 扫描日报后更新）。';
+    else msg='没有匹配当前条件的收藏，试试清空筛选，或把「来源」切到「仅手动收藏」。';
+    box.innerHTML='<div class="empty">'+msg+'</div>';
+    return;
+  }
+  box.innerHTML=arr.map(x=>{
+    const dt=new Date(x.ts).toLocaleString('zh-CN',{hour12:false});
+    const bLabel=boardMeta[x.board]?.t||x.board||'其他';
+    const bSvg=boardMeta[x.board]?.svg||'';
+    // 首行预览（纯文本截断）
+    const plainText=x.text.replace(/<[^>]+>/g,'');
+    const firstLine=plainText.split('\n')[0].slice(0,120)+(plainText.split('\n')[0].length>120?'…':'');
+    const hasMore=x.text.length>130 || x.text.includes('\n');
+    return '<div class="rec fav-rec" data-fav-id="'+x.id+'"><button class="del" onclick="event.stopPropagation();delFav(\''+x.id+'\')">×</button>'+
+      '<div class="rh"><span class="favboard">'+bSvg+' '+bLabel+'</span><span class="favtype">'+favTypeLabel(x.type)+'</span>'+(x.auto?'<span class="favauto">自动</span>':'')+'<span style="margin-left:auto">'+dt+'</span>'+(hasMore?'<span class="fav-toggle">展开全文 ▾</span>':'')+'</div>'+
+      '<div class="rb"><div class="rpreview">'+esc(firstLine)+'</div>'+(hasMore?'<div class="rfull" style="display:none">'+renderFavMd(x.text)+'</div>':'')+'</div></div>';
+  }).join('');
+  // 绑定点击展开/收起
+  box.querySelectorAll('.fav-rec').forEach(el=>{
+    el.addEventListener('click',function(e){
+      if(e.target.classList.contains('del'))return;
+      const rfull=this.querySelector('.rfull');
+      const tg=this.querySelector('.fav-toggle');
+      if(rfull){
+        const isOpen=rfull.style.display!=='none';
+        rfull.style.display=isOpen?'none':'block';
+        this.classList.toggle('expanded',!isOpen);
+        if(tg)tg.textContent=isOpen?'展开全文 ▾':'收起 ▴';
+      }
+    });
+  });
+}
+function exportFavMd(){
+  const src=document.getElementById('favFilterSource')?.value||'manual';
+  const arr=loadFavorites(src);
+  if(!arr.length){toast('当前筛选下没有可导出的收藏');return;}
+  const groups={};
+  for(const x of arr){(groups[x.board]=groups[x.board]||[]).push(x);}
+  let md='# 泗月 · 我的收藏\n\n整理于 '+new Date().toLocaleString('zh-CN',{hour12:false})+' ｜ 共 '+arr.length+' 条\n\n';
+  for(const [b,items] of Object.entries(groups)){
+    const bLabel=boardMeta[b]?.t||b;
+    md+='## '+bLabel+'（'+items.length+' 条）\n\n';
+    items.forEach((x,i)=>{
+      const ty=({case:'案例',insight:'金句',quote:'引用'})[x.type]||x.type;
+      md+='### '+(i+1)+'. ['+ty+'] '+x.text.split('\n')[0].slice(0,80)+(x.auto?'（自动收录）':'')+'\n\n'+x.text+'\n\n';
+    });
+  }
+  const copy=()=>{
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(md).then(()=>{
+        toast('✅ 已复制 '+arr.length+' 条收藏到剪贴板。点「☁️ 同步到 ima 工作台收藏」可一键生成同步指令。');
+      }).catch(()=>fallback());
+    }else{fallback();}
+  };
+  const fallback=()=>{
+    const ta=document.createElement('textarea');ta.value=md;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');toast('✅ 已复制到剪贴板（共 '+arr.length+' 条）');}catch(e){toast('复制失败，请手动选中');}
+    document.body.removeChild(ta);
+  };
+  copy();
+}
+/* 备份手动收藏为 JSON 文件（用户可保存到本地，之后用「导入」恢复） */
+function exportFavJson(){
+  const arr=[];
+  try{arr.push(...JSON.parse(localStorage.getItem('siyue_favorites')||'[]'));}catch(e){}
+  // 合并文件基线（去重）
+  const idMap=new Map();
+  for(const it of manualFavsFile) if(it&&it.id) idMap.set(it.id,it);
+  for(const it of arr) if(it&&it.id) idMap.set(it.id,it);
+  const all=[...idMap.values()];
+  if(!all.length){toast('收藏夹为空，无需备份');return;}
+  const blob=new Blob([JSON.stringify({items:all,updated:new Date().toISOString(),_type:'siyue_manual_favorites_backup'},null,2)],{type:'application/json'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download='siyue_favorites_backup_'+new Date().toISOString().slice(0,10)+'.json';
+  a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+  toast('💾 已备份 '+all+' 条收藏为 JSON 文件');
+}
+/* ☁️ 同步手动收藏到 ima「工作台收藏」知识库：已配置后端则自动推送，否则复制指令到剪贴板兜底 */
+async function syncFavsToIma(){
+  const arr=[];
+  try{arr.push(...JSON.parse(localStorage.getItem('siyue_favorites')||'[]'));}catch(e){}
+  const idMap=new Map();
+  for(const it of manualFavsFile) if(it&&it.id) idMap.set(it.id,it);
+  for(const it of arr) if(it&&it.id) idMap.set(it.id,it);
+  const all=[...idMap.values()];
+  if(!all.length){toast('⭐ 当前没有手动收藏可同步，先去日报里点 ⭐ 吧');return;}
+  const base=getFavBackend();
+  if(base){
+    toast('☁️ 正在同步到后端…');
+    try{
+      const u=base.replace(/\/$/,'');
+      const r1=await fetch(u+'/api/favorites',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({items:all})});
+      const j1=await r1.json().catch(()=>({}));
+      const r2=await fetch(u+'/api/ima-sync',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});
+      const j2=await r2.json().catch(()=>({}));
+      if(j2.ok){
+        toast('☁️ 已同步 '+ (j2.pushed||0) +' 条到 ima「'+j2.knowledgeBase+'」'+(j2.skipped?('，跳过已同步 '+j2.skipped+' 条'):''));
+        return;
+      }
+      if(j2.reason==='kb_not_found'){
+        toast('⚠️ 请在 ima 新建「工作台收藏」知识库后再点同步（导出已复制）');
+        if(j2.message) console.warn('ima-sync:',j2.message);
+        copyFavPayload(all);
+        return;
+      }
+      if(j2.reason==='no_credentials'){
+        toast('⚠️ ima 凭证未配置，已复制导出到剪贴板');
+        copyFavPayload(all); return;
+      }
+      toast('⚠️ 同步未成功：'+(j2.message||j2.reason||'未知')+'（已复制导出）');
+      copyFavPayload(all); return;
+    }catch(e){ toast('⚠️ 后端不可达，已复制导出到剪贴板'); copyFavPayload(all); return; }
+  }
+  copyFavPayload(all);
+}
+/* 复制同步指令+数据到剪贴板（无后端时的兜底） */
+function copyFavPayload(all){
+  const payload={action:'sync_favs_to_ima',knowledgeBase:'工作台收藏',exportedAt:new Date().toISOString(),count:all.length,items:all};
+  const text='请在 ima 新建「工作台收藏」知识库，并把以下我的手动收藏（'+all.length+' 条）同步进去：\n\n```json\n'+JSON.stringify(payload,null,2)+'\n```';
+  const fallbackCopy=()=>{
+    const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();
+    try{document.execCommand('copy');toast('☁️ 已复制 '+all.length+' 条收藏+同步指令到剪贴板，请在 WorkBuddy 对话框粘贴发送');}catch(e){toast('复制失败，请改用「💾 备份收藏」导出 JSON');}
+    document.body.removeChild(ta);
+  };
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(()=>toast('☁️ 已复制 '+all.length+' 条收藏+同步指令到剪贴板，请在 WorkBuddy 对话框粘贴发送，我会在 ima 新建「工作台收藏」并同步')).catch(()=>fallbackCopy());
+  }else{fallbackCopy();}
+}
+/* ---------- 收藏后端接入（自动入库 / ima 同步） ---------- */
+function getFavBackend(){ return (localStorage.getItem('siyue_fav_backend')||'').trim(); }
+function updateFavBackendStatus(){
+  const el=document.getElementById('favBackendStatus'); if(!el)return;
+  const base=getFavBackend();
+  if(base){ el.textContent='后端：'+base; el.style.color='#1A7f37'; }
+  else { el.textContent='后端：未配置（剪贴板模式）'; el.style.color='#888'; }
+}
+function setFavBackend(){
+  const cur=getFavBackend();
+  const v=prompt('配置收藏后端地址（留空则切换回剪贴板模式）：\n同机用 http://localhost:8787；手机/Pad 填本机局域网 IP 或 https 后端地址。', cur);
+  if(v===null) return;
+  const val=v.trim();
+  if(val){ localStorage.setItem('siyue_fav_backend', val); toast('✅ 已配置收藏后端：'+val); }
+  else { localStorage.removeItem('siyue_fav_backend'); toast('已切换为剪贴板模式'); }
+  updateFavBackendStatus();
+}
+function pushFavToBackend(item){
+  const base=getFavBackend(); if(!base||!item) return;
+  try{
+    fetch(base.replace(/\/$/,'')+'/api/favorites',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({items:[item]})}).catch(()=>{});
+  }catch(e){}
+}
+function deleteFavOnBackend(id){
+  const base=getFavBackend(); if(!base||!id) return;
+  try{ fetch(base.replace(/\/$/,'')+'/api/favorites/'+encodeURIComponent(id),{method:'DELETE'}).catch(()=>{}); }catch(e){}
+}
+
+/* 从备份 JSON 恢复手动收藏 */
+function importFavs(){
+  const input=document.createElement('input');input.type='file';input.accept='.json,application/json';
+  input.onchange=function(){
+    const f=input.files[0];if(!f)return;
+    const reader=new FileReader();
+    reader.onload=function(){
+      try{
+        const j=JSON.parse(reader.result);
+        const items=j.items||(j instanceof Array?j:[]);
+        if(!items.length||!items[0].id){toast('❌ 文件格式无效，无法导入');return;}
+        // 合并到 localStorage（不覆盖，只追加新 id）
+        const existing=JSON.parse(localStorage.getItem('siyue_favorites')||'[]');
+        const exIds=new Set(existing.map(x=>x.id));
+        let added=0;
+        for(const it of items){
+          if(!exIds.has(it.id)){existing.unshift(it);exIds.add(it.id);added++;}
+        }
+        saveFavorites(existing);
+        renderFavorites(); updateFavCount();
+        toast('📥 已导入 '+added+' 条收藏（共 '+existing.length+' 条）');
+      }catch(e){toast('❌ 文件解析失败：'+e.message);}
+    };
+    reader.readAsText(f);
+  };
+  input.click();
+}
+function toast(msg){
+  let t=document.getElementById('siyueToast');
+  if(!t){t=document.createElement('div');t.id='siyueToast';document.body.appendChild(t);}
+  t.textContent=msg;
+  t.style.cssText='position:fixed;bottom:30px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:11px 22px;border-radius:10px;font-size:13px;z-index:9999;opacity:0;transition:opacity .25s;box-shadow:0 6px 20px rgba(0,0,0,.2);max-width:80vw;text-align:center';
+  setTimeout(()=>t.style.opacity='1',10);
+  setTimeout(()=>t.style.opacity='0',2600);
+}
+// 收藏页交互
+['favSearch','favFilterBoard','favFilterType','favFilterSource'].forEach(id=>{
+  const el=document.getElementById(id);
+  if(el){ el.addEventListener('input',renderFavorites); el.addEventListener('change',renderFavorites); }
+});
+renderFavorites(); updateFavCount(); loadAutoFavs(); loadManualFavsFile();
+
+/* ===== 日程管理 / 飞书式日历 ===== */
+(function(){
+  const SKEY='siyue_schedule';
+  const MEMO_KEY='siyue_cal_memo';
+  let calYear,calMonth,calView='month';
+  let panelDateStr='';
+
+  const categories=[
+    {id:'life',name:'生活',icon:'🏠',color:'#34C759'},{id:'work',name:'工作',icon:'💼',color:'#007AFF'},
+    {id:'sport',name:'运动',icon:'🏃',color:'#FF9500'},{id:'guqin',name:'古琴',icon:'🎵',color:'#AF52DE'},
+    {id:'study',name:'学习',icon:'📚',color:'#00C7BE'},{id:'travel',name:'旅行',icon:'✈️',color:'#FF6B6B'},
+    {id:'other',name:'其他',icon:'📌',color:'#8E8E93'},
+  ];
+
+  function loadSched(){try{const d=localStorage.getItem(SKEY);return d?JSON.parse(d):[]}catch(e){return[]}}
+  function saveSched(d){try{localStorage.setItem(SKEY,JSON.stringify(d))}catch(e){}}
+  function loadMemo(){return localStorage.getItem(MEMO_KEY)||''}
+  function saveMemo(v){try{localStorage.setItem(MEMO_KEY,v)}catch(e){}}
+
+  function initCal(){
+    const now=new Date();calYear=now.getFullYear();calMonth=now.getMonth();
+    document.getElementById('calMemoInput').value=loadMemo();
+    renderCalendar();
+  }
+
+  function renderCalendar(){
+    const label=document.getElementById('calMonthLabel');
+    if(label) label.textContent=calYear+'年'+(calMonth+1)+'月';
+    const headRow=document.getElementById('calHeadRow');
+    if(headRow) headRow.innerHTML='<th>周一</th><th>周二</th><th>周三</th><th>周四</th><th>周五</th><th>周六</th><th>周日</th>';
+    const body=document.getElementById('calBodyRows');
+    if(!body)return;
+    body.innerHTML='';
+    const firstDay=new Date(calYear,calMonth,1);
+    const lastDay=new Date(calYear,calMonth+1,0);
+    let startDow=firstDay.getDay();startDow=startDow===0?6:startDow-1;
+    const daysInMonth=lastDay.getDate();
+    const prevMonthLast=new Date(calYear,calMonth,0).getDate();
+    const events=loadSched();
+    let date=1,nextMonthDate=1;
+    for(let week=0;week<6;week++){
+      const row=document.createElement('tr');
+      for(let dow=0;dow<7;dow++){
+        const td=document.createElement('td');
+        if(week===0&&dow<startDow){
+          td.className='cal-other-month';td.innerHTML='<span class="cal-day-num">'+(prevMonthLast-startDow+dow+1)+'</span>';
+        } else if(date>daysInMonth){
+          td.className='cal-other-month';td.innerHTML='<span class="cal-day-num">'+(nextMonthDate++)+'</span>';
+        } else {
+          const d=date;
+          const dateStr=calYear+'-'+String(calMonth+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
+          const today=new Date();
+          const isToday=today.getFullYear()===calYear&&today.getMonth()===calMonth&&today.getDate()===d;
+          if(isToday) td.className='cal-today';
+          let dayHtml='<span class="cal-day-num">'+d+'</span>';
+          const holidayInfo=getHolidayInfo(calYear,calMonth+1,d);
+          if(holidayInfo) dayHtml+=' <span class="cal-holiday-tag '+holidayInfo.type+'">'+holidayInfo.text+'</span>';
+          const dayEvents=events.filter(e=>e.date===dateStr);
+          if(dayEvents.length){
+            dayHtml+='<div class="cal-events">';
+            dayEvents.forEach(ev=>{
+              const p=ev.person||'all';
+              const timeStr=ev.time||'';
+              const safeTitle=ev.title.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+              const evColor=ev.color||(categories.find(c=>c.id===ev.category)||{}).color||'#007AFF';
+              const evBgColor=ev.bgColor||lightenColor(evColor,92);
+              dayHtml+='<div class="cal-event-item ev-'+p+'" data-evid="'+ev.id+'" title="'+safeTitle+'" style="background:'+evBgColor+';border-left-color:'+evColor+';color:'+evColor+'">'+
+                (timeStr?'<span class="cal-ev-time" style="color:'+evColor+'">'+timeStr+'</span>':'')+
+                '<span class="cal-ev-title">'+safeTitle+'</span></div>';
+            });
+            dayHtml+='</div>';
+          }
+          td.innerHTML=dayHtml;
+          td.onclick=(function(ds){return function(e){
+            if(e.target.closest('.cal-event-item')) return;
+            openDayPanel(ds);
+          }})(dateStr);
+          date++;
+        }
+        row.appendChild(td);
+      }
+      body.appendChild(row);
+      if(date>daysInMonth) break;
+    }
+    // 绑定事件点击
+    body.querySelectorAll('.cal-event-item').forEach(el=>{
+      el.addEventListener('click',function(e){
+        e.stopPropagation();
+        editSchedEvent(this.dataset.evid);
+      });
+    });
+  }
+
+  function getHolidayInfo(y,m,d){
+    return ({
+      '1-1':{text:'元旦',type:'holiday'},'2-14':{text:'情人节',type:'weekend'},'3-8':{text:'妇女节',type:'weekend'},
+      '4-4':{text:'清明',type:'holiday'},'5-1':{text:'劳动节',type:'holiday'},'5-4':{text:'青年节',type:'weekend'},
+      '6-1':{text:'儿童节',type:'weekend'},'7-1':{text:'建党节',type:'weekend'},'8-1':{text:'建军节',type:'weekend'},
+      '9-10':{text:'教师节',type:'weekend'},
+      '10-1':{text:'国庆',type:'holiday'},'10-2':{text:'国庆',type:'holiday'},'10-3':{text:'国庆',type:'holiday'},
+      '10-4':{text:'国庆',type:'holiday'},'10-5':{text:'国庆',type:'holiday'},'10-6':{text:'国庆',type:'holiday'},'10-7':{text:'国庆',type:'holiday'},
+      '12-25':{text:'圣诞',type:'weekend'},
+    })[m+'-'+d]||null;
+  }
+
+  window.openDayPanel=function(dateStr){
+    panelDateStr=dateStr;
+    const panel=document.getElementById('calDayPanel');
+    const titleEl=document.getElementById('calDayPanelTitle');
+    const bodyEl=document.getElementById('calDayPanelBody');
+    const [y,m,d]=dateStr.split('-');
+    const dateObj=new Date(y,m-1,d);
+    const weekDays=['周日','周一','周二','周三','周四','周五','周六'];
+    titleEl.textContent=(parseInt(m))+'月'+parseInt(d)+'日 '+weekDays[dateObj.getDay()];
+    const events=loadSched().filter(e=>e.date===dateStr);
+    if(events.length===0){
+      bodyEl.innerHTML='<div style="text-align:center;color:var(--muted);padding:20px;font-size:13px">当日暂无日程<br><span style="font-size:11.5px">点击下方按钮新增</span></div>';
+    } else {
+      bodyEl.innerHTML=events.map(ev=>{
+        const p=ev.person||'all';
+        const evColor=ev.color||(categories.find(c=>c.id===ev.category)||{}).color||{me:'#FF2D55',child:'#FF9500',family:'#5AC8FA',all:'#AF52DE'}[p]||'#AF52DE';
+        const timeStr=ev.time||'全天';
+        const catName=((categories.find(c=>c.id===ev.category)||{}).name)||ev.category||'';
+        return '<div class="cal-panel-event" data-eid="'+ev.id+'">'+
+          '<span class="cal-panel-event-dot" style="background:'+evColor+'"></span>'+
+          '<div class="cal-panel-event-info"><div class="cal-panel-event-title" style="color:'+evColor+'">'+esc(ev.title)+'</div>'+
+          '<div class="cal-panel-event-meta">'+timeStr+(catName?' · '+catName:'')+(ev.note?' · '+esc(ev.note):'')+'</div></div>'+
+          '<span class="cal-panel-event-del" data-did="'+ev.id+'">删除</span></div>';
+      }).join('');
+      // 绑定面板内事件点击和删除
+      bodyEl.querySelectorAll('.cal-panel-event').forEach(el=>{
+        el.addEventListener('click',function(){editSchedEvent(this.dataset.eid)});
+      });
+      bodyEl.querySelectorAll('.cal-panel-event-del').forEach(el=>{
+        el.addEventListener('click',function(e){e.stopPropagation();deleteSchedEventById(this.dataset.did)});
+      });
+    }
+    panel.style.display='block';
+  };
+  window.closeDayPanel=function(){document.getElementById('calDayPanel').style.display='none';panelDateStr=''};
+  window.addEventForPanelDate=function(){if(panelDateStr)openScheduleModal({date:panelDateStr})};
+
+  window.shiftMonth=function(dir){
+    calMonth+=dir;if(calMonth>11){calMonth=0;calYear++}if(calMonth<0){calMonth=11;calYear--}
+    closeDayPanel();renderCalendar();
+  };
+  window.goToday=function(){const now=new Date();calYear=now.getFullYear();calMonth=now.getMonth();closeDayPanel();renderCalendar()};
+  window.setCalView=function(v){
+    calView=v;
+    document.querySelectorAll('.cal-view-tab').forEach(b=>b.classList.toggle('active',b.dataset.v===v));
+    if(v==='week') toast('周视图开发中，敬请期待');
+  };
+  window.saveCalMemo=function(){saveMemo(document.getElementById('calMemoInput').value)};
+
+  window.openScheduleModal=function(data){
+    data=data||{};
+    ensureModal();
+    const overlay=document.getElementById('schedModalOverlay');
+    overlay.classList.add('show');
+    overlay.querySelector('#sTitle').value=data.title||'';
+    overlay.querySelector('#sDate').value=data.date||ymd();
+    overlay.querySelector('#sTime').value=data.time||'';
+    overlay.querySelector('#sPerson').value=data.person||'me';
+    overlay.querySelector('#sCategory').value=data.category||categories[0].id;
+    overlay.querySelector('#sNote').value=data.note||'';
+    const catColor=(categories.find(c=>c.id===(data.category||categories[0].id))||{}).color||'#007AFF';
+    const evColor=data.color||catColor;
+    const evBgColor=data.bgColor||lightenColor(evColor,92);
+    overlay.querySelector('#sColor').value=evColor;
+    overlay.querySelector('#sColorPreview').style.color=evColor;
+    overlay.querySelector('#sBgColor').value=evBgColor;
+    overlay.querySelector('#sBgColorPreview').style.background=evBgColor;
+    overlay.querySelector('#sId').value=data.id||'';
+    overlay.querySelector('#modalTitle').textContent=(data.id?'编辑':'新增')+'日程';
+    overlay.querySelector('#sDelBtn').style.display=data.id?'inline-block':'none';
+    // 颜色选择器实时预览
+    const colorInput=overlay.querySelector('#sColor');
+    const colorPreview=overlay.querySelector('#sColorPreview');
+    if(colorInput&&!colorInput._bound){colorInput.addEventListener('input',function(){colorPreview.style.color=this.value;});colorInput._bound=1;}
+    // 底色选择器实时预览
+    const bgInput=overlay.querySelector('#sBgColor');
+    const bgPreview=overlay.querySelector('#sBgColorPreview');
+    if(bgInput&&!bgInput._bound){bgInput.addEventListener('input',function(){bgPreview.style.background=this.value;});bgInput._bound=1;}
+    // 分类切换时自动填入该分类默认颜色
+    const catSel=overlay.querySelector('#sCategory');
+    if(catSel&&!catSel._cbound){catSel.addEventListener('change',function(){const cc=categories.find(c=>c.id===this.value);if(cc&&cc.color){colorInput.value=cc.color;colorPreview.style.color=cc.color;if(bgInput){bgInput.value=lightenColor(cc.color,92);bgPreview.style.background=bgInput.value;}}});catSel._cbound=1;}
+  };
+
+  function ymd(){const n=new Date();return n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0')}
+  // 颜色工具：将 hex 颜色提亮到指定亮度百分比（0-100），用于自动生成底色
+  function lightenColor(hex,percent){
+    if(!hex||hex.indexOf('rgb')>=0)return hex||'#E8EAFF';
+    hex=hex.replace('#','');
+    if(hex.length===3)hex=hex[0]+hex[0]+hex[1]+hex[1]+hex[2]+hex[2];
+    const num=parseInt(hex,16);
+    const r=Math.min(255,Math.round((num>>16)+(255-(num>>16))*(percent/100)));
+    const g=Math.min(255,Math.round(((num>>8)&0xFF)+(255-((num>>8)&0xFF))*(percent/100)));
+    const b=Math.min(255,Math.round((num&0xFF)+(255-(num&0xFF))*(percent/100)));
+    return '#'+((1<<24)|(r<<16)|(g<<8)|b).toString(16).slice(1);
+  }
+  function ensureModal(){
+    if(document.getElementById('schedModalOverlay'))return;
+    const o=document.createElement('div');o.className='modal-overlay';o.id='schedModalOverlay';
+    o.innerHTML='<div class="modal-box"><h3 id="modalTitle">新增日程</h3><input type="hidden" id="sId"><label>标题</label><input id="sTitle" placeholder="日程标题"><label>日期</label><input type="date" id="sDate"><label>时间（可选）</label><input type="time" id="sTime"><label>人员</label><select id="sPerson"><option value="me">我</option><option value="child">孩子</option><option value="family">家庭</option></select><label>分类</label><select id="sCategory">'+categories.map(c=>'<option value="'+c.id+'">'+c.icon+' '+c.name+'</option>').join('')+'</select><label>字体颜色</label><div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><input type="color" id="sColor" value="#007AFF" style="width:36px;height:36px;border:none;border-radius:8px;cursor:pointer;padding:2px"><span id="sColorPreview" style="font-size:13px;color:#007AFF">预览文字 ABC</span></div><label>底色（卡片背景）</label><div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><input type="color" id="sBgColor" value="#E8EAFF" style="width:36px;height:36px;border:none;border-radius:8px;cursor:pointer;padding:2px"><span id="sBgColorPreview" style="font-size:13px;color:#333;background:#E8EAFF;padding:2px 8px;border-radius:4px;display:inline-block">底色预览</span><button class="btn ghost" onclick="document.getElementById(\'sBgColor\').value=\'#E8EAFF\';document.getElementById(\'sBgColorPreview\').style.background=\'#E8EAFF\'" style="padding:4px 10px;font-size:11px;border-radius:6px">默认浅蓝</button></div><label>备注</label><textarea id="sNote" rows="2" placeholder="可选备注"></textarea><div class="modal-btns"><button class="btn ghost" onclick="closeSchedModal()" style="border-radius:8px;padding:7px 16px">取消</button><button class="btn green" onclick="saveSchedEvent()" style="border-radius:8px;padding:7px 16px">保存</button><button class="btn ghost" id="sDelBtn" onclick="deleteSchedEvent()" style="border-radius:8px;padding:7px 16px;color:#FF3B30;display:none">删除</button></div></div>';
+    o.addEventListener('click',function(e){if(e.target===o)closeSchedModal()});
+    document.body.appendChild(o);
+  }
+  window.closeSchedModal=function(){document.getElementById('schedModalOverlay').classList.remove('show')};
+  window.saveSchedEvent=function(){
+    const title=document.getElementById('sTitle').value.trim();
+    if(!title){toast('请输入标题');return;}
+    const ev={id:document.getElementById('sId').value||'evt_'+Date.now(),title:title,date:document.getElementById('sDate').value,time:document.getElementById('sTime').value||'',person:document.getElementById('sPerson').value,category:document.getElementById('sCategory').value,color:document.getElementById('sColor').value,bgColor:document.getElementById('sBgColor').value,note:document.getElementById('sNote').value.trim()};
+    const all=loadSched();
+    if(document.getElementById('sId').value){const idx=all.findIndex(x=>x.id===ev.id);if(idx>=0)all[idx]=ev;else all.unshift(ev);}
+    else all.unshift(ev);
+    saveSched(all);closeSchedModal();renderCalendar();
+    if(panelDateStr && ev.date===panelDateStr) openDayPanel(panelDateStr);
+    toast('✅ 日程已保存');
+  };
+  window.editSchedEvent=function(id){const ev=loadSched().find(e=>e.id===id);if(ev)openScheduleModal(ev)};
+  window.deleteSchedEventById=function(id){
+    if(!confirm('确定删除此日程？'))return;
+    let all=loadSched();all=all.filter(x=>x.id!==id);saveSched(all);renderCalendar();
+    if(panelDateStr) openDayPanel(panelDateStr);toast('🗑️ 已删除');
+  };
+  window.deleteSchedEvent=function(){
+    const id=document.getElementById('sId').value;if(!id)return;
+    if(!confirm('确定删除此日程？'))return;
+    let all=loadSched();all=all.filter(x=>x.id!==id);saveSched(all);
+    closeSchedModal();renderCalendar();
+    if(panelDateStr) openDayPanel(panelDateStr);toast('🗑️ 已删除');
+  };
+  window.exportCalJson=function(){
+    const data={version:2,categories,memos:loadMemo(),events:loadSched(),exportedAt:new Date().toISOString()};
+    const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+    const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='泗月日程_'+ymd()+'.json';a.click();URL.revokeObjectURL(a.href);toast('📤 已导出 JSON');
+  };
+  window.importCalJson=function(){
+    const input=document.createElement('input');input.type='file';input.accept='.json';
+    input.onchange=function(e){
+      const f=e.target.files[0];if(!f)return;
+      const reader=new FileReader();reader.onload=function(){
+        try{const d=JSON.parse(reader.result);if(d.events)saveSched(d.events);if(d.memos!==undefined)saveMemo(d.memos);if(d.categories)categories=d.categories;document.getElementById('calMemoInput').value=loadMemo();renderCalendar();toast('📥 已导入 '+((d.events||[]).length)+' 条日程')}catch(err){toast('导入失败：文件格式错误')}
+      };reader.readAsText(f);
+    };input.click();
+  };
+  ensureModal();
+  _nav.addEventListener('click',function(e){const a=e.target.closest('a');if(!a)return;if(a.dataset.view==='schedule'){initCal()}});
+  if(document.querySelector('.view.active#view-schedule'))initCal();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>泗月 · 清缓存</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#eef0f3;display:flex;align-items:center;justify-content:center;min-height:100vh;padding:20px}
+  .card{background:#fff;border-radius:16px;padding:40px;max-width:500px;width:100%;box-shadow:0 6px 22px rgba(31,36,48,.08);text-align:center}
+  h1{color:#1f2430;margin-bottom:8px}
+  p{color:#7a8190;font-size:14px;margin-bottom:24px;line-height:1.6}
+  button{padding:14px 32px;border:none;border-radius:10px;background:#1f2430;color:#fff;font-size:15px;font-weight:600;cursor:pointer;width:100%;margin-bottom:10px}
+  button.alt{background:#fff;color:#c8a45c;border:2px solid #c8a45c}
+  #status{margin-top:16px;font-size:13px;color:#5a6478;min-height:20px}
+  .ok{color:#2f9e8f}
+  .fail{color:#c0506a}
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>泗月 缓存清理工具</h1>
+  <p>一键清除浏览器中所有旧的 Service Worker 和缓存，解决「刷新后仍看不到最新日报」的问题。</p>
+  <button onclick="doClear()">▶ 立即清缓存并跳转到工作台</button>
+  <button class="alt" onclick="openWorkbench()">→ 直接打开工作台（不清缓存）</button>
+  <div id="status"></div>
+</div>
+<script>
+function log(msg,ok){
+  const s=document.getElementById('status');
+  s.innerHTML+= '<div class="'+(ok?'ok':'fail')+'">'+msg+'</div>';
+}
+function openWorkbench(){ location.href='index.html?from=clear'; }
+async function doClear(){
+  document.getElementById('status').innerHTML='';
+  try{
+    if('serviceWorker' in navigator){
+      const regs=await navigator.serviceWorker.getRegistrations();
+      log('发现 '+regs.length+' 个 Service Worker 注册');
+      if(regs.length){
+        await Promise.all(regs.map(r=>r.unregister()));
+        log('已注销所有 Service Worker',true);
+      }else{
+        log('没有找到旧的 SW 注册',true);
+      }
+    }else{
+      log('此浏览器不支持 Service Worker');
+    }
+    if('caches' in window){
+      const keys=await caches.keys();
+      log('发现 '+keys.length+' 个缓存存储');
+      if(keys.length){
+        await Promise.all(keys.map(k=>caches.delete(k)));
+        log('已清空所有缓存',true);
+      }
+    }
+    log('完成！即将跳转到工作台…',true);
+    setTimeout(()=>location.href='index.html?from=clear',500);
+  }catch(e){
+    log('出错：'+(e&&e.message||e));
+  }
+}
+</script>
+</body>
+</html>

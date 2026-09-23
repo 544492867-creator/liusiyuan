@@ -1,51 +1,50 @@
 <#
-  泗月工作台 · 会话无关部署脚本
-  ---------------------------------------------------------------
-  · 不依赖任何对话 / 会话，可由 Windows 任务计划程序定时调用
-  · 唯一职责：把当前工作区（静态 PWA）提交并推送到 GitHub Pages 仓库
-  · 推送前做"当日 7 板块日报"健康检查：缺失则告警，但仍部署现有内容
-  · git 用绝对路径，兼容任务计划程序的非交互环境（PATH 不含 PortableGit）
+  Siyue Workbench - session-independent deploy script
+  - No dependency on any conversation/session; callable by Windows Task Scheduler
+  - Commits the static PWA and pushes it to the GitHub Pages repo
+  - Pre-push health check: verifies today's 7 active board reports exist
+  - ASCII only (PowerShell 5.1 reads .ps1 as the system codepage, not UTF-8)
 #>
 
 $ErrorActionPreference = "Stop"
 
 $RepoDir = "E:\workbudy\2026-07-30-10-46-33"
-# git 绝对路径（任务计划非交互环境 PATH 不含 PortableGit）
+# git absolute path (the scheduled task runs non-interactively; PATH lacks PortableGit)
 $GitExe  = "C:\Users\liusiyuan\.workbuddy\binaries\PortableGit\versions\1.2.0\mingw64\bin\git.exe"
 if (-not (Test-Path $GitExe)) { $GitExe = "git" }
 
-# 7 个活跃板块（aivideo 已暂停，不纳入健康校验）
+# 7 active boards (aivideo is paused, excluded from the health check)
 $Boards = @("business","elderly-care","hotel","interviews","real-estate","tourism","trending")
 
-# 载入本地配置（remote / PAT）
+# load local config (remote / PAT)
 $ConfigPath = Join-Path $RepoDir "deploy.config.ps1"
 if (Test-Path $ConfigPath) { . $ConfigPath } else {
-  Write-Warning "未找到 deploy.config.ps1，请复制模板并填写 remote 与 PAT。"
+  Write-Warning "deploy.config.ps1 not found. Copy the template and fill REMOTE / PAT."
   exit 2
 }
 if ($global:DEPLOY_REMOTE -like "*__USER__*") {
-  Write-Error "DEPLOY_REMOTE 仍是占位符 __USER__，请先在 deploy.config.ps1 填写真实仓库地址。"
+  Write-Warning "DEPLOY_REMOTE still has the __USER__ placeholder. Fill it in deploy.config.ps1 first."
   exit 4
 }
 
 $today = Get-Date -Format "yyyy-MM-dd"
 $log = @()
 
-# ---- 健康检查：当日 7 板块日报是否存在 ----
+# ---- health check: today's 7 board reports ----
 $missing = @()
 foreach ($b in $Boards) {
   $f = Join-Path $RepoDir ("reports\$b\$today.md")
   if (-not (Test-Path $f)) { $missing += $b }
 }
 if ($missing.Count -gt 0) {
-  $log += "⚠ 当日($today) 缺失板块日报: $($missing -join ', ') —— 仍在部署现有内容，请检查生成自动化是否运行。"
+  $log += "[WARN] today ($today) missing board reports: $($missing -join ', ') -- deploying current state anyway; check the generation automation."
 } else {
-  $log += "✓ 当日($today) 7 板块日报齐全。"
+  $log += "[OK] today ($today) all 7 board reports present."
 }
 
 Set-Location $RepoDir
 
-# ---- 若尚未初始化仓库 ----
+# ---- init repo if needed ----
 if (-not (Test-Path (Join-Path $RepoDir ".git"))) {
   & $GitExe init | Out-Null
   & $GitExe checkout -b main 2>$null
@@ -53,25 +52,25 @@ if (-not (Test-Path (Join-Path $RepoDir ".git"))) {
   & $GitExe remote add origin $global:DEPLOY_REMOTE
 }
 
-# ---- remote 检查 ----
+# ---- remote check ----
 $origin = & $GitExe remote get-url origin 2>$null
 if ([string]::IsNullOrWhiteSpace($origin)) {
   & $GitExe remote add origin $global:DEPLOY_REMOTE
 }
 
-# ---- 提交 ----
+# ---- commit ----
 & $GitExe add -A
 $status = & $GitExe status --porcelain
 if ([string]::IsNullOrWhiteSpace($status)) {
-  $log += "• 无本地变更，无需提交。"
+  $log += "[INFO] no local changes to commit."
 } else {
   & $GitExe commit -m "auto-deploy $today $(Get-Date -Format HH:mm)" | Out-Null
-  $log += "• 已提交本地变更 ($(($status -split "`n").Count) 个文件)。"
+  $log += "[INFO] committed local changes ($(($status -split "`n" | Where-Object {$_ -ne ''}).Count) files)."
 }
 
-# ---- 推送（PAT 仅本次进程内嵌入 URL，不写入 .git/config） ----
+# ---- push (PAT embedded in URL for this process only; never written to .git/config) ----
 if ([string]::IsNullOrWhiteSpace($global:DEPLOY_PAT)) {
-  Write-Warning "DEPLOY_PAT 为空，尝试无凭证推送（若已配置系统 credential 则可成功）。"
+  Write-Warning "DEPLOY_PAT empty; attempting credential-less push (works if a system credential helper is configured)."
   $pushOut = & $GitExe push origin $global:DEPLOY_BRANCH 2>&1
 } else {
   $pushUrl = $global:DEPLOY_REMOTE -replace "https://", "https://$($global:DEPLOY_PAT)@"

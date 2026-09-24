@@ -19,6 +19,9 @@ _*.html
 # 本地部署配置（含 PAT token，禁止提交）
 deploy.config.ps1
 
+# 本地迁移脚本（含 PAT token 占位，填充后禁止提交）
+migrate-to-github.ps1
+
 # OS / 编辑器
 Thumbs.db
 Desktop.ini

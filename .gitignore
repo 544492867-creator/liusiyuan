@@ -18,6 +18,11 @@ _*.html
 
 # 本地部署配置（含 PAT token，禁止提交）
 deploy.config.ps1
+deploy.log
+
+# 部署同步引擎（本地运维脚本，不进站点静态文件）
+api_deploy.py
+api_push.py
 
 # 本地迁移脚本（含 PAT token 占位，填充后禁止提交）
 migrate-to-github.ps1

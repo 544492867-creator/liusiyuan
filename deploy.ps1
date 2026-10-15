@@ -10,8 +10,12 @@ $ErrorActionPreference = "Stop"
 
 $RepoDir = "E:\workbudy\2026-07-30-10-46-33"
 # git absolute path (the scheduled task runs non-interactively; PATH lacks PortableGit)
-$GitExe  = "C:\Users\liusiyuan\.workbuddy\binaries\PortableGit\versions\1.2.0\mingw64\bin\git.exe"
-if (-not (Test-Path $GitExe)) { $GitExe = "git" }
+$GitExe  = "C:\Users\liusiyuan\.workbuddy\binaries\PortableGit\versions\1.3.0\mingw64\bin\git.exe"
+if (-not (Test-Path $GitExe)) {
+  # fallback: pick whichever PortableGit version exists
+  $cand = Get-ChildItem "C:\Users\liusiyuan\.workbuddy\binaries\PortableGit\versions\*\mingw64\bin\git.exe" -ErrorAction SilentlyContinue | Select-Object -First 1
+  if ($cand) { $GitExe = $cand.FullName } else { $GitExe = "git" }
+}
 
 # 7 active boards (aivideo is paused, excluded from the health check)
 $Boards = @("business","elderly-care","hotel","interviews","real-estate","tourism","trending")

@@ -1,37 +1,2728 @@
 {
- "updated": "2026-11-12 11:08",
+ "updated": "2026-11-13 11:53",
  "count": 800,
  "items": [
   {
-   "id": "auto_business_2026-11-12_019f3ae8f8",
+   "id": "auto_business_2026-11-13_187fef3dd8",
    "text": "3.4 其他主要都市新商业速览（东京外常态化覆盖）",
    "type": "case",
    "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
+   "date": "2026-11-13",
+   "ts": 1794499200000,
    "auto": true
   },
   {
-   "id": "auto_business_2026-11-12_d2557cb931",
+   "id": "auto_business_2026-11-13_c81705eb4e",
    "text": "3.0 东京新商业创新动态聚焦（东京为最优先视角）",
    "type": "case",
    "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_49771fce90",
+   "text": "b. 大阪 LUCUA SOUTH 角色主题楼层（11-24 起第二期）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_8d1f37f33b",
+   "text": "3.1 皇居东御苑 Ote Rest House（文旅 × 文博 × 咖啡标杆）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_a006f23368",
+   "text": "4.1 天津津界·NewBay（青年夜娱综合体）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_63bfdce0fa",
+   "text": "4.2 重庆三洞桥 2 号（主理人街区）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_8003cb84cb",
+   "text": "4.3 西宁昆仑墟（沉浸式文旅新空间）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_01b992f767",
+   "text": "6.5 本期补充待核实",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_3371b5b626",
+   "text": "4.4 北京莱惠 Club 商街（存量「欧洲小镇」焕新）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_b59f7c54c6",
+   "text": "4.5 上海龙凤 PRSCO（首店矩阵 + 离境退税 2.0）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_13a62f8be3",
+   "text": "1.4 龙湖四座新天街接力开业（成都驿都、长沙开福、长沙新姚、杭州滨康）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_371dfc1d8a",
+   "text": "1.5 上海泗泾招商花园城（松江首个大型 TOD，11-20 开业）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_dd3ee91c76",
+   "text": "1.8 北京颐堤港正式更名「北京太古坊」（太古坊 IP 首进内地）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_49fca2dc5e",
+   "text": "1.9 凯德广场品牌焕新与轻资产输出（签约绍兴、温州）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_9d76679f41",
+   "text": "1.10 长沙新世界百货 11-11 停业（传统百货退场信号）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_89d0f9556f",
+   "text": "1.11 优衣库上海全球旗舰店焕新 / 蓝瓶咖啡北京首店",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_6d8b86c9ba",
+   "text": "1.12 晋江首座万象系商业奠基 / 南京首座大悦城封顶",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_bf8ae668d9",
+   "text": "1.13 京东 MALL 双店开业 / 武汉金诺奥特莱斯开工",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_270a60ab33",
+   "text": "1.14 存量焕新群（广州白云万达 / 南京新百）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_b5edab87fd",
+   "text": "1.15 华润置地商业不动产 REIT 正式获批（首发南通万象城 + 临沂万象汇）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_fd7055b377",
+   "text": "3.2 ULTRAMAN STORE OSAKA / TOKYO（关西首店 11 月）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_68ca7b5d3b",
+   "text": "2.3 Pokémon Center BANGKOK（12-01 官方开业，招聘 11 月入职）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_4dcc81ffdd",
+   "text": "2.4 MINISO LAND centralwOrld 开业（11-06，IP 首发）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_f7714751a1",
+   "text": "2.5 泰国购物旅游与 Siam Piwat 中国数字布局",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_4555f8fa63",
+   "text": "2.6 泰国奢侈品零售势能（Siam Piwat / IconSiam / 全球第 4）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_87b9076471",
+   "text": "2.7 ICONSIAM 与免税/VAT 机制（补充）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_b7fae4cf53",
+   "text": "2.8 Platinum POP 重焕（水门「来街」美食枢纽，2026 新地标）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_7930da9067",
+   "text": "e. 东京其他 / 上野 / 有乐町 / 表参道",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_71a251b6f1",
+   "text": "3.3 PUPPET SUNSUN STORE 日本首间常设店（大阪 LUCUA SOUTH 12F）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_ba4d3fc3f1",
+   "text": "4.6 上海聚梦天地（徐汇桂林路，年底街区开业，新补录）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_200f564d2a",
+   "text": "4.7 长春坊·超级市集 / 亲橙 556 / 杭州嘉里城 / 长沙 MAYA / 长沙麓云广场",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_5a417fbfbe",
+   "text": "5.3 名创优品 2026Q3 业务更新：内地 GMV +25%~30%，自有 IP YOYO 破 10 亿",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_b559df914f",
+   "text": "5.4 瑞幸咖啡 2026Q3 财报：收入 178.91 亿、全球门店 38909 家，同店承压但利润率修复",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_551a8d6743",
+   "text": "7B.1 国内：龙湖双天街 11-13 开业深度运营参数（补强一章）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_9d83c863e7",
+   "text": "7B.2 泰国：CentralWorld「Disney & Pixar Christmas 2026」四主题区深度参数（补强二章）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_c1bc85d9e8",
+   "text": "7B.3 东京：涩谷 PARCO 秋季 renewal「(Re) Construction」——全球首店 + 欧洲时装矩阵（补强三章 a 类）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_f5dcad22b4",
+   "text": "7B.4 东京外·福岡双增量（满足每期 ≥1 东京外）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_c2b23636cd",
+   "text": "7B.5 有乐町：Adopt 法国香氛日本首快闪 + IP 群接力（补强三章 e）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_ff92128b33",
+   "text": "7B.6 非标主理人专项（四章）：氧痒乐园模块 / 出汁と鮨 橘 天神 / 天神香格里拉",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_ca133298ab",
+   "text": "7B.7 行业资讯（五章 supplement·5 条真实 URL，与五章及前期去重）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_b539046aca",
+   "text": "7B.8 本期补充待核实",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_6426c80a43",
+   "text": "9.1 国内案例数据口径",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_a6174a0456",
+   "text": "9.2 泰国案例数据口径",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_d420361d8a",
+   "text": "9.3 日本案例数据口径",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_0984d8fad1",
+   "text": "1.1 双十一第 18 年正式收官：星图定格 17764 亿、+4.8%，即时零售 +33% 成唯一高增板块",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_6058b705f9",
+   "text": "1.2 龙湖长沙开福天街（11-13 今日开业，城北品质生活地标正式兑现）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_23abdbdc9c",
+   "text": "1.3 龙湖成都驿都天街（11-13 今日开业，城东 TOD 新标杆）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_ab78988a35",
+   "text": "1.6 玉林玉东万达广场（11-20 启幕，广西首个生态旗舰广场，倒计时 7 天）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_649f2ac641",
+   "text": "1.7 万达 11 月开业群：今日双天街对标、全年 13 座创十年新低",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_ab65d73891",
+   "text": "1.7.1 河源东源万达广场（11-12 已启幕，广东第 30 座、河源首座、建面 13 万㎡）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_4dcd391c65",
+   "text": "2.1 CentralWorld「Disney & Pixar Christmas 2026」启幕第 2 天（11-12 至 2027-01-03）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_4a98e568f7",
+   "text": "2.2 One Bangkok 两周年 Campaign 今日（11-13）收官，运营深化",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_65c332cc93",
+   "text": "a. 涩谷 PARCO IP 集群：sanrio house 今日（11-13）进驻 + GUNDAM BASE 11-20",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_77c06bfff0",
+   "text": "c. 大阪阪急梅田总店（美食与美容双线，11-11 当日节点延续）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_751b6d60a8",
+   "text": "d. 福冈新商业速览（KIRBY 今日开店）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_06e1e92985",
+   "text": "本期聚焦「双十一第 18 年收官结构性转向（星图最终定格 17764 亿/+4.8%）」「消费基础设施 REIT 双单上市次日（保利/西安高科）」「龙湖双天街今日开业」「品牌出海与茶饮咖啡连锁（挪瓦 3.9 元价格战）」，均为文章/报告/公告/财报类；视频类直链未检得可验证链接，标注「待核实」不编造。",
+   "type": "quote",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_82e927502f",
+   "text": "5.1 双十一收官：从「算术题」到「直价 + AI + 服务」，即时零售 +33% 成唯一高增",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_92ffec66bf",
+   "text": "5.2 消费基础设施 REIT：双单昨日（11-12）挂牌，板块进入「多单并行」",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_ab200187db",
+   "text": "5.5 县域消费、银发经济、城市更新与咖啡价格战",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_586f05f960",
+   "text": "本节为 19:30 触发增补，严格遵循「遇已存在报告一律追加、严禁 Write 覆盖」铁律，**未改动一～五章原内容**。检索区间 2026-11-13 公开信息，仅补录一～五章未覆盖的真实增量。龙湖长沙开福天街与成都驿都天街今日（11-13）开业、双十一星图最终数据（17764 亿/+4.8%）、涩谷 sanrio house 今日进驻、福冈 KIRBY 今日开店、CentralWorld 迪士尼圣诞启幕第 2 天、One Bangkok 两周年 Campaign 今日收官、华夏保利商业 REIT 上市次日、玉林玉东万达（11-20 倒计时 7 天）、挪瓦咖啡 3.9 元价格战均为本期新增真实增量。",
+   "type": "quote",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_9601534033",
+   "text": "6.1 国内：龙湖双天街今日（11-13）开业（补强一章）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_4baf8d0384",
+   "text": "6.2 泰国：CentralWorld 迪士尼圣诞启幕第 2 天 + One Bangkok 两周年 Campaign 收官（补强二章）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_f2b9fead48",
+   "text": "6.3 日本：涩谷 sanrio house 今日进驻 + 福冈 KIRBY 今日开店（补强三章）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_b97f88d6a2",
+   "text": "6.4 资本侧与品牌：保利 REIT 上市次日 + 挪瓦 3.9 元（补强一/五章）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_3b103ea3a5",
+   "text": "本增补节为二次触发追加，严格遵循「遇已存在报告一律追加、严禁覆盖」铁律，未改动一～六章及既有七章正文；仅插入本节约 20 项当日/近周新公开增量。抓取时间：2026-11-13 10:49（二次触发窗口）。",
+   "type": "quote",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_b9e5939033",
+   "text": "抓取时间：2026-11-13（11:32 三次触发）。本增补严格遵循「遇已存在报告一律追加、严禁 Write 覆盖」铁律，未改动一～九章（含六、七·补），仅补 11-12~11-13 当日/近周真实增量，与既有内容去重；凡检索无法获得具体数字一律标注「待核实」。",
+   "type": "quote",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_35625a2ccc",
+   "text": "8B.1 国内 NEW（社区便民非标 + 奥莱生鲜 + 广州首店集群 + 开福天街深度）\n**① 武汉东西湖官塘角邻里中心（本月底开业，社区便民非标新样本）**",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_3fafa1a5ae",
+   "text": "8B.2 日本东京 NEW（三丽鸥新系列 + K-Fashion 快闪攻势 + IP 零售展）\n**① 三丽鸥「Omekashi Bambi」系列（11-13 在线预约开 / 11-21 门店，关联涩谷 sanrio house）**",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_10b6212267",
+   "text": "8B.3 日本全国（东京外）NEW（吉伊卡哇 19 点 + 魔法使 7 周年店）\n**① 吉伊卡哇「Chiikawa Clinic」全国 19 点（11-27 开，强东京外增量）**",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_be56b14710",
+   "text": "8B.4 有乐町（丸井 IP 群延展）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_fc79e99acf",
+   "text": "8B.5 泰国 NEW（Neramit 4 Cities 文旅 + CentralWorld 圣诞时刻表深化）\n**① Neramit 4 Cities（TAT 地方文旅灯光节，11-6~12-27 四城）**",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_c15ea0d6c7",
+   "text": "8B.6 非标主理人专项（运营/收入/合作/存活拆解）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_fd3bfdfd28",
+   "text": "8B.7 行业资讯观察（五章 supplement·与主报告五章去重，补深度视角）",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_379fcc8973",
+   "text": "主报告五章已覆盖双十一主线（新浪/经济日报/新华社/人民网/环球等）。本补仅补 11-12~11-13 新公开、且视角互补的真实 URL 文，均为文章类；视频直链未检得可验证链接，标注待核实不编造。",
+   "type": "quote",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_business_2026-11-13_f7945f97ee",
+   "text": "9.4 行业与消费趋势数据口径\n**总体可信度说明**：本期核心数据（龙湖开福/驿都双天街 11-13 开业、双十一星图最终数据 17764 亿/+4.8%、华夏保利商业 REIT 上市、名创优品/瑞幸 Q3 财报、泰国 CentralWorld/One Bangkok/Pokémon、日本 sanrio house 涩谷进驻/福冈 KIRBY 开店/ LUCUA SOUTH/阪急/福冈、挪瓦咖啡价格战）均来自政府官网、企业公告、权威媒体或机构报告，可信度较高；凡涉及「开业后真实客流/销售/坪效」「品牌单店销售」「确切开业日」「REIT 发行价与上市日及次日表现」「视频类直链」「挪瓦门",
+   "type": "case",
+   "board": "business",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_5e045f6d99",
+   "text": "**【文章】**",
+   "type": "insight",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_b802038382",
+   "text": "**【视频】**",
+   "type": "insight",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_41b634cd83",
+   "text": "**【维持前期基线】** 太保家园（14 社区/3500 长住）、大家保险城心养老（在营 12 家）、万科随园嘉树（入住率 90%+）、绿城乌镇雅园（1.2 万长者）等维持前期观察；本期未检索到上述项目新的入住率/收费披露，标注「维持前期观察」。",
+   "type": "insight",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_531e9db217",
+   "text": "以下为近 1–2 周高声量内容，区分文章/视频；正文所列文章均附真实抓取 URL（见各条括注，均经 WebSearch 核验可访问）；【一周要闻速览】为聚合简报，仅标注来源机构。热度/讨论指标公开端未披露，统一标「待核实」。",
+   "type": "quote",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_6d6b4adb2a",
+   "text": "标题格式遵循「泗月 · 养老｜2026-11-13（周五）」。本期为养老板块日报，风格、结构、篇幅对齐仓库最新一期样本（2026-11-12.md，约 64KB）。",
+   "type": "quote",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_bc42b49c69",
+   "text": "**铁律自检**：全文数据均来自真实抓取（WebSearch / WebFetch / 公开政务与媒体源），标注来源与抓取时间；多口径数据并列标注，无法核实内容一律标注「数据源不可用 / 待核实」并说明口径；严禁编造数字。本期共开展 12 批检索，全部成功无工具 5xx 报错。全球标杆轮换至**新西兰**（此前已覆盖德国多代屋、新加坡、日本、荷兰 De Hogeweyk、英国 Extra Care、丹麦、瑞典、美国 CCRC、澳大利亚、法国 EHPAD、欧洲时间银行、韩国、加拿大、西班牙、意大利、瑞士）；新西兰与澳大利亚同属大洋洲但制度路径迥异，本期单独成篇。",
+   "type": "quote",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_28746e10ab",
+   "text": "**本期增量判定**：政策重心延续\"量化硬指标 + 真金白银\"主线——发改委 140 亿投资、超 10 万护理型床位、约 11 万台设备、护理型床位占比 73% 构成清晰盘子；长护险从\"试点\"转\"全面推行\"，247 个统筹地区（2026 末）/ 全面覆盖（2028 末）时间表不变，本期新增金华\"多评合一+医养床位转换+上门护理 50 元/小时+1116 人持证\"的可操作样本。消费补贴细则进一步透明（居家 50%/机构 40%/封顶 800 元/不限户籍/可叠长护），截至 10-07 惠及超 246 万；辅具纳入长护险支付从\"研究探索\"进入南京苏州滨州上海北京的在地实践。重庆、四川改革与三级网络织密，共同体现\"资金到位 + 制度底座 + 需求侧补贴 + 供给侧场景 + 基层落地\"五线并进。",
+   "type": "quote",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_c7293e8fac",
+   "text": "**业态主线**：\"猫冬式旅居\"延续为本期最亮眼新变量——\"30 天以上订单 +13pp、60 天以上 +6pp、小城订单占比超 30%、银发平均入住 12 天、海口新晋 TOP2\"把银发旅居从\"过冬短住\"变为\"季节性长期生活安排\"；客群从银发独占到全龄分化（25–40 岁占近 35%、7 天以上长住 +77%；18–35 岁占旅居式度假 53.4%）意味着产品须同时适配\"稳定长住老人\"与\"弹性串游青年/数字游民/亲子家庭\"。旅行社（众信）加码、海南目的地从\"比海景\"转向\"比长期承载能力\"，预示暖冬旅居进入供给侧精耕期。",
+   "type": "quote",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_841c9ea03d",
+   "text": "**数据锚点**：3.23 亿老人（深度老龄化中段）；银发经济\"12 万亿 / 10.8 万亿 / 9.8 万亿 / 9 万亿 / 8.2 万亿 / 8–9 万亿\"六套并存，本质是统计边界差异（是否含养老地产/金融/大健康）；本期新增\"健康养老 6.02 万亿占大健康 56.45%、养老产业 16.3/18.7 万亿、医养结合窄口径 3029/3436 亿、适老化改造 1820 亿(+38.4%)→2600 亿\"等更细颗粒，显示统计体系正从\"笼统大盘\"走向\"分赛道核算\"。养老金融\"第三支柱 19 万亿规模 vs 22% 实缴率\"仍最尖锐——11-13 四周年数据揭示\"五类货架成形、349 只基金、超 275 亿规模、逾八成正收益\"但\"超 200 只 Y 份额不足 5000 万\"，印证\"长钱难留、选品难\"未解。",
+   "type": "quote",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_eeb3e72573",
+   "text": "**创新主线**：康养机器人\"机构先行、价格下探、场景收敛 + 生态协作\"四趋势确立——芯聚力 1.82 亿订单（B 端/跨境）、骅羲 HT-X2 1058 台预售（万元级居家）、浙大 999 元手搓机（下沉空白价带）、南京\"集萃智造/华夏/亿嘉和/安康通\"集体进机构（四道坎揭示真实落地难）、中移灵犀四足+无感睡眠看护仪（运营商下场）——共同指向\"不做泛人形、All in 养老场景\"；可靠×星尘等上市公司联合研发标志产业链从\"单点突破\"走向\"生态协作\"。但\"1058 台是预售非交付\"\"999 元品控与产能不确定\"\"南京揭示场景非标与柔性操作短板\"等风险仍需跟踪首批 30 天留存与退货率。",
+   "type": "quote",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_c684c260a7",
+   "text": "轮换说明：近期已覆盖德国多代屋、新加坡、日本、荷兰 De Hogeweyk、英国 Extra Care、丹麦、瑞典、美国 CCRC、澳大利亚、法国 EHPAD、欧洲时间银行、韩国、加拿大、西班牙、意大利、瑞士；本期聚焦**新西兰**——与已覆盖的澳大利亚同处大洋洲却路径迥异：澳洲走\"普惠 Age Pension（资产审查）+ 强强制 Superannuation（12%）\"，新西兰走\"普惠 NZ Super（不看资产、人人同额）+ 弱自愿 KiwiSaver（3.5% 起步）\"，其\"第一层给得全球最高、替代率却 OECD 垫底\"的矛盾，对国内\"普惠养老金到底要普到什么程度\"\"房产能否作为养老隐形靠山\"有直球式镜鉴；其无国民性长护险、靠资产测试 Residential Care Subsidy + 居家养老（ageing in place）的安排，亦与国内\"长护险筹资 + 9073 居家主力\"形成对照。",
+   "type": "quote",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_ac8fdb6081",
+   "text": "**对万宁阿那亚等异地康养项目的参考价值**：新西兰\"居家养老为主、把压力留社区与家庭\"的逻辑，反向印证国内\"9073\"格局下社区居家是主力、机构是兜底；其\"资产测试才给补贴\"也提示国内消费补贴/长护险须设合理准入（避免普惠泛化致财政不可持续）。但新西兰\"不缴费人人有份、靠税收+房产\"底色与国内\"社会化缴费+多元筹资\"语境不同，支付机制不宜照搬。",
+   "type": "quote",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_d44e205770",
+   "text": "**【综合体/标杆】泰康之家·禅园 11-05 正式开园（维持前期基线）。** 泰康在大湾区运营的第三座大规模全功能医养社区，与粤园、鹏园、梅沙府构成\"三园一府\"。一期占地约 **28 亩**、总投资约 **10 亿元**、建面 **5.2 万㎡**、设养老单元 **660 个**；今年 10 月迎首批居民，已 **170 余位**入住；完全达产预计年营收超 **1.5 亿元**。建筑设计以佛山\"通济桥\"为内核；配建门诊部、医护 24 小时值守，距佛山市第二人民医院绿岛湖院区仅 **500 米**、开通绿色转诊。开业当日启动\"佛山银发经济产业供需对接平台\"，泰康在大湾区已与 **145 家**本土厂商深度合作；大湾区总规划养老床位约 **5000 张**，在住港澳台居民约 **255 人**。（来源：泰康之家官网、环球网、网易，2026-11-05/06）",
+   "type": "insight",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_28d913818e",
+   "text": "**【标杆/对岸样本】台湾长庚养生文化村（本期更新 2026 当期费率）。** 台塑集团王永庆创立、长庚医疗财团法人营运，桃园市龟山区，占地 **34 公顷**（约 **510 亩**），绿地约一半；2025 年底总容量增至 **1373 户**（全村规划 **4000 户**规模）。",
+   "type": "insight",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_62203ec637",
+   "text": "**案例主线**：险企养老社区进入\"开园即满负荷招商 + 产业链外溢\"阶段（泰康禅园带动佛山 145 家制造厂商、启动银发经济产业供需对接平台）；对岸长庚养生村 2026 当期数据更新（单人 2.75–3.25 万/月、最高 4.78 万、250 万安养信托、超 4000 人候补、等候超一年），其\"医养一体+义工自治+信托保障+排队机制\"长效样本对国内高端社区有成本结构与风控参考价值——尤其\"高入住率+长候补\"揭示高品质银发住宅的真实供需缺口。",
+   "type": "quote",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_elderly_2026-11-13_5d9811aa4b",
+   "text": "**【一周要闻速览（2026-11-13 综合）】**",
+   "type": "insight",
+   "board": "elderly",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_17f9709125",
+   "text": "1.1 国内头部案例观察",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_69b52e069c",
+   "text": "2.1 访谈梗概",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_5efc297fdc",
+   "text": "2.2 核心观点",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_bd5b47eaf4",
+   "text": "2.3 访谈金句",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_537e668c85",
+   "text": "1.2 国外头部案例\n**趋势判断与深度评估**：",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_958d95a998",
+   "text": "3.1 内容定位",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_1c9e7c075f",
+   "text": "3.2 提问框架",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_218913442e",
+   "text": "3.3 剪辑节奏",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_610f6f2e14",
+   "text": "3.4 流量密码",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_78c7ec5870",
+   "text": "【栏目精神·王阳明隐喻】「在坚硬的岩石缝隙，依旧可以开出花来。」（语境：栏目名取自王阳明「岩中花树」，喻女性在困境中生长）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_8b54bd2840",
+   "text": "节目五：Lex Fridman Podcast #503 × Brunton / Moitra / Kontorovich",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_7f63ce7077",
+   "text": "【Moitra·谈自然与计算】「There's the saying in physics that nature abhors a vacuum. My version of it is that in some sense, nature abhors computationally hard problems.」（物理说自然厌恶真空，我的版本是：某种意义上，自然厌恶计算困难的问题。——thepodcastsummary 真实引述）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_3245f7530c",
+   "text": "【栏目主题·Lex 引言】「AI theorem provers from labs like OpenAI and Anthropic are claiming answers to landmark problems…」（OpenAI、Anthropic 的 AI 定理证明器正在宣称解答地标性问题）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_c29747a33e",
+   "text": "【核心冲突·Kontorovich 视角】「the seismic impact of automated AI theorem-provers」（自动化 AI 定理证明器的地震级冲击）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_08ac9ddf46",
+   "text": "【方法论·Lean】「automated formal verification in Lean is reshaping scientific discovery」（Lean 中的自动形式化验证正在重塑科学发现）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_7f5a9f6f89",
+   "text": "【反直觉·湍流对照】「finite-time blowup in the 3D Navier-Stokes equations under smooth external forcing」（光滑外力下三维纳维-斯托克斯方程的有限时间爆破——曾被视作不可能）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_e3a6cd77bb",
+   "text": "2.4 访谈逐字稿\n【Moitra·谈自然与计算困难】（thepodcastsummary 真实引述，来源 `https://www.thepodcastsummary.com/episodes/ZAzWPE9CItg`） Moitra: 「There's the saying in physics that nature abhors a vacuum. My version of it is that in some sense, nature abhors computationally hard problems.」",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_74140d41a7",
+   "text": "**优先级 3（兜底）**：本期 Lex 官方完整逐字稿经本会话代理直连 lexfridman.com 不稳定（历史实证），以下为基于 thepodcastsummary 聚合摘要 + 真实引述的多源交叉核实「结构化还原（非逐字稿）」，已标注出处，未以提炼冒充逐字。唯一可确认的真实嘉宾原话（Moitra）如下：",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_1c5e4453b7",
+   "text": "【Moitra·谈自然与计算困难】（thepodcastsummary 真实引述，来源 `https://www.thepodcastsummary.com/episodes/ZAzWPE9CItg`）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_d4ab17f6a8",
+   "text": "【Lex·开场引入主题】（据 thepodcastsummary 还原）Lex Fridman 与 Steven Brunton、Ankur Moitra、Alex Kontorovich 共同分析：在 OpenAI 与 Anthropic 发布声称解决唯一博弈猜想、准黎曼假设、纳维-斯托克斯有限时间爆破的成果后，自动化 AI 定理证明器带来的「地震级」影响；他们探讨这些证明的数学有效性、对传统学术 career 与 mentorship 的冲击，以及 Lean 中的自动形式化验证如何重塑科学发现。",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_ec2a80b013",
+   "text": "【核心论点·逐条还原】（来源：thepodcastsummary「Key takeaways」）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_5b8a8be24d",
+   "text": "【栏目精神·Bartlett】「Raw, human conversations with the world's most fascinating experts, storytellers, thinkers and business leaders.」（DOAC 栏目定位）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_30b9d9d6cc",
+   "text": "【费孝通·谈文化理想】「各美其美，美人之美，美美与共，天下大同。」（语境：费孝通晚年提出的社会共处理想，本期反复回响）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_af9afd33ca",
+   "text": "【费孝通·谈治学】「志在富民。」（语境：其一生学术与实践的落脚）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_d65ebf34d8",
+   "text": "【许知远·谈第九季】「人只有真正认识到了自己的渺小，才能得见浩瀚的宇宙。」（语境：第九季以姚明「渴望一种渺小」开篇的方法论）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_b5aa435dd0",
+   "text": "【许知远·谈采访姿态】「许知远不再急于抛出判断，而是学会了在对方的世界里迷路。」（语境：第九季叙事手法的转变）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_ce15bab165",
+   "text": "【费孝通·谈江村】「26 岁写出《江村经济》，晚年留下《乡土中国》《中华民族多元一体格局》。」（语境：其学术坐标）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_42b2e321a9",
+   "text": "【栏目精神】「在知识被机器学习压缩和单调化的今天，我们为什么还要寻找费孝通？」（语境：本期核心时代之问）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_4f48055787",
+   "text": "2.4 访谈逐字稿\n「2026 年 9 月 16 日，节目在收官之际推出特别篇《寻找费孝通》（108 分钟），许知远重走费孝通做田野调查的路——江村、大瑶山、魁阁——把整季的『边界与限度』主题推向『知识分子与时代』的高度。费孝通（1910—2005），中国社会学、人类学奠基人之一，师从马林诺夫斯基，26 岁写出《江村经济》，晚年留下《乡土中国》《中华民族多元一体格局》。许知远沿着费孝通一生的足迹：江苏吴江开弦弓村（江村）、广西大瑶山、昆明『魁阁』旧址、云南禄村……重走他做田野调查的路，对话一代代研究、阅读费孝通的学者——北京大学博雅讲席教授邱泽奇（费孝通临终时唯一守在身边的",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_16160e67b9",
+   "text": "【官宣文案·谈表演】「为了角色磨练身体的表演方法论。」（语境：本期对话主题之一）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_d2ee3bbfae",
+   "text": "【官宣文案·谈新生】「撕开枷锁释放自我的感悟与新生。」（语境：本期收束主题）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_d7fec70b81",
+   "text": "【官宣文案·谈作品序列】「从《罗曼蒂克消亡史》到《我不是药神》再到《孤注一掷》，他用行动诠释着一个好演员的姿态。」（语境：@鲁豫有约 官宣文案）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_7aa2bc79f7",
+   "text": "2.4 访谈逐字稿\n「#鲁豫对话王传君# 本期#陈鲁豫慢谈# 的嘉宾是演员@王传君 。我们从最近的唱跳舞台聊起，聊了他三十岁那年的人生骤变，聊了争议背后的真实心境，也聊了一个演员如何把自己打碎、再慢慢长回来。11月9日12:00，欢迎观看。」",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_c6b9e180b2",
+   "text": "【仲树·谈历史坐标】「这是二战后美国第三次出现总统所属政党在中期选举中同时丢掉参众两院控制权的情况。」（语境：把 2026 结果放进历史规律，podscan 00:02:34 前后）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_0d00a96f54",
+   "text": "【仲树·谈选举定性】「美国媒体已经开始把这场中期选举称为一次蓝色海啸（Blue Tsunami）。对比前几年的蓝色波浪（Blue Wave），这场海啸来得更大。」（语境：podscan 00:01:37，真实引述）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_1e56d21924",
+   "text": "【仲树·谈选民反转】「为什么 2024 年帮助特朗普重新当选的选民，两年之后却让共和党在中期选举中遭受如此严重的失败？」（语境：podscan 00:01:37，核心设问）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_efb5062ee7",
+   "text": "【仲树·谈核心追问】「这究竟是一次普通的中期选举反弹，还是意味着特朗普建立的 MAGA 政治联盟正在瓦解？」（语境：podscan 00:02:04，核心冲突）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_7eabb6bc96",
+   "text": "【栏目精神·仲树】「在一个插科打诨的时代，我想大声思考每一个严肃的人都会关心的问题。」（语境：《独树不成林》栏目精神，metacast 简介）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_41e94622c4",
+   "text": "【媒体分析·南方日报】「本次选举事实上将特朗普推入两院失守的『跛脚鸭』执政状态。」（语境：南方日报数字报 2026-11-05，交叉引用，标注「媒体观点」）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_28204c1044",
+   "text": "2.4 访谈逐字稿\n【开场·选举结果速览】（podscan 00:00:12 真实引述） 仲树：「大家好，欢迎来到独树不成林。昨天晚上美国发生了一场共和党几十年来罕见的中期选举惨败。在 2026 年 11 月 3 日发生的特朗普第二任期中期选举中，民主党不仅夺回了众议院，也夺回了参议院，结束了共和党对国会两院的控制。截止今天上午，民主党在众议院已经赢回至少 231 个席位，超过 218 个席位的多数门槛。」",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_2cec073055",
+   "text": "【开场·选举结果速览】（podscan 00:00:12 真实引述）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_6962cd3a8c",
+   "text": "【参议院翻转·结构意义】（podscan 00:00:39 真实引述）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_b411671d1e",
+   "text": "【得票优势·历史坐标】（podscan 00:01:09 真实引述）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_1cd70269e0",
+   "text": "【核心设问】（podscan 00:01:37 真实引述）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_46fb561887",
+   "text": "【历史规律对照】（podscan 00:02:04–00:02:34 真实引述）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_dd89637f16",
+   "text": "本节金句分三类：官宣文案级（已确认，标注「官宣文案」）、媒体真实转述级（已确认，标注「媒体转述」）与正片级（待释出，标注「待官方释出」）。凡正片级均不作编造。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_ddc84f0b27",
+   "text": "【媒体转述·谈成年反思】「漫漫长路，在未来的时刻就要为那些冲动买单，现在得活得小心翼翼一点。」（语境：王传君承认当年锋利言行的代价）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_b0f753b238",
+   "text": "【媒体转述·谈红的暂时性】「这种红都是会过去的……当时演那个角色，也算完成任务了，但是有很多比较被动的问题，感觉完成得一般。」（语境：谈关谷神奇）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_5a77584696",
+   "text": "【媒体转述·谈表演召唤】「演的时候没听到表演的『召唤』。」（语境：王传君评价《爱情公寓》时期状态）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_067673f993",
+   "text": "王传君坦言，演《爱情公寓》的时候没有听到表演的「召唤」，觉得这就是一份工作；有人认为关谷神奇这个角色让王传君红了，对此他表示「这种红都是会过去的，当时演那个角色，也算完成任务了，但是有很多比较被动的问题，感觉完成得一般」。2018 年，王传君曾公开称《爱情公寓》「越看越像一部广告片」，直言关谷神奇这个角色「跟傻子一样」，并拒绝出演电影版和第五季，相关言行引发巨大争议。当被问及以今天的处事方式，是否还会像当年那样表达时，他直言：「当年我脑子里只有『关我屁事』和『关你屁事』这两句话。特别不接受任何人的绑架。」同时他也承认代价，「漫漫长路，在未来的时刻就要为那些冲动买单，现在得活得小心翼翼一点。」",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_2735be4c96",
+   "text": "说明：以上为微博官宣文案 + 媒体真实转述的结构化还原，非节目原声逐字；如后续官方释出字幕/文稿，应以官方原文替换本节。凡正片级内容、金句与逐字稿，均待官方统一释出后补全，未以想象填充。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_4244696a42",
+   "text": "【媒体转述·谈配得感】「配得感很低……一定要拿一个『正儿八经的最佳男主』——不是让人觉得『演几分钟就拿男主』的那种。」（语境：新浪娱乐 2026-11-10 释出，谈东京影帝与下一步目标）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_148674f6dd",
+   "text": "【媒体转述·谈 rap】「没敢写（东京影帝），怕给人家添麻烦……这个奖本身是没有问题的，这的确是 A 类电影节的奖。」（语境：谈未把东京影帝写进 rap《我的B面》，新浪娱乐 2026-11-10）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_8ad6481c57",
+   "text": "【待官方释出·金句】关于「打碎—重建」「争议心境」「配得感」的正片原话，待官方字幕/逐字稿统一释出后补全，本期不预填。",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_890a3b568c",
+   "text": "本节观点基于官宣文案、栏目方法论与媒体真实转述（含可溯源金句），因官方完整逐字稿尚未统一释出，第 6–8 点及部分细节标注「待官方释出 / 媒体延伸」，未以编造的具体表述冒充嘉宾原话。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_be3ec25595",
+   "text": "【媒体转述·谈争议与代价】「当年我脑子里只有『关我屁事』和『关你屁事』这两句话。特别不接受任何人的绑架，你算什么？」（语境：王传君回应 2018 年《爱情公寓》言论争议，锦观/红星/搜狐/腾讯/新浪/网易/头条多源一致）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_cd3635f45d",
+   "text": "【媒体转述·谈 2016 骤变】「集中体验了所有人生极致的事，生离死别全都有……母亲出殡之后，好像再没有什么事能轻易刺痛他。」（语境：网易 2026-11-12 释出，谈三十岁骤变）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_0565644b57",
+   "text": "说明：以上为 podscan transcript 真实摘录（中文），非二手转述；媒体分析（南方日报/网易/澎湃）作为交叉背景引入，已标注「媒体观点，非仲树原话」。凡 podscan 未覆盖的细节（如具体州长得票率）均未编造。EarsOnMe 聚合显示 EP375 已获 49k+ 次播放、栏目全量 389 集，作为传播侧第三方数据列于金句与背景，标「待独立核实」。podscan 真实受众画像（51% 男 / 47% 女）与往期引用的「第三方微信整理文称约八成女性」口径冲突，二者并列标注「待独立核实」，本期以 podscan 官方聚合口径为主呈现。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_fc5138f86d",
+   "text": "节目四：《十三邀》特别篇《寻找费孝通》+《十三邀·见非凡》梁家辉（金鸡影帝 11-10 互文）",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_f86789a1b8",
+   "text": "【吴越·谈失去】「沙发没了就换椅子，椅子没了换板凳，板凳没了就坐地上。」（语境：第九季第 13 期，被剪辑成短视频广泛传播）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_72f4ab38a3",
+   "text": "说明：以上为聚合源结构化还原，非 Lex 官方原声逐字；如后续代理恢复对 lexfridman.com 直连，应以官方 transcript 替换本节。Lex #490「State of AI in 2026」为 2026 年内重要单集（lexfridmanindex 可检索），内容涵盖 Scaling Laws、开源 vs 闭源、GPU 约束、中国 AI 与 AGI 时间线，本期仅作背景提及，未列为独立节目章节。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_f52ad9355f",
+   "text": "**双轨说明**：本日报执行「国内原有内容保留 + 国内外头部访谈栏目案例观察 + ⭐行业资讯观察（自媒体端 / 文化现场端）」三轨并行。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_8ef5561e7f",
+   "text": "- **轨一（国内原有）**：筛选国内优质人物访谈、商业访谈、行业大咖访谈节目片段/全集；本期重点覆盖《陈鲁豫·慢谈》王传君（11-09 12:00 上线，截至 11-13 仍在媒体长尾释出与金鸡奖后续注脚期；11-13 搜狐娱乐、封面新闻/华西都市报等继续围绕第 39 届金鸡奖做「梁家辉开工了」「王传君失落」「明星表情江湖」的二度解读）、《岩中花述》**S8E3 扎十一惹**（本期新增——据 Apple 播客 / Spotify / 微信多源一致，该期于 **2026-11-12 上线**，系 11-13 当日可核验的最新一期「当期新更」级内容，主题「从此我们不忧伤、不害怕」）、《独树不成林》（EP375 中期选举专题，podscan 显示全量 389 集、EP375 获 49k+ 次播放、真实受众 51% 男 / 47% 女，与往期「八成女性」第三方口径存在冲突，特标注）、《十三邀》（费孝通特别篇仍为第九季收官可检索期次；本期将 11-10 揭晓、11-12/11-13 持续发酵的第 39 届金鸡奖与许知远相关的文化事件纳入，梁家辉凭《捕风追影》首提首中金鸡影帝、其「拿了奖不代表可以收工，咱们开工了」获奖感言被《人民日报海外版》11-13 引述，与《十三邀·见非凡》EP04 形成互文）。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_403c99ded2",
+   "text": "- **轨二（头部案例观察·新增）**：对《陈鲁豫·慢谈》《岩中花述》《独树不成林》《十三邀》《The Diary Of A CEO》《Lex Fridman Podcast》等国内外头部栏目做专项拆解（内容差异化、受众偏好、叙事框架、提问逻辑、剪辑手法、轻量化剪辑与流量密码）。本期 DOAC 头条以 **Robert Pape（伊朗战争专家，11-05 上线，「escalation trap 升级陷阱」论述）** 为当前可检索最新高声量期次（podcast-insider / orply / muckrack 多源一致）；上期报告（11-12）覆盖的 Katt Williams（11-09）在本期 11-13 检索的 podcast-insider / orply / canoncannon / muckrack 聚合源中未再作为「最新一期」出现，二者存在「期次/日期口径冲突」，已在正文与数据来源章标注「待核实」。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_2ec8b1c924",
+   "text": "- **轨三（⭐ 行业资讯观察·自媒体端 + 文化现场端）**：聚焦「媒体/内容/访谈行业」与「当日文化对谈现场」，抓取近 1–2 周高声量内容（文章+视频+线下对谈），含真实标题、平台/博主、真实可访问 URL、热度指标与核心观点；本期重点新增 **11-13 当日两场真实文化对谈现场**——北京电影学院「北电大讲堂」毕飞宇 × 梅峰《文学与影像中的未言之域》（14:00–17:00）、上海「真实会客厅」《珍藏在上海的长征记忆》放映分享会（14:00–16:00）、蒲公英童书馆「景上花开·有光女性」第十五期曹怡玲（古琴文化策展人）；以及 11-13 持续发酵的金鸡奖后续报道（梁家辉「开工了」、搜狐娱乐「明星表情江湖」）、益普索《2026 播客行业报告》精细化数据等。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_934b3479fa",
+   "text": "**本期节目列表（6 档）**：①《陈鲁豫·慢谈》× 王传君（11-09 12:00 上线·当期新更，11-13 仍在金鸡后续注脚期；王传君凭《南京照相馆》三提三空手、梁家辉首提首中影帝形成互文）；②《岩中花述》S8E3 × 扎十一惹（**11-12 上线·本期唯一可确认的「近 24 小时新更」级女性深度对谈**，主题「从此我们不忧伤、不害怕」）；③《独树不成林》EP375 × 仲树（中期选举专题·11-03/11-05 上线，podscan 显示全量 389 集、Apple 社会文化榜 Top10、真实受众 51% 男/47% 女）；④《十三邀》特别篇《寻找费孝通》（第九季收官·09-16）+《十三邀·见非凡》梁家辉（金鸡影帝 11-10 互文，感言 11-13 被《人民日报海外版》引述）；⑤ Lex Fridman Podcast #503 × Brunton/Moitra/Kontorovich（AI 与数学危机·10-26，illiterati 显示仍为最新一期）；⑥ The Diary Of A CEO × Robert Pape（伊朗战争专家·11-05 上线，本期检索到的 podcast-insider/orply/muckrack 将其列为栏目当前最新高声量期次；Katt Williams 11-09 上期覆盖、本期标注口径冲突）。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_d351be0d42",
+   "text": "**模板版本**：第五次迭代 v5（节目为中心）+ 头部案例观察四列表（1.1 国内 / 1.2 国外）+ 行业资讯（自媒体端 + 文化现场端）。标题层级：`##` 一~六 / `###` 1.1·1.2·节目N / `####` 2.1~2.4。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_e99abff2b9",
+   "text": "**数据抓取时间**：2026-11-13（WebSearch / WebFetch，外网经本会话代理可用）。**数据窗口说明**：本期各栏目「最新可检索期次」并非均落在 11-13 当日——其中《岩中花述》S8E3 扎十一惹确于 2026-11-12 上线（Apple 播客 / Spotify / 微信多源一致，属本期唯一可确认的「近 24 小时新更」级内容），截至 11-13 已有微信长文与小红书切片释出对话要点；《陈鲁豫·慢谈》王传君一期确于 2026-11-09 12:00 上线（属上期新更，截至 11-13 已有锦观/红星/网易/搜狐/腾讯/新浪/头条等媒体释出对话要点与真实金句，且 11-10 金鸡奖、11-13 金鸡后续报道使该期「配得感」「三提三空手」母题获持续注脚）；《独树不成林》EP375 为 2026-11-03/11-05 上线（本期维持覆盖，新增 podscan 真实受众画像与 Apple 榜单数据）；《十三邀》费孝通特别篇分别早于当日约 8 周，且 11 月上旬暂无更新信号；The Diary Of A CEO 当前可检索最新高声量期次按 11-13 检索为 Robert Pape（11-05），与上期覆盖的 Katt Williams（11-09）存在口径冲突；Lex Fridman #503 为 2026-10-26。凡此类情况均已在正文标注具体可核验日期，未以「当日新更」作虚假表述。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_a1bcf2dc54",
+   "text": "节目一：《陈鲁豫·慢谈》× 王传君（2026-11-09 当日上线；11-10 金鸡奖注脚；11-13 金鸡后续持续发酵）",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_eb0d5f4925",
+   "text": "说明：以上梗概基于官方官宣文案（微博，2026-11-08/09）+ 锦观新闻/红星新闻/洪观新闻/宁波晚报/网易/搜狐娱乐/腾讯新闻/新浪娱乐/头条/搜狐娱乐（11-13 后续）等媒体转述（2026-11-09 至 11-13）还原；凡官方正片逐字稿未公开处仍标注「待官方释出」，未以想象填充。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_8b2976c4d0",
+   "text": "【媒体转述·谈金世佳】「他比我能唠……你们高低要谈一次。」（语境：王传君推荐鲁豫约金世佳，新浪娱乐 11-10）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_760a871f25",
+   "text": "【媒体后续·谈金鸡失落】「连最佳男配角都没争到……把这次失利看得比上一次的国际影帝头衔还重。」（语境：搜狐娱乐 2026-11-13 金鸡后续报道《梁家辉、高叶，导三代摘金鸡奖，明星表情变化上演另一种江湖》，标注「媒体后续解读，非嘉宾原话」）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_6ab5e69eab",
+   "text": "**优先级 2（可用·媒体交叉核实）**：本期正片于 2026-11-09 12:00 上线，官方统一逐字稿截至 11-13 尚未完整释出；但锦观新闻、红星新闻、洪观新闻、宁波晚报、网易、搜狐娱乐、腾讯新闻、新浪娱乐、头条等媒体已释出可交叉核实的对话真实引述（多源一致）。以下为基于微博官方官宣文案（真实文本）+ 媒体真实转述（真实引述）的结构化还原，已标注出处；未以提炼冒充逐字。官方官宣原文如下（来源 `https://weibo.com/6212695115/5362225306402939`，抓取 2026-11-13）：",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_ddd112a27a",
+   "text": "媒体转述真实引述节选（来源：锦观新闻 `http://mp.weixin.qq.com/s?__biz=MzA3MTkyOTAxNw==&mid=2651406482&idx=2&sn=493531ef252b820ed0a71e68c1ab2ebd`，抓取 2026-11-13）：",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_2d02bad83b",
+   "text": "延伸真实引述（来源：新浪娱乐 `https://ent.sina.cn/2026-11-10/detail-iniyfkmh9381955.d.html`，抓取 2026-11-13）：王传君在鲁豫访谈中解释，没把东京影帝写进 rap《我的B面》是「没敢写，怕给人家添麻烦」，追问给谁添麻烦，他说「给同事们添麻烦」；他紧接着补「这个奖本身是没有问题的，这的确是 A 类电影节的奖」，回避的是话题而非否认荣誉；他形容自己「配得感很低」，从小生活环境让他「连反叛都来得这么晚」；所谓「正儿八经」的最佳男主，就是「不会让你觉得，他演了几分钟就拿男主了」，他点名金鸡、百花、香港金像、釜山等为下一步方向。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_707e6154d3",
+   "text": "2016 骤变细节（来源：网易 `https://www.163.com/dy/article/LBDN6F7R05566G0S_pdya11y.html`，抓取 2026-11-13）：王传君在节目中第一次较完整剖白 2016 年——好友乔任梁离世、年底母亲抗癌多年后病逝，他称那一年「集中体验了所有人生极致的事，生离死别全都有」，整个人「翻了一个面」；母亲出殡那天之后，好像再没有什么事能轻易刺痛他，想明白所有人的归宿都一样，就不想再为迎合别人活着。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_8b0a36d1ee",
+   "text": "金鸡奖现实注脚与后续（来源：封面新闻/华西都市报 `https://e.thecover.cn/shtml/hxdsb/20261112/254272.shtml` 与搜狐娱乐 `https://yule.sohu.com/a/1100930951_121629229`，抓取 2026-11-13）：第 39 届金鸡奖 11-10 揭晓，王传君凭《南京照相馆》王广海提名最佳男配角，被舆论称为「三次提名三次陪跑」；其三次金鸡男配提名分别对应《我不是药神》吕受益、《孤注一掷》潘生、《南京照相馆》王广海。11-13 搜狐娱乐后续报道将王传君的「失落」纳入金鸡「明星表情江湖」的二度解读，称其「连最佳男配角都没争到……把这次失利看得比上一次的国际影帝头衔还重」。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_8cc97cca46",
+   "text": "节目二：《岩中花述》S8E3 × 扎十一惹（2026-11-12 上线·本期唯一可确认的「近 24 小时新更」级女性深度对谈）",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_7d3e12129e",
+   "text": "【扎十一惹·谈活下去】「活下去，像牲口一样的活下去。」（语境：引《芙蓉镇》台词，与鲁豫同诵，微信长文/节目页多源）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_82083cc694",
+   "text": "【扎十一惹·谈生命力】「我的朋友形容过我，好像某种植物的种子，风把我吹到哪里，我就在哪里生长。下雨了又把我冲走了，我就在那里生长。」（语境：谈野蛮生长，小红书/微信切片）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_e0a143e965",
+   "text": "【扎十一惹·谈贫困】「贫穷这件事，本质就像听力健全的人永远没法真正共情听障者。」（语境：谈贫富鸿沟的不可共情）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_fa57ebc5ed",
+   "text": "【扎十一惹·谈爱】「我觉得爱是一件很瞬间的事情……爱好像是一段一段的。」（语境：谈亲情与爱情的波动式）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_265921a9cf",
+   "text": "【鲁豫·谈成功定义权】「的确要把成功的定义权掌握在自己手里，这个太重要了，在自己定义的成功范围内尽可能的成功。」（语境：鲁豫回应扎十一惹，微信二创）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_e28dd821fc",
+   "text": "【收束·扎十一惹】「祝我们不忧伤，不害怕。」（语境：节目尾声对鲁豫的回应，S8E3 主题句）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_ac3a8bced7",
+   "text": "【鲁豫·比作玻璃娃娃】「（扎十一惹）外表柔和看似易碎，内里扎实坚韧，摔落在木地板上还能弹起，磕碰只会留下浅淡划痕，内核永远不会崩塌。」（语境：鲁豫以「实心玻璃娃娃」喻扎十一惹，微信长文）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_6adb5a573d",
+   "text": "2.4 访谈逐字稿\n「S8E3 鲁豫对话扎十一惹 | 从此我们不忧伤、不害怕 – 本节目由GIADA出品，JustPod制作发行 –【本期嘉宾】扎十一惹，前记者、作家 陈鲁豫，媒体人、主持人【本期节目介绍】岩中花述第八季第三期节目，鲁豫「收到」了扎十一惹童年收藏的「玻璃娃娃」。她是云南深山寨子里长大的女孩，是以「南山」为笔名的悬疑作家，也是书写自我的非虚构作者。小时候，寨子里不到一百人，她的生活离公路、学校、医院很远，和动物很近。右耳进了谷子、冲破耳膜失聪，放鸮归林、手掌被抓出贯穿伤，砍柴伤到膝盖、露出白骨......对寨子里的人而言只是「小事」，只有「活下去」压倒一切。她",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_6a96bdb7d6",
+   "text": "**优先级 2（可用·节目官方介绍 + 微信长文交叉核实）**：本期正片于 2026-11-12 上线，官方统一逐字稿未以公开文本形式释出；但 Apple / Spotify / 微信节目页提供真实节目介绍，且多篇微信长文释出可交叉核实的对话真实引述。以下为基于节目官方介绍（真实文本）+ 微信长文（真实引述）多源交叉核实的「结构化还原（非逐字稿）」，已标注出处，未以提炼冒充逐字。节目官方介绍原文如下（来源 `https://open.spotify.com/episode/3tYfnrkm8Hoc22nfNs6RC0`，抓取 2026-11-13）：",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_81261c62b9",
+   "text": "「S8E3 鲁豫对话扎十一惹 | 从此我们不忧伤、不害怕 – 本节目由GIADA出品，JustPod制作发行 –【本期嘉宾】扎十一惹，前记者、作家 陈鲁豫，媒体人、主持人【本期节目介绍】岩中花述第八季第三期节目，鲁豫「收到」了扎十一惹童年收藏的「玻璃娃娃」。她是云南深山寨子里长大的女孩，是以「南山」为笔名的悬疑作家，也是书写自我的非虚构作者。小时候，寨子里不到一百人，她的生活离公路、学校、医院很远，和动物很近。右耳进了谷子、冲破耳膜失聪，放鸮归林、手掌被抓出贯穿伤，砍柴伤到膝盖、露出白骨......对寨子里的人而言只是「小事」，只有「活下去」压倒一切。她这样结实地成长，像一颗种子，能在任何地方扎下根去、吸饱水分、奋力长大。一步步走出寨子，乡、镇、县、州、市，她偶然得知可以在未来延续与动物的亲密，成为一名「大型动物兽医技师」，便跟随那个愿望只身来到美国。此前，卸下纠缠多年的「恐慌症」、离开「人上人」的婚姻生活，她真正感受到了「自我解放」的幸福。如今，她不忧伤、不害怕，因为还有写作、还有寨子，安静地等待她可能的「返乡」。」",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_f961e81009",
+   "text": "微信长文真实引述（来源：`http://mp.weixin.qq.com/s?__biz=MzY4ODMwNjQzNQ==&mid=2247484133&idx=1&sn=84c6dc771e7d3a9c5b8a668fbf0a934a`，抓取 2026-11-13）：",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_0c5200341c",
+   "text": "扎十一惹谈童年：「右耳钻进谷子，谷粒发芽戳破耳膜，现在这只耳朵听力受损、近乎单耳失聪。我们寨子没有公路、诊所、自来水，全村百来人，磕碰受伤都是家常小事，没人会小题大做。」谈活下去：「《芙蓉镇》里那句台词是我撑过无数低谷的底气：活下去，像牲口一样地活下去。哪怕读书失败、前路全无指望，我还有退路回寨子种地喂牲口，这份兜底的踏实，是别人拿不走的底气。」谈爱：「今年我34岁，在我眼里爱是分段、有阶段性的……拿初恋举例：出发回寨子的时候他是爱我的；身处寨子那个环境里，他承受不住落差，那一刻爱意出现断点；离开寨子回到城市，他对我的爱意又回来了。」",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_ba92438809",
+   "text": "收束（来源：同上）：对话尾声，扎十一惹把鲁豫比作实心玻璃娃娃，轻声唱起《马铃儿响来玉鸟唱》里「从此阿妈不忧伤」，说走过半生才明白「不忧伤」已是极高境界，再加一份不害怕，便是最好的人生祝愿。鲁豫说：「祝你拥有广阔的世界，扎十一惹小姐！」她笑着回应：「祝我们不忧伤，不害怕！」",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_ff26af33b3",
+   "text": "说明：以上为节目官方介绍文本 + 微信长文引述的结构化还原，非节目原声逐字；如后续官方释出字幕/文稿，应以官方原文替换本节。本期标注：经 2026-11-13 检索，《岩中花述》S8E3 扎十一惹为第八季第三期，2026-11-12 上线，系本期唯一可确认的「近 24 小时新更」级内容，故以「当期新更」表述。往期样本（11-12 日报）曾以「S7E9 小帕」「S9E9 刘索拉」为女性叙事双样本作长尾观察；本期聚焦 S8E3 扎十一惹这一真实新期，往季节目仅作背景交叉引用，未重新断言其具体季数以免与检索结果冲突（检索显示当前在更季数为第八季）。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_77b858f393",
+   "text": "节目三：《独树不成林》EP375 × 仲树（中期选举惨败后共和党何去何从）",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_4dcf41c704",
+   "text": "【传播数据·EarsOnMe】「EP375 已获 49k+ 次播放，栏目全量 389 集。」（语境：第三方聚合平台真实元信息，2026-11-13 检索，标注「聚合数据，待独立核实」）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_5c111c9df7",
+   "text": "【真实画像·podscan】「受众性别 51% 男 / 47% 女、18–34 占 55%；Apple 社会文化榜中国区第 9。」（语境：podscan 官方聚合真实元信息，2026-11-13 检索，标注「官方聚合口径，与第三方『八成女性』口径冲突，待独立核实」）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_90e5120972",
+   "text": "**优先级 1（可用）**：本期 podscan 提供完整 transcript（真实逐字），以下为按时间轴摘录的嘉宾原话（中文为 podscan transcript 原文，来源 `https://podscan.fm/podcasts/du-shu-bu-cheng-lin/episodes/375-zhong-qi-xuan-ju-can-bai-hou-gong-he-dang-he-qu-he-cong`，抓取 2026-11-13）。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_6a01935b84",
+   "text": "**【主播背景补充·仲树档案（第三方整理，标注待独立核实）】**：据 2026-11-13 可检索的微信整理文与小宇宙「臧否人物005 仲树」（`https://www.xiaoyuzhoufm.com/episode/6a8a16371352af56ff3a661f`），仲树（公开身份为波士顿学院政治哲学博士候选人、布兰迪斯大学兼职讲师）以两年内从数千订阅做到约 50 万订阅、听众约八成为女性著称；译著涵盖阿伦特《人的境况》《心智生活》《黑暗时代的人们》《在坠落中持续飞行》及普鲁塔克《如何从敌人身上获益》等；2026 年因对诺兰的 17 分钟英文访谈（围绕荷马《奥德赛》、古典文明）出圈。其频道内容三足鼎立：政治哲学经典解读约三分之一、人生方法与自我技术约三成、美国政治与社会近两成。**需注意**：仲树及其频道存在「洗稿/汉化抄袭」争议——2024 年其多期节目被质疑引用海外播客内容（含语音转录软件将「corps」误识别为「court」导致出现不存在的「卫生法庭、扫盲法庭」说法），其专栏文章《大学怎样对抗AI作弊》被指洗稿《大西洋月刊》；第三方取证报告（微信，针对 EP367 讨论 Camille Paglia《Sexual Personae》）结论为「高度依附于单本经典文本的结构化转述/学术导读，披露充分，不构成隐瞒来源的偷窃」，但核心论证与原著第一章对应度超 85%（来源微信取证报告，标注「第三方取证，非当事方定论」）。以上均作为背景引入，不影响 EP375 内容本身的真实引述。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_bff24f3687",
+   "text": "【梁家辉·谈职业】「不是明星，职业而已。」（语境：颁奖前夜独自坐高铁被认出时的回应，封面新闻/华西都市报 11-12 引）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_c67e1601e3",
+   "text": "【梁家辉·谈开工】「拿了奖不代表可以收工，咱们开工了！」（语境：金鸡奖获奖感言，被《人民日报海外版》2026-11-13 引述）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_e113153cab",
+   "text": "**优先级 3（兜底）**：本期费孝通特别篇无官方公开发布的全文逐字稿/字幕，以下为基于微信节目资料页（真实文本，含完整分集介绍与特别篇详述）+ 百度百科第九季（真实文本）的「结构化还原（非逐字稿）」，已标注出处，未以提炼冒充逐字。节目资料页原文节选如下（来源 `http://mp.weixin.qq.com/s?__biz=MzI5NTk3OTAzMg==&mid=2247486383&idx=1&sn=99a82936287db3ffe9a63732aefba767&chksm=ed258de6a0a9be1320617282da545277d246ba25dcbeae27726854fd89451c8edbb5ef9eab4e`，抓取 2026-11-13）：",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_52ed211706",
+   "text": "梁家辉金鸡之夜（关联事件，来源：封面新闻/华西都市报 `https://e.thecover.cn/shtml/hxdsb/20261112/254272.shtml` 与搜狐娱乐 `https://yule.sohu.com/a/1100930951_121629229`，抓取 2026-11-13）：第 39 届金鸡奖 11-10 揭晓，梁家辉凭《捕风追影》傅隆生获最佳男主角，「68 岁首提首中，三金大满贯」；获奖感言「拿了奖不代表可以收工，咱们开工了！」高叶凭《南京照相馆》林毓秀获最佳女主角，称「路虽远，行则将至，热爱终有回响」；《南京照相馆》获最佳故事片。梁家辉在金鸡后台回应「独自坐高铁参加金鸡奖」上热搜一事，透露拍完《捕风追影2》当天戏份便坐火车来厦门，「其实当时自己旁边是有工作人员的，只是刚好她们去小卖部买东西」。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_a376c4086c",
+   "text": "说明：以上为微信节目资料页文本 + 封面新闻/华西都市报/搜狐娱乐报道的结构化还原，非节目原声逐字；如后续官方释出字幕/文稿，应以官方原文替换本节。第九季全季豆瓣评分 9.6 分（据微信资料页标注，为全季口径，特别篇单集评分待核实）。梁家辉金鸡影帝属与《十三邀·见非凡》相关的关联文化事件，非费孝通特别篇内容，已明确标注。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_4670e732d0",
+   "text": "节目六：The Diary Of A CEO × Robert Pape（2026-11-05 上线·本期检索到的栏目当前最新高声量期次）",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_f0120fbef1",
+   "text": "【Pape·谈升级陷阱】「Three Crises Could Turn Eight Weeks Into an Escalation Trap」（orply 摘要；Pape 论美权力交接、伊朗战争、乌克兰风险三线叠加）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_f37ac4e8b0",
+   "text": "【Pape·谈时间窗口】「If This Escalation Continues, 2027 Will Be Devastating!」（podcast-insider 标题，Pape 对持续升级的预判）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_27f6445b6f",
+   "text": "【跨期互文·Ek】「在真正承诺这个想法之前，光是『为什么不』的部分，我大概花了 500 小时去研究这个问题。」（Daniel Ek，DOAC 上期，本期作对照引用，标注「上期覆盖」）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_d42c1264d3",
+   "text": "【栏目度量·muckrack】「32.6M monthly listeners；4.61 rating / 94.0K ratings；average episode 1h28m」（muckrack 栏目页，2026-11-13 检索，标注「第三方聚合口径，待独立核实」）",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_4d2a05f618",
+   "text": "2.4 访谈逐字稿\n「Three Crises Could Turn Eight Weeks Into an Escalation Trap. Political scientist Robert Pape argues that the risk lies in three crises reinforcing one another: turmoil around the US transfer of power, a widening war with Iran and a possible Russian escalation in Ukraine. In an i",
+   "type": "case",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_20db1c95cb",
+   "text": "**优先级 3（兜底）**：本期无官方全文逐字稿公开，podcast-insider / orply / muckrack 等聚合源提供真实摘要与期次列表，以下为基于聚合源真实摘要（podcast-insider / orply）的结构化还原（非逐字稿），已标注出处，未以提炼冒充逐字。orply 摘要原文（来源 `https://orply.com/leaders/steven-bartlett`，抓取 2026-11-13）如下：",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_f21efac5a0",
+   "text": "说明：以上为聚合源结构化还原，非 DOAC 官方原声逐字；正片以官方 YouTube / Spotify 为准。本期 DOAC 头条按 11-13 检索到的 podcast-insider/orply/muckrack 主列表，以 Robert Pape（11-05）为高声量近期期次；上期报告（11-12）覆盖的 Katt Williams（11-09，canoncannon 标注 1h50m）在本期检索的 podcast-insider/orply/muckrack 聚合源中未再作为「最新一期」出现，二者存在「期次/日期口径冲突」，已在正文与数据来源章标注「待核实」，未以「当日新更」作虚假表述。如后续官方释出完整 transcript，应以官方原文替换本节。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_4cf070f81d",
+   "text": "聚焦「媒体/内容/访谈行业」与「当日文化对谈现场」近 1–2 周高声量内容，区分文章、视频与线下对谈，标题、平台/博主、真实 URL、热度指标与核心观点如下（抓取时间 2026-11-13，外网经本会话代理可用）。本期重点新增：**11-13 当日两场真实文化对谈现场**（北京电影学院「北电大讲堂」毕飞宇 × 梅峰、上海「真实会客厅」《珍藏在上海的长征记忆》放映分享会、蒲公英童书馆「景上花开·有光女性」第十五期曹怡玲）；以及 11-13 持续发酵的金鸡奖后续报道（梁家辉「开工了」、搜狐娱乐「明星表情江湖」）、益普索《2026 播客行业报告》精细化数据等。",
+   "type": "quote",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_1e7d52da2b",
+   "text": "**1. 【事件/颁奖后续】第 39 届中国电影金鸡奖 11-10 揭晓、11-13 持续发酵：高叶影后、梁家辉影帝、王传君三提三空手**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_7f3d4d3ef1",
+   "text": "**2. 【文化现场·对谈】北电大讲堂：作家毕飞宇与导演梅峰对谈「文学与影像中的未言之域」（11-13 当日）**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_0baa283a4b",
+   "text": "**3. 【文化现场·访谈】景上花开「有光女性」访谈系列第十五期：曹怡玲（古琴文化策展人，11-13 当日）**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_7d80d96cc9",
+   "text": "**4. 【文化现场·放映分享会】纪录片《珍藏在上海的长征记忆》放映分享会（11-13 当日，上海）**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_27dcf9222f",
+   "text": "**5. 【事件/官宣】鲁豫对话王传君 11 月 9 日 12:00 上线，11-13 金鸡后续仍将其「失落」作为注脚**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_b2118e3050",
+   "text": "**6. 【文章/专访】陈鲁豫：一个做了 33 年访谈的人，被网友造的一个词问住了**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_2553c77678",
+   "text": "**7. 【文章】名人构成了一个小圈子，大家就会不耐烦地划走**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_55943bc525",
+   "text": "**8. 【报告】益普索《2026 播客行业报告》：视频、名人、AI 将把播客带向何方**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_bc0652a55b",
+   "text": "**9. 【报告】CPA《中文播客白皮书 2026》：1.5 亿听众与「三高」画像**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_05165d246c",
+   "text": "**10. 【报告】国家广电总局《2026 年网络音频发展报告》：首份官方网络音频报告**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_09540d50a5",
+   "text": "**11. 【文章】视频化推动中文播客从小众走向大众**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_502686b23f",
+   "text": "**12. 【文章/视频】「所有人采访所有人」：当播客走向大众**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_ad74082d48",
+   "text": "**13. 【文章】播客靠什么走红走远（艺文观察）**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_972304c607",
+   "text": "**14. 【文章/数据】「跛脚鸭」折射美国政治困局（中期选举专题，与《独树不成林》EP375 互文）**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_94a7ae07fd",
+   "text": "**15. 【文章】Trump 最危险的时刻来了：MAGA 支持者开始质疑特朗普本人**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_interview_2026-11-13_72fe7b9404",
+   "text": "**16. 【文章】DOAC 登顶 YouTube 美/加双区「最受欢迎播客」周榜**",
+   "type": "insight",
+   "board": "interview",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_17bfbb5308",
+   "text": "6.1 城市专项观察",
+   "type": "case",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_5dcd8b861e",
+   "text": "宁波",
+   "type": "case",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_5f1120f64a",
+   "text": "宜兴（含梅林府高端项目监测）",
+   "type": "case",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_45bb83e7d8",
+   "text": "6.4 宁波重点项目跟踪",
+   "type": "case",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_b8c3357cf3",
+   "text": "6.2 阿那亚系列项目跟踪（秦皇岛 / 九龙湖 / 雾灵山 / 金山岭 / 常熟 / 三亚）",
+   "type": "case",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_7e05ca7439",
+   "text": "**（b）【上海二手房市场筛选·本期持续关注】五维框架**",
+   "type": "insight",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_4b01d99929",
+   "text": "实测数据优先，标注来源与时间。综合候选（非荐买）：桃浦老工房 / 杨浦周家嘴路 / 徐汇长桥凌云 + 世博板块（本期重点实例）；风险：房龄贷款限制、远郊流动性弱、风貌区无拆改可能、不宜纯赌拆迁。",
+   "type": "quote",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_8d77e5860e",
+   "text": "6.5 万华系项目跟踪（成都麓湖生态城 / 武汉麓洲 / 万宁万岭麓湾 / 三亚麓之丘·东岸麓州）",
+   "type": "case",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_30b8852121",
+   "text": "数据源：① 链家/贝壳世博商圈成交房源页；② 上海网上房地产二手网签（全市/浦东宏观量）；③ 幸福里/我爱我家/安居客/大房鸭世博小区在售。",
+   "type": "quote",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_59356306e6",
+   "text": "聚焦楼市政策/房价走势/买房逻辑/城市选择/房企风险，检索近 1–2 周高声量内容。区分文章与视频，链接须真实可访问，无法核实标「链接待核实」。",
+   "type": "quote",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_69f9053488",
+   "text": "按项目分栏：酒店/民宿、商业、活动、园区客流、价格入住率、营业额。当日无法获取项标注「待补充」，条目保留。",
+   "type": "quote",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_3f564fa35f",
+   "text": "上海（含【上海二手房市场筛选·五维框架】）\n**（a）核心板块 / 改善豪宅 / 土拍与二手韧性**",
+   "type": "insight",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_6a941c0a66",
+   "text": "6.7 武清楼市专项跟踪（天津·长期关注）",
+   "type": "case",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_5ce35192e3",
+   "text": "本工作台持续关注武清作为京津通勤外溢与低总价刚需承接板块，本期补充官方/第三方真实数据。",
+   "type": "quote",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_54d492ef75",
+   "text": "6.8 诸暨楼市专项跟踪（绍兴·长期关注）",
+   "type": "case",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_c71a5c5ab4",
+   "text": "本工作台持续关注诸暨作为杭州外溢与县域改善承接板块，本期补充真实数据。",
+   "type": "quote",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_afe0436b76",
+   "text": "6.3 阿那亚运营深度监测（专项）",
+   "type": "case",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_fdbe8773fe",
+   "text": "**【文章】**《上海楼市,又爆了!》— 网易/睿见投资（平台/自媒体，作者：睿见投资）— 链接：https://www.163.com/dy/article/LBEVNQJ80519X10F.html — 发布 2026-11-11。核心观点：上海二手 11 月前 7 天累计 5,994 套、日均 856 套、同比 +19%；10 月二手 2.47 万套创本轮调整同期新高；房价连续 8 个月上涨、9 月二手同比由跌转涨；第六批次土拍杨浦/徐汇宅地楼面价破 10 万/㎡。热度：网易（待核实）。",
+   "type": "insight",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_cda58ebcff",
+   "text": "基线：2026-08-28 五部门（住建部/自然资源部/央行/金融监管总局/证监会）密集发布「828 新政」系列文件。第 47 期承前追踪「较上一期（11-12 第 46 期）新增」，当日无实质新增则明确标注。",
+   "type": "quote",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_fcc6ebe9c5",
+   "text": "6.6 上海世博区域二手房网签监测（每日明细）\n**全市/浦东宏观量（网上房地产口径）**：上海 11-12 二手推导 1,337 套（浦东口径含在内，未单列世博）；截至 11-12 全市累计 10,514 套、破万仅 12 天创年内最快。世博板块（浦东世博/三林世博家园/浦江世博家园/上南花城/齐一小区/万科金色城品等）**真实逐套网签明细仍无公开渠道** → 维持「在售报价 + 参考成交均价」呈现，逐套网签标注「数据源不可用」。",
+   "type": "case",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_2dd344a403",
+   "text": "**铁律**：真实逐套网签明细链家/贝壳未公开 → 以下以「在售报价 / 参考成交均价」呈现，并标注类型（在售报价/参考均价），**不编造网签成交**。世博花园（虹口临平路）已剔除（非浦东世博板块）。本期（11-13）未重新抓取逐套挂牌，下表维持 2026-11 月前期抓取基线，标注「维持前期」。",
+   "type": "quote",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_a5e005e1b2",
+   "text": "**【新闻】**《上海11月二手房成交套数破万仅用时12天》— 中国证券网/上海证券报（官方媒体，记者 张良）— 链接：https://www.cnstock.com/commonDetail/315705 — 发布 2026-11-14（数据截至 11-13）。核心观点：网上房地产数据显示 11 月 13 日上海二手房成交 811 套、面积 67,681.11㎡；截至 11 月 13 日 11 月累计 11,325 套；安居客上海统计截至 11 月 12 日已达 10,514 套，破万仅 12 天、创年内最快。严跃进、卢文曦点评政策见效、活跃度改善。热度：官方媒体（高引用，已作为本期上海核心增量数据源）。",
+   "type": "insight",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_6c218948b3",
+   "text": "**【新闻】**《上海11月二手房创今年以来单月成交量破万最快纪录》— 中新经纬/证券时报— 链接：https://www.jwview.com/jingwei/kb/pc/11-14/213945.shtml — 发布 2026-11-14（转引中国证券报）。核心观点：同上，11 月 13 日 811 套、累计 11,325 套、破万仅 12 天。热度：中新经纬/证券时报（官方媒体）。",
+   "type": "insight",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_b991559040",
+   "text": "**【文章】**《上海二手热度不退、北京新房放量,一线回暖成色几何?》— 网易/地产观点（平台/自媒体）— 链接：https://www.163.com/dy/article/LBFA12BP0535A68O.html — 发布 2026-11-12。核心观点：11 月第一周上海二手网签 5,994 套、日均 856 套、同比多约 950 套；北京 10 月新房网签 4,753 套、同比 +40%，二手 13,081 套、同比 +8.2% 但环比 -17%；克而瑞好房点评网监测上海二手平均成交周期压缩至 78.1 天，挂牌总量截至 10 月末约 16.6 万套、同比降约 23%。热度：网易（待核实）。",
+   "type": "insight",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_048dbef0e5",
+   "text": "**【文章】**《上海楼市：刚需猛冲，中产怂了，彻底看不懂了》— 网易/魔都财观（平台/自媒体，上海）— 链接：https://www.163.com/dy/article/LBEHS5TC0535B94M.html — 发布 2026-11-11。核心观点：前三季度二手住宅网签 19.16 万套（+15.5%），200 万以下占 47.1%、90㎡ 以下占 66.6%；9 月上海二手价格同比 +0.8% 为 70 城唯一转正。热度：网易（待核实）。",
+   "type": "insight",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_6b8d189a07",
+   "text": "**【文章】**《上海10月二手房成交量增价稳，核心区域高端房源持续\"领跑\"》— 每日经济新闻/网易（官方媒体）— 链接：https://www.163.com/dy/article/LBDHJT6E0512B07B.html — 发布 2026-11-10。核心观点：网上房地产数据显示 10 月上海二手（含商业）累计网签 24,653 套，环比 +4.2%、同比 +32.9%，创 2021 年以来同期新高。热度：每经实地走访（官方媒体）。",
+   "type": "insight",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_72f1016a42",
+   "text": "**【文章】**《前滩新盘,热度背后另有文章》— 网易/地产K线（平台/媒体）— 链接：https://www.163.com/dy/article/LBDBE9EQ0553YQBK.html — 发布 2026-11-10。核心观点：前滩尚品二批次 65 套房源收 408 组认购、认购率 628%、入围分 74.7 刷新今年纪录、均价 11.11 万/㎡、11-15 开盘。热度：网易（待核实）。",
+   "type": "insight",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_9ac3316e38",
+   "text": "**【文章】**《前10个月保利、中海销售额仅差2亿元 房企年度\"销冠\"之争升温》— 网易/财联社（平台/媒体）— 链接：https://www.163.com/dy/article/LAOI9OD405198CJN.html — 发布 2026-11-02。核心观点：前 10 月百强房企销售 25,370.6 亿、降幅收窄 0.9pct；保利 1990 亿/中海 1988 亿销冠之争仅差 2 亿；华润 1803 亿列第三；千亿房企 6 家、百亿 58 家。热度：财联社（官方媒体）。",
+   "type": "insight",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_b3557c78ab",
+   "text": "**【文章】**《楼市\"银十\"收官,百强房企销售额约2773亿元》— 顶端新闻/大河财立方（平台/媒体）— 链接：https://m.topnews.cn/news/1451D3E344BB4D70 — 发布 2026-11 月（转引中指）。核心观点：1—10 月百强 25,370.6 亿，10 月单月约 2,773.4 亿环比延续回升；保利/中海/华润居前三。热度：大河财立方（待核实）。",
+   "type": "insight",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_543917ede9",
+   "text": "**【数据日更】**《上海二手房成交日报 · 26年11月12日 周四 旺季延续 748 套》— 微信公众号「房联社/沪二手房交易统计」— 发布 2026-11-12（数据截至 11-11）。核心观点：11-11 成交 748 套；挂牌 280,941 笔；去化周期 375 天；前 11 天累计 9,177 套、日均 834 套。热度：公众号日更（作为本报告上海核心数据源之一，11-12 推导值的基准）。",
+   "type": "insight",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_61af6b2f31",
+   "text": "视频类：本期检索到的多为图文新闻/文章，未确认有独立高声量视频类链接，视频类标注「数据源不可用」。代表账号（真叫卢俊、大胡子说房、樱桃大房子、刘晓博、房东经济学等）11 月上旬公开新视频链接未逐一核验，按铁律不编造。",
+   "type": "quote",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_realestate_2026-11-13_a46a6cc98c",
+   "text": "周更条件：总预算 ≤350 万、浦西（黄浦江以西）、两室、新房、有电梯、近地铁、单程通勤 ≤40 分钟。以下为公开在售新盘实测筛选，非荐买，购房决策以官方公示为准。本期（11-13）未重新抓取新盘，维持前期基线。",
+   "type": "quote",
+   "board": "realestate",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_28ae76258f",
+   "text": "生成方式：WebSearch / WebFetch 抓取公开数据源，真实数据优先；凡未检得可核实出处者，一律标注「数据源不可用 / 待核实」，严禁编造数字。",
+   "type": "quote",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_6edf9959de",
+   "text": "（1）客流量",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_78dfca7879",
+   "text": "（2）客群",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_fbac7f7c09",
+   "text": "（3）区域商业",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_e77b078e9b",
+   "text": "（5）度假地产【维持前期观察】",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_85a7cb5029",
+   "text": "（6）典型项目与房价监测",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_a35daa5c4f",
+   "text": "（3）数据缺口",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_a05581d7a3",
+   "text": "（4）酒店与民宿【未重新抓取实时 OTA 价 · 标「数据源不可用 / 待核实」】",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_41418e0bac",
+   "text": "（2）业态与客群【暖冬旅居新信号】",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_25601a6667",
+   "text": "（1）阿那亚",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_504e963a3a",
+   "text": "（2）海南万宁",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_88d97619f4",
+   "text": "（3）浙江诸暨",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_e3cc40a575",
+   "text": "来源：vision2030.ai、rcu.gov.sa、携程攻略、候鸟旅行；客群结构未公开 → 标「待核实」。",
+   "type": "quote",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_e215765e43",
+   "text": "9.1 监测对象\n乌镇（东栅/西栅）、乌镇戏剧节、古北水镇、濮院、乌江寨。",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_59dcdffbea",
+   "text": "9.2 业态",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_c081687ee6",
+   "text": "9.3 客流",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_d478a39301",
+   "text": "9.4 运营",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_5fac7170da",
+   "text": "注：陈向宏作品经营数据多未公开 → 标「待核实」。",
+   "type": "quote",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_ca2c9dd770",
+   "text": "10.1 微度假与秋假亲子",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_2b8eae5392",
+   "text": "10.3 度假区 KPI",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_b5bd29023b",
+   "text": "10.5 方法论总结",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_be8f9e4d24",
+   "text": "监测日期：2026-11-13（周五）",
+   "type": "quote",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_d17547fe03",
+   "text": "本期重点：2026-11-13 为周五，是「双 11（11-11）高峰后核销期第 2 日 ＋ 进博会（11-05—10）闭幕展后常态化第 3 日 ＋ 亚布力 2026—2027 雪季开板第 8 日（11-06 开板）＋ 冬春航季第四周 ＋ 秋假 2.0 错峰收口 ＋ 西双版纳三条东南亚跨境航线班期（仅周二/四/六）本日为空窗日 ＋ 第十一届『博博会』海口开幕（11-13—16）」交汇日。关键增量：① **第十一届博博会 11-13 海口启幕**（海南国际会展中心、9.4 万㎡、12 展区、近 600 家博物馆 + 近 200 家企业、首设主宾国埃及、『博团团』IP、易中天/扎西·哈瓦斯公共讲座）；② **西双版纳三跨境线 11-13 周五为空窗日**（班期仅二/四/六，上一执行日 11-12 周四，下一执行日 11-14 周六），携程实测万象 QW9915 在售价属 11-12 历史，本日无执行；③ **经济日报 11-13 聚焦『新中式乐园』**（唐山河头老街·大唐百戏园国庆 85 万人次/+35%、琅琊古城超 60 万人次/+55%）；④ **同程《2026—2027 冰雪文旅消费趋势报告》（11-10 发布）沈阳过夜客流全国第二、黑马榜辽宁占五席**（阿勒泰/塔城/丹东/延边/本溪/抚顺/大庆/锦州/铁岭/黑河）；⑤ **双 11 核销期第 2 日 + 旅游小店上桌**（腾讯 11-13：线路游 +近100%、乐园门票 +超200%、薄荷国旅单品破亿核销过千万）；⑥ **梧州西江夜游 11-13 首航**（荧光醒狮/AI 书法机器人/无人机光影/非遗火秀）、**长春莲花山 11-13 试滑**、**九寨沟 11-16 起淡季票价**（门票 80+观光车 80=160）；⑦ 文旅部前三季度 **53.07 亿人次、+6.2%**，总花费 **4.95 万亿、+2.2%**。",
+   "type": "quote",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_57e4207d27",
+   "text": "（1）跨境 / 避寒航线【周五空窗日 · 非执行日】",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_3aab3ec73f",
+   "text": "沙特阿拉伯 · 埃尔奥拉 AlUla（RCU / 2030 愿景旗舰）——遗产+当代文化+野奢三位一体（第二十八期）",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_f9244b912f",
+   "text": "10.2 县域（奔县游头条化）与「内容为王」",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_14d3568150",
+   "text": "10.4 冰雪双引擎（同程 11-10 报告深化）",
+   "type": "case",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_6dc0b8f16b",
+   "text": "检索窗口：近 1—2 周（2026-10 下旬—11/13）；链接可访问，互动指标未公开 → 标「待核实」。",
+   "type": "quote",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_3df6b512a5",
+   "text": "**【文章】中国经济网《文旅活动吸引观众入戏》** — 经济日报（2026-11-13）｜http://ipaper.ce.cn/pad/content/202611/13/content_341827.html｜新中式乐园：河头老街·大唐百戏园国庆 85 万/+35%、琅琊古城超 60 万/+55%、万岁山/只有河南；内容驱动型景区成新星。",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_b130c7b1ed",
+   "text": "**【文章】新华日报《复制爆款，不如读懂需求》** — 新华日报（2026-11-13）｜https://xh.xhby.net/pad/con/202611/13/content_1605996.html｜万宁神州半岛户外运动公园「万宁体校」走红，运动+度假+社交；反对照搬爆款、强调因地制宜。",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_00f0dc9dba",
+   "text": "**【文章】央视网《近600家博物馆齐聚海口\"博博会\" 海量文创集中亮相》** — 央视网（2026-11-12）｜https://big5.cctv.com/gate/big5/news.cctv.cn/2026/11/12/ARTItJ450gPjyiXCCDbAqxL2261112.shtml｜博博会 11-13—16 海口、9.4 万㎡、12 展区、近 600 馆+近 200 企、埃及主宾国、AI+可触摸文物。",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_c721c7d9af",
+   "text": "**【文章】海口市旅文局《第十一届\"博博会\"特色文创来了!》** — 海口旅文局（2026-11）｜https://lwj.haikou.gov.cn/ywdt/ww/202611/t1553126.shtml｜「文博印记」289 家博物馆印章、「博团团」IP 文创、答题活动。",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_e7968d6fef",
+   "text": "**【文章】峰云旅拍早报《11月13日最新文旅资讯》** — 微信公众号（2026-11-13）｜http://mp.weixin.qq.com/s?__biz=MzkzOTcwOTQ3MA==&mid=2247518688&idx=1&sn=1e31e93cde0d0d5c64bfed295d304eff｜博博会海口/海丝文旅大展宁波/长春莲花山试滑/九寨沟11-16淡季票价160/南宁动物园演唱会半价/丽江—新加坡11-20首航等。",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_8dad651e3c",
+   "text": "**【文章】沈阳晚报《还是沈阳/东北超扩军/沈阳冰雪游上榜》** — 指尖新闻（2026-11-13）｜https://www.163.com/dy/article/LBJKIQ3Q05567HPR.html｜「还是沈阳」6.2 万㎡/200+演员/80+场景/38 元；同程冰雪报告沈阳过夜第二；东北超 2027 扩军至 12 城。",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_aa452c7bbc",
+   "text": "**【文章】腾讯新闻《西江夜游11-13首航》** — 腾讯新闻（2026-11-12）｜https://news.qq.com/rain/a/20261112A0DT3N00｜梧州西江夜游首航（荧光醒狮/AI书法机器人/无人机光影/非遗火秀，11-13—15）。",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_e2d4993d1b",
+   "text": "**【文章】腾讯新闻《今年双11，旅游小店上桌了》** — 腾讯新闻（2026-11-13）｜https://news.qq.com/rain/a/20261113A036NY00｜飞猪线路游+近100%/乐园+超200%/包车游爆发；薄荷国旅单品破亿核销过千万；飞猪AI开放平台+2000+合作门店。",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_d997885288",
+   "text": "**【文章】同程《2026—2027冰雪文旅消费趋势报告》辽宁多地上榜** — 腾讯新闻/北斗融媒（2026-11-11）｜https://news.qq.com/rain/a/20261111A0CR1M00｜过夜TOP10沈阳第二/大连第六；黑马辽宁占五席；县域冰雪漠河居首/宽甸第十；冰雪微笑曲线。",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_41944a224b",
+   "text": "**【文章】经济日报（11-12 头版）《「奔县游」乘势而上多业共赢》** — 中国经济网（2026-11-12）｜https://ipaper.ce.cn/pad/content/202611/12/content_341734.html｜三/四线玩乐 +100%、中低线体验 +50% 以上；衢州粮仓改造、阳朔 19 家必玩榜（本期延续权威增量）。",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_9dfb382542",
+   "text": "**【文章】中工网《接住\"色彩\"流量》** — 中工网（2026-11-02）｜https://www.workercn.cn/c/2026-11-02/8930758.shtml｜Color Walk 超 13 亿、南通 16.38 万（本期延续）。",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_tourism_2026-11-13_ecb5f0817f",
+   "text": "**【文章】中国旅游报《\"奔县游\"热也要\"冷思考\"》** — 中国旅游新闻网（2026-11-10）｜https://www.ctnews.com.cn/guandian/content/2026-11/10/content_194303.html｜2000+ 县级建制、接待能力矛盾（本期延续）。",
+   "type": "insight",
+   "board": "tourism",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_content_2026-11-13_e1ff2c025f",
+   "text": "可直接落地的二创选题（平台 / 内容 / 改编方向 / 适配形式 / 生命周期）",
+   "type": "case",
+   "board": "content",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_content_2026-11-13_49e6665c3e",
+   "text": "情绪反差分析（同一事物在不同平台情绪差异）",
+   "type": "case",
+   "board": "content",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_content_2026-11-13_2524e518e8",
+   "text": "**【音频 / 播客】**",
+   "type": "insight",
+   "board": "content",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_content_2026-11-13_1a66a18590",
+   "text": "抓取时间：2026-11-13 09:00–11:30（GMT+8）",
+   "type": "quote",
+   "board": "content",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_content_2026-11-13_7f4435bec0",
+   "text": "数据来源：央视新闻《早啊!新闻来了〔2026.11.13〕》、新华社、腾讯新闻《新闻早班车(11月13日)》、中国新闻网、中新经纬、金十数据、36氪、财联社；豚榜 tunbang.com（2026-11-13 04:02 实测，38 个榜单 / 1295 在榜话题）、查榜 chabang.com（2026-11-13 当日）、热点吧 redianba.com（2026-11-13 抖音热榜）、腾讯搜索《舆情日报 11·13》；微信读书 weread.qq.com 飙升榜/新书榜、今日热榜 tophub；新榜 newrank.cn（涨粉周榜 34836 / 34822）、网易号（半佛仙人·刀姐doris·今日网红）、蜻蜓FM、运营派、云合数据、B站热门。",
+   "type": "quote",
+   "board": "content",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_content_2026-11-13_3c60e54807",
+   "text": "说明：所有数据均为上述渠道 2026-11-13 当日/近期实测抓取；无法实时核验的精确读数标注「待核实」，无编造 URL、无编造数字。部分平台热度值来自聚合快照（豚榜、查榜、舆情日报），已在条目内注明来源与时间窗口。",
+   "type": "quote",
+   "board": "content",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_content_2026-11-13_249246e84e",
+   "text": "抖音（豚榜 tunbang.com 2026-11-13 04:02 实测 + 查榜 chabang / 热点吧 redianba，含真实热度值）",
+   "type": "case",
+   "board": "content",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_content_2026-11-13_7763a18951",
+   "text": "小红书（三个皮匠报告 sgpjbg / 什么值得买 smzdm / 发现报告 fxbaogao，双11 生活方式趋势）",
+   "type": "case",
+   "board": "content",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_content_2026-11-13_88e780551a",
+   "text": "微信 / 视频号（查榜 chabang 头条热榜 2026-11-13 + 新华日报/中国经济网/澎湃）",
+   "type": "case",
+   "board": "content",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_content_2026-11-13_68e7bc752f",
+   "text": "**【新近出版 / 热读】**（数据来自微信读书 weread.qq.com 飙升榜/新书榜、今日热榜 tophub，2026-11-13 实测）",
+   "type": "insight",
+   "board": "content",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_content_2026-11-13_bee4d53f38",
+   "text": "**【长销经典被热议 / 高读】**（微信读书总榜/神作榜，2026-11-13）",
+   "type": "insight",
+   "board": "content",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
+   "auto": true
+  },
+  {
+   "id": "auto_content_2026-11-13_bc75bd99ef",
+   "text": "以下均为近 1–2 周高声量内容，含真实链接（部分文章直链未能稳定抓取者标注「待核实」）；区分「文章」与「音频/播客」两类。",
+   "type": "quote",
+   "board": "content",
+   "date": "2026-11-13",
+   "ts": 1794499200000,
    "auto": true
   },
   {
    "id": "auto_business_2026-11-12_a9e85044d0",
    "text": "a. 涩谷 PARCO IP 集群开业潮（11 月密集）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_4b2770f4d6",
-   "text": "b. 大阪 LUCUA SOUTH 角色主题楼层（11-24 起第二期）",
    "type": "case",
    "board": "business",
    "date": "2026-11-12",
@@ -48,89 +2739,8 @@
    "auto": true
   },
   {
-   "id": "auto_business_2026-11-12_6cef579ff9",
-   "text": "3.1 皇居东御苑 Ote Rest House（文旅 × 文博 × 咖啡标杆）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_eec175d303",
-   "text": "4.1 天津津界·NewBay（青年夜娱综合体）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_86400eeb48",
-   "text": "4.2 重庆三洞桥 2 号（主理人街区）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_51b29046d3",
-   "text": "4.3 西宁昆仑墟（沉浸式文旅新空间）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_328b4b2d10",
-   "text": "6.5 本期补充待核实",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_7ef1932c27",
-   "text": "4.4 北京莱惠 Club 商街（存量「欧洲小镇」焕新）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_18b74cdf8e",
-   "text": "4.5 上海龙凤 PRSCO（首店矩阵 + 离境退税 2.0）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_business_2026-11-12_dc2305a77f",
    "text": "1.1 双十一第 18 年正式收官：1.68 万亿 GMV，退货率 61.5% 成最大变量",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_9fd5c94801",
-   "text": "1.4 龙湖四座新天街接力开业（成都驿都、长沙开福、长沙新姚、杭州滨康）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_6cb94a0cc7",
-   "text": "1.5 上海泗泾招商花园城（松江首个大型 TOD，11-20 开业）",
    "type": "case",
    "board": "business",
    "date": "2026-11-12",
@@ -147,89 +2757,8 @@
    "auto": true
   },
   {
-   "id": "auto_business_2026-11-12_36a37686ee",
-   "text": "1.8 北京颐堤港正式更名「北京太古坊」（太古坊 IP 首进内地）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_f1834e79f9",
-   "text": "1.9 凯德广场品牌焕新与轻资产输出（签约绍兴、温州）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_3ca5a46a50",
-   "text": "1.10 长沙新世界百货 11-11 停业（传统百货退场信号）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_1b34e48cc4",
-   "text": "1.11 优衣库上海全球旗舰店焕新 / 蓝瓶咖啡北京首店",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_f8dd62cdd4",
-   "text": "1.12 晋江首座万象系商业奠基 / 南京首座大悦城封顶",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_3df911517e",
-   "text": "1.13 京东 MALL 双店开业 / 武汉金诺奥特莱斯开工",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_68581d974a",
-   "text": "1.14 存量焕新群（广州白云万达 / 南京新百）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_98df1da4fd",
-   "text": "1.15 华润置地商业不动产 REIT 正式获批（首发南通万象城 + 临沂万象汇）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_business_2026-11-12_c3786fdce2",
    "text": "c. 大阪阪急梅田总店（美食与美容双线，11-11 当日节点）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_1f6b786029",
-   "text": "3.2 ULTRAMAN STORE OSAKA / TOKYO（关西首店 11 月）",
    "type": "case",
    "board": "business",
    "date": "2026-11-12",
@@ -300,96 +2829,6 @@
    "auto": true
   },
   {
-   "id": "auto_business_2026-11-12_5d806e5b53",
-   "text": "2.3 Pokémon Center BANGKOK（12-01 官方开业，招聘 11 月入职）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_baa1d23e2b",
-   "text": "2.4 MINISO LAND centralwOrld 开业（11-06，IP 首发）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_756692242d",
-   "text": "2.5 泰国购物旅游与 Siam Piwat 中国数字布局",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_977c7d79eb",
-   "text": "2.6 泰国奢侈品零售势能（Siam Piwat / IconSiam / 全球第 4）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_605ce21f19",
-   "text": "2.7 ICONSIAM 与免税/VAT 机制（补充）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_364a56200f",
-   "text": "2.8 Platinum POP 重焕（水门「来街」美食枢纽，2026 新地标）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_2e8221915a",
-   "text": "e. 东京其他 / 上野 / 有乐町 / 表参道",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_b268514730",
-   "text": "3.3 PUPPET SUNSUN STORE 日本首间常设店（大阪 LUCUA SOUTH 12F）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_3eacdb13fe",
-   "text": "4.6 上海聚梦天地（徐汇桂林路，年底街区开业，新补录）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_0c6fa86622",
-   "text": "4.7 长春坊·超级市集 / 亲橙 556 / 杭州嘉里城 / 长沙 MAYA / 长沙麓云广场",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_business_2026-11-12_df9a001b17",
    "text": "本期聚焦「双十一第 18 年收官结构性转向」「消费基础设施 REIT 双单今日上市」「县域消费与银发经济」「品牌出海与茶饮咖啡连锁」，均为文章/报告/公告/财报类；视频类直链未检得可验证链接，标注「待核实」不编造。",
    "type": "quote",
@@ -401,24 +2840,6 @@
   {
    "id": "auto_business_2026-11-12_380701bdb1",
    "text": "5.2 消费基础设施 REIT：双单今日（11-12）挂牌，板块进入「多单并行」",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_689645993d",
-   "text": "5.3 名创优品 2026Q3 业务更新：内地 GMV +25%~30%，自有 IP YOYO 破 10 亿",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_8916a4d222",
-   "text": "5.4 瑞幸咖啡 2026Q3 财报：收入 178.91 亿、全球门店 38909 家，同店承压但利润率修复",
    "type": "case",
    "board": "business",
    "date": "2026-11-12",
@@ -489,136 +2910,10 @@
    "auto": true
   },
   {
-   "id": "auto_business_2026-11-12_ff9b459f89",
-   "text": "7B.1 国内：龙湖双天街 11-13 开业深度运营参数（补强一章）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_11c5ec8062",
-   "text": "7B.2 泰国：CentralWorld「Disney & Pixar Christmas 2026」四主题区深度参数（补强二章）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_4e5073b3cb",
-   "text": "7B.3 东京：涩谷 PARCO 秋季 renewal「(Re) Construction」——全球首店 + 欧洲时装矩阵（补强三章 a 类）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_dd4d373861",
-   "text": "7B.4 东京外·福岡双增量（满足每期 ≥1 东京外）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_e958c2b4f2",
-   "text": "7B.5 有乐町：Adopt 法国香氛日本首快闪 + IP 群接力（补强三章 e）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_f73239f224",
-   "text": "7B.6 非标主理人专项（四章）：氧痒乐园模块 / 出汁と鮨 橘 天神 / 天神香格里拉",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_8352423bb9",
-   "text": "7B.7 行业资讯（五章 supplement·5 条真实 URL，与五章及前期去重）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_045a003e1f",
-   "text": "7B.8 本期补充待核实",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_b367db1017",
-   "text": "9.1 国内案例数据口径",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_cd7fcc06a1",
-   "text": "9.2 泰国案例数据口径",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-12_608332fbd6",
-   "text": "9.3 日本案例数据口径",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_business_2026-11-12_1cf6b4e9e8",
    "text": "9.4 行业与消费趋势数据口径\n**总体可信度说明**：本期核心数据（龙湖/万达开业节点、华润/吾悦/凯德/保利 REIT 公告、双十一 GMV 与退货率、泰国 CentralWorld/Pokémon、日本 LUCUA SOUTH/阪急/福冈、名创优品/瑞幸 Q3 财报）均来自政府官网、企业公告、权威媒体或机构报告，可信度较高；凡涉及「开业后真实客流/销售/坪效」「品牌单店销售」「确切开业日」「REIT 发行价与上市日」「视频类直链」等抓取不到的具体数字，一律标注「待核实 / 数据源不可用」，未做任何编造。下期（2026-11-13）将重点跟进：龙湖开福/驿都天街 11-13 开业首",
    "type": "case",
    "board": "business",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-12_5ac9b1c94e",
-   "text": "**【文章】**",
-   "type": "insight",
-   "board": "elderly",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-12_95f2809a0f",
-   "text": "**【视频】**",
-   "type": "insight",
-   "board": "elderly",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-12_b178ad46fb",
-   "text": "**【维持前期基线】** 太保家园（14 社区/3500 长住）、大家保险城心养老（在营 12 家）、万科随园嘉树（入住率 90%+）、绿城乌镇雅园（1.2 万长者）等维持前期观察；本期未检索到上述项目新的入住率/收费披露，标注「维持前期观察」。",
-   "type": "insight",
-   "board": "elderly",
    "date": "2026-11-12",
    "ts": 1794412800000,
    "auto": true
@@ -635,15 +2930,6 @@
   {
    "id": "auto_elderly_2026-11-12_65efedf035",
    "text": "**案例主线**：险企养老社区进入\"开园即满负荷招商 + 产业链外溢\"阶段（泰康禅园带动佛山 145 家制造厂商、启动银发经济产业供需对接平台）；对岸长庚养生村维持 2025-2026 当期数据（1373 户、单人 2.75–3.25 万/月、250 万安养信托），其\"医养一体+义工自治+信托保障\"长效样本对国内高端社区有成本结构与风控参考价值。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-12_1c99998d0b",
-   "text": "以下为近 1–2 周高声量内容，区分文章/视频；正文所列文章均附真实抓取 URL（见各条括注，均经 WebSearch 核验可访问）；【一周要闻速览】为聚合简报，仅标注来源机构。热度/讨论指标公开端未披露，统一标「待核实」。",
    "type": "quote",
    "board": "elderly",
    "date": "2026-11-12",
@@ -741,198 +3027,9 @@
    "auto": true
   },
   {
-   "id": "auto_interview_2026-11-12_31ae51b2de",
-   "text": "1.1 国内头部案例观察",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_35fe7c32ff",
-   "text": "2.1 访谈梗概",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_5db0d3bd7c",
-   "text": "2.2 核心观点",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_78a6b7e8e9",
-   "text": "2.3 访谈金句",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_fabbc49a34",
-   "text": "1.2 国外头部案例\n**趋势判断与深度评估**：",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_3ad39f52f0",
-   "text": "3.1 内容定位",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_31f023dd56",
-   "text": "3.2 提问框架",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_085a4be749",
-   "text": "3.3 剪辑节奏",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_d1ee51a3e1",
-   "text": "3.4 流量密码",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_interview_2026-11-12_ca6f578a9f",
    "text": "**双轨说明**：本日报执行「国内原有内容保留 + 国内外头部访谈栏目案例观察 + ⭐行业资讯观察（自媒体端）」三轨并行。",
    "type": "quote",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_49a70d14e8",
-   "text": "【栏目精神·王阳明隐喻】「在坚硬的岩石缝隙，依旧可以开出花来。」（语境：栏目名取自王阳明「岩中花树」，喻女性在困境中生长）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_710d9990df",
-   "text": "节目五：Lex Fridman Podcast #503 × Brunton / Moitra / Kontorovich",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_f1d5f16331",
-   "text": "【Moitra·谈自然与计算】「There's the saying in physics that nature abhors a vacuum. My version of it is that in some sense, nature abhors computationally hard problems.」（物理说自然厌恶真空，我的版本是：某种意义上，自然厌恶计算困难的问题。——thepodcastsummary 真实引述）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_eb7f84f926",
-   "text": "【栏目主题·Lex 引言】「AI theorem provers from labs like OpenAI and Anthropic are claiming answers to landmark problems…」（OpenAI、Anthropic 的 AI 定理证明器正在宣称解答地标性问题）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_82ef3d694c",
-   "text": "【核心冲突·Kontorovich 视角】「the seismic impact of automated AI theorem-provers」（自动化 AI 定理证明器的地震级冲击）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_33adee7bbf",
-   "text": "【方法论·Lean】「automated formal verification in Lean is reshaping scientific discovery」（Lean 中的自动形式化验证正在重塑科学发现）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_f66b41f8ab",
-   "text": "【反直觉·湍流对照】「finite-time blowup in the 3D Navier-Stokes equations under smooth external forcing」（光滑外力下三维纳维-斯托克斯方程的有限时间爆破——曾被视作不可能）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_488f73bbdf",
-   "text": "2.4 访谈逐字稿\n【Moitra·谈自然与计算困难】（thepodcastsummary 真实引述，来源 `https://www.thepodcastsummary.com/episodes/ZAzWPE9CItg`） Moitra: 「There's the saying in physics that nature abhors a vacuum. My version of it is that in some sense, nature abhors computationally hard problems.」",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_d35a9e1d24",
-   "text": "**优先级 3（兜底）**：本期 Lex 官方完整逐字稿经本会话代理直连 lexfridman.com 不稳定（历史实证），以下为基于 thepodcastsummary 聚合摘要 + 真实引述的多源交叉核实「结构化还原（非逐字稿）」，已标注出处，未以提炼冒充逐字。唯一可确认的真实嘉宾原话（Moitra）如下：",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_27f15c3685",
-   "text": "【Moitra·谈自然与计算困难】（thepodcastsummary 真实引述，来源 `https://www.thepodcastsummary.com/episodes/ZAzWPE9CItg`）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_9acdbdffaf",
-   "text": "【Lex·开场引入主题】（据 thepodcastsummary 还原）Lex Fridman 与 Steven Brunton、Ankur Moitra、Alex Kontorovich 共同分析：在 OpenAI 与 Anthropic 发布声称解决唯一博弈猜想、准黎曼假设、纳维-斯托克斯有限时间爆破的成果后，自动化 AI 定理证明器带来的「地震级」影响；他们探讨这些证明的数学有效性、对传统学术 career 与 mentorship 的冲击，以及 Lean 中的自动形式化验证如何重塑科学发现。",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_3618e65873",
-   "text": "【核心论点·逐条还原】（来源：thepodcastsummary「Key takeaways」）",
-   "type": "insight",
    "board": "interview",
    "date": "2026-11-12",
    "ts": 1794412800000,
@@ -948,78 +3045,6 @@
    "auto": true
   },
   {
-   "id": "auto_interview_2026-11-12_b8d58ec7f6",
-   "text": "【栏目精神·Bartlett】「Raw, human conversations with the world's most fascinating experts, storytellers, thinkers and business leaders.」（DOAC 栏目定位）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_2aaef44703",
-   "text": "【费孝通·谈文化理想】「各美其美，美人之美，美美与共，天下大同。」（语境：费孝通晚年提出的社会共处理想，本期反复回响）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_8d52d7a4aa",
-   "text": "【费孝通·谈治学】「志在富民。」（语境：其一生学术与实践的落脚）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_15c94088a4",
-   "text": "【许知远·谈第九季】「人只有真正认识到了自己的渺小，才能得见浩瀚的宇宙。」（语境：第九季以姚明「渴望一种渺小」开篇的方法论）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_fb67944798",
-   "text": "【许知远·谈采访姿态】「许知远不再急于抛出判断，而是学会了在对方的世界里迷路。」（语境：第九季叙事手法的转变）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_cf6c3983fb",
-   "text": "【费孝通·谈江村】「26 岁写出《江村经济》，晚年留下《乡土中国》《中华民族多元一体格局》。」（语境：其学术坐标）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_508e566c27",
-   "text": "【栏目精神】「在知识被机器学习压缩和单调化的今天，我们为什么还要寻找费孝通？」（语境：本期核心时代之问）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_f1f9888629",
-   "text": "2.4 访谈逐字稿\n「2026 年 9 月 16 日，节目在收官之际推出特别篇《寻找费孝通》（108 分钟），许知远重走费孝通做田野调查的路——江村、大瑶山、魁阁——把整季的『边界与限度』主题推向『知识分子与时代』的高度。费孝通（1910—2005），中国社会学、人类学奠基人之一，师从马林诺夫斯基，26 岁写出《江村经济》，晚年留下《乡土中国》《中华民族多元一体格局》。许知远沿着费孝通一生的足迹：江苏吴江开弦弓村（江村）、广西大瑶山、昆明『魁阁』旧址、云南禄村……重走他做田野调查的路，对话一代代研究、阅读费孝通的学者——北京大学博雅讲席教授邱泽奇（费孝通临终时唯一守在身边的",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_interview_2026-11-12_d81873d77e",
    "text": "- **轨二（头部案例观察·新增）**：对《陈鲁豫·慢谈》《独树不成林》《岩中花述》《十三邀》《The Diary Of A CEO》《Lex Fridman Podcast》等国内外头部栏目做专项拆解（内容差异化、受众偏好、叙事框架、提问逻辑、剪辑手法、轻量化剪辑与流量密码）。",
    "type": "quote",
@@ -1029,207 +3054,9 @@
    "auto": true
   },
   {
-   "id": "auto_interview_2026-11-12_e8e8df80e6",
-   "text": "【官宣文案·谈表演】「为了角色磨练身体的表演方法论。」（语境：本期对话主题之一）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_a23526d3cf",
-   "text": "【官宣文案·谈新生】「撕开枷锁释放自我的感悟与新生。」（语境：本期收束主题）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_a1a792cbf9",
-   "text": "【官宣文案·谈作品序列】「从《罗曼蒂克消亡史》到《我不是药神》再到《孤注一掷》，他用行动诠释着一个好演员的姿态。」（语境：@鲁豫有约 官宣文案）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_06fe0dc58b",
-   "text": "2.4 访谈逐字稿\n「#鲁豫对话王传君# 本期#陈鲁豫慢谈# 的嘉宾是演员@王传君 。我们从最近的唱跳舞台聊起，聊了他三十岁那年的人生骤变，聊了争议背后的真实心境，也聊了一个演员如何把自己打碎、再慢慢长回来。11月9日12:00，欢迎观看。」",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_interview_2026-11-12_b9fbcf22b0",
    "text": "节目二：《独树不成林》EP375 × 仲树（中期选举惨败后共和党何去何从）",
    "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_d57ec8483c",
-   "text": "【仲树·谈历史坐标】「这是二战后美国第三次出现总统所属政党在中期选举中同时丢掉参众两院控制权的情况。」（语境：把 2026 结果放进历史规律，podscan 00:02:34 前后）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_e50592cb82",
-   "text": "【仲树·谈选举定性】「美国媒体已经开始把这场中期选举称为一次蓝色海啸（Blue Tsunami）。对比前几年的蓝色波浪（Blue Wave），这场海啸来得更大。」（语境：podscan 00:01:37，真实引述）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_8425a078dd",
-   "text": "【仲树·谈选民反转】「为什么 2024 年帮助特朗普重新当选的选民，两年之后却让共和党在中期选举中遭受如此严重的失败？」（语境：podscan 00:01:37，核心设问）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_a008fdecad",
-   "text": "【仲树·谈核心追问】「这究竟是一次普通的中期选举反弹，还是意味着特朗普建立的 MAGA 政治联盟正在瓦解？」（语境：podscan 00:02:04，核心冲突）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_1d56f51559",
-   "text": "【栏目精神·仲树】「在一个插科打诨的时代，我想大声思考每一个严肃的人都会关心的问题。」（语境：《独树不成林》栏目精神，metacast 简介）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_436d44a44e",
-   "text": "【媒体分析·南方日报】「本次选举事实上将特朗普推入两院失守的『跛脚鸭』执政状态。」（语境：南方日报数字报 2026-11-05，交叉引用，标注「媒体观点」）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_25cfca0db5",
-   "text": "2.4 访谈逐字稿\n【开场·选举结果速览】（podscan 00:00:12 真实引述） 仲树：「大家好，欢迎来到独树不成林。昨天晚上美国发生了一场共和党几十年来罕见的中期选举惨败。在 2026 年 11 月 3 日发生的特朗普第二任期中期选举中，民主党不仅夺回了众议院，也夺回了参议院，结束了共和党对国会两院的控制。截止今天上午，民主党在众议院已经赢回至少 231 个席位，超过 218 个席位的多数门槛。」",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_3ec475f686",
-   "text": "【开场·选举结果速览】（podscan 00:00:12 真实引述）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_df5b733d18",
-   "text": "【参议院翻转·结构意义】（podscan 00:00:39 真实引述）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_53854c7aab",
-   "text": "【得票优势·历史坐标】（podscan 00:01:09 真实引述）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_65c6d39204",
-   "text": "【核心设问】（podscan 00:01:37 真实引述）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_19e1aec2ed",
-   "text": "【历史规律对照】（podscan 00:02:04–00:02:34 真实引述）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_3399e7f8ba",
-   "text": "本节金句分三类：官宣文案级（已确认，标注「官宣文案」）、媒体真实转述级（已确认，标注「媒体转述」）与正片级（待释出，标注「待官方释出」）。凡正片级均不作编造。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_1e90f5a4d6",
-   "text": "【媒体转述·谈成年反思】「漫漫长路，在未来的时刻就要为那些冲动买单，现在得活得小心翼翼一点。」（语境：王传君承认当年锋利言行的代价）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_36edae1cb7",
-   "text": "【媒体转述·谈红的暂时性】「这种红都是会过去的……当时演那个角色，也算完成任务了，但是有很多比较被动的问题，感觉完成得一般。」（语境：谈关谷神奇）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_0685a32b3a",
-   "text": "【媒体转述·谈表演召唤】「演的时候没听到表演的『召唤』。」（语境：王传君评价《爱情公寓》时期状态）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_80d3f674ec",
-   "text": "王传君坦言，演《爱情公寓》的时候没有听到表演的「召唤」，觉得这就是一份工作；有人认为关谷神奇这个角色让王传君红了，对此他表示「这种红都是会过去的，当时演那个角色，也算完成任务了，但是有很多比较被动的问题，感觉完成得一般」。2018 年，王传君曾公开称《爱情公寓》「越看越像一部广告片」，直言关谷神奇这个角色「跟傻子一样」，并拒绝出演电影版和第五季，相关言行引发巨大争议。当被问及以今天的处事方式，是否还会像当年那样表达时，他直言：「当年我脑子里只有『关我屁事』和『关你屁事』这两句话。特别不接受任何人的绑架。」同时他也承认代价，「漫漫长路，在未来的时刻就要为那些冲动买单，现在得活得小心翼翼一点。」",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_f5bdd4827b",
-   "text": "说明：以上为微博官宣文案 + 媒体真实转述的结构化还原，非节目原声逐字；如后续官方释出字幕/文稿，应以官方原文替换本节。凡正片级内容、金句与逐字稿，均待官方统一释出后补全，未以想象填充。",
-   "type": "quote",
    "board": "interview",
    "date": "2026-11-12",
    "ts": 1794412800000,
@@ -1308,33 +3135,6 @@
    "auto": true
   },
   {
-   "id": "auto_interview_2026-11-12_fba3aedc37",
-   "text": "【媒体转述·谈配得感】「配得感很低……一定要拿一个『正儿八经的最佳男主』——不是让人觉得『演几分钟就拿男主』的那种。」（语境：新浪娱乐 2026-11-10 释出，谈东京影帝与下一步目标）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_8b02403ff0",
-   "text": "【媒体转述·谈 rap】「没敢写（东京影帝），怕给人家添麻烦……这个奖本身是没有问题的，这的确是 A 类电影节的奖。」（语境：谈未把东京影帝写进 rap《我的B面》，新浪娱乐 2026-11-10）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_6ef14f3707",
-   "text": "【待官方释出·金句】关于「打碎—重建」「争议心境」「配得感」的正片原话，待官方字幕/逐字稿统一释出后补全，本期不预填。",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_interview_2026-11-12_364a77daea",
    "text": "- **轨一（国内原有）**：筛选国内优质人物访谈、商业访谈、行业大咖访谈节目片段/全集；本期重点覆盖视频播客《陈鲁豫·慢谈》（王传君一期于 11-09 12:00 上线，11-10 金鸡奖颁奖使其「配得感很低／想拿一个正儿八经的最佳男主」的访谈母题获得现实注脚——王传君凭《南京照相馆》王广海第三次提名金鸡最佳男配角却第三次陪跑；11-12 仍有媒体释出 2016 年「人生骤变」细节与「推荐金世佳」延伸维度）、《独树不成林》（EP375 中期选举专题，本期补充 podscan 真实受众画像 51% 男性 / 47% 女性，与往期「八成女性」第三方口径存在显著冲突，特标注）、《岩中花述》（本期新增 S7E9 小帕长尾发酵观察——「恋爱脑只是中毒」自 11-04 起持续被二创传播，与 S9E9 刘索拉共同构成栏目女性叙事双样本）、《十三邀》（费孝通特别篇仍为第九季收官可检索期次；本期将 11-10 揭晓的第 39 届金鸡奖与许知远相关的文化事件纳入行业观察——梁家辉凭《捕风追影》首提首中金鸡影帝，其与《十三邀·见非凡》EP04 的关联成为「认真的人如何被时代确认」的注脚）。",
    "type": "quote",
@@ -1383,33 +3183,6 @@
    "id": "auto_interview_2026-11-12_32b2f70746",
    "text": "说明：以上梗概基于官方官宣文案（微博，2026-11-08/09）+ 锦观新闻/红星新闻/洪观新闻/宁波晚报/网易/搜狐娱乐/腾讯新闻/新浪娱乐/头条等媒体转述（2026-11-09 至 11-12）还原；凡官方正片逐字稿未公开处仍标注「待官方释出」，未以想象填充。",
    "type": "quote",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_fe01bb0fba",
-   "text": "本节观点基于官宣文案、栏目方法论与媒体真实转述（含可溯源金句），因官方完整逐字稿尚未统一释出，第 6–8 点及部分细节标注「待官方释出 / 媒体延伸」，未以编造的具体表述冒充嘉宾原话。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_b9cef4823d",
-   "text": "【媒体转述·谈争议与代价】「当年我脑子里只有『关我屁事』和『关你屁事』这两句话。特别不接受任何人的绑架，你算什么？」（语境：王传君回应 2018 年《爱情公寓》言论争议，锦观/红星/搜狐/腾讯/新浪/网易/头条多源一致）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_148494f80c",
-   "text": "【媒体转述·谈 2016 骤变】「集中体验了所有人生极致的事，生离死别全都有……母亲出殡之后，好像再没有什么事能轻易刺痛他。」（语境：网易 2026-11-12 释出，谈三十岁骤变）",
-   "type": "insight",
    "board": "interview",
    "date": "2026-11-12",
    "ts": 1794412800000,
@@ -1490,15 +3263,6 @@
   {
    "id": "auto_interview_2026-11-12_40f22504bf",
    "text": "**优先级 1（可用）**：本期 podscan 提供完整 transcript（真实逐字），以下为按时间轴摘录的嘉宾原话（中文为 podscan transcript 原文，来源 `https://podscan.fm/podcasts/du-shu-bu-cheng-lin/episodes/375-zhong-qi-xuan-ju-can-bai-hou-gong-he-dang-he-qu-he-cong`，抓取 2026-11-12）。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_7681d95305",
-   "text": "说明：以上为 podscan transcript 真实摘录（中文），非二手转述；媒体分析（南方日报/网易/澎湃）作为交叉背景引入，已标注「媒体观点，非仲树原话」。凡 podscan 未覆盖的细节（如具体州长得票率）均未编造。EarsOnMe 聚合显示 EP375 已获 49k+ 次播放、栏目全量 389 集，作为传播侧第三方数据列于金句与背景，标「待独立核实」。podscan 真实受众画像（51% 男 / 47% 女）与往期引用的「第三方微信整理文称约八成女性」口径冲突，二者并列标注「待独立核实」，本期以 podscan 官方聚合口径为主呈现。",
    "type": "quote",
    "board": "interview",
    "date": "2026-11-12",
@@ -1614,24 +3378,6 @@
    "auto": true
   },
   {
-   "id": "auto_interview_2026-11-12_cd29d05bde",
-   "text": "节目四：《十三邀》特别篇《寻找费孝通》+《十三邀·见非凡》梁家辉（金鸡影帝 11-10 互文）",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_798967ff9f",
-   "text": "【吴越·谈失去】「沙发没了就换椅子，椅子没了换板凳，板凳没了就坐地上。」（语境：第九季第 13 期，被剪辑成短视频广泛传播）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_interview_2026-11-12_a5c6d0d34f",
    "text": "【梁家辉·谈职业】「不是明星，职业而已。」（语境：颁奖前夜独自坐高铁被认出时的回应，搜狐娱乐 11-12 引）",
    "type": "insight",
@@ -1661,15 +3407,6 @@
   {
    "id": "auto_interview_2026-11-12_4bc9180273",
    "text": "说明：以上为微信节目资料页文本 + 搜狐娱乐报道的结构化还原，非节目原声逐字；如后续官方释出字幕/文稿，应以官方原文替换本节。第九季全季豆瓣评分 9.6 分（据微信资料页标注，为全季口径，特别篇单集评分待核实）。梁家辉金鸡影帝属与《十三邀·见非凡》相关的关联文化事件，非费孝通特别篇内容，已明确标注。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-12_2e5b10c0b8",
-   "text": "说明：以上为聚合源结构化还原，非 Lex 官方原声逐字；如后续代理恢复对 lexfridman.com 直连，应以官方 transcript 替换本节。Lex #490「State of AI in 2026」为 2026 年内重要单集（lexfridmanindex 可检索），内容涵盖 Scaling Laws、开源 vs 闭源、GPU 约束、中国 AI 与 AGI 时间线，本期仅作背景提及，未列为独立节目章节。",
    "type": "quote",
    "board": "interview",
    "date": "2026-11-12",
@@ -1830,98 +3567,8 @@
    "auto": true
   },
   {
-   "id": "auto_realestate_2026-11-12_bc334b2f38",
-   "text": "6.1 城市专项观察",
-   "type": "case",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_78cfee34e5",
-   "text": "宁波",
-   "type": "case",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_3428c46cd5",
-   "text": "宜兴（含梅林府高端项目监测）",
-   "type": "case",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_bad495ce17",
-   "text": "6.4 宁波重点项目跟踪",
-   "type": "case",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_b0822afe53",
-   "text": "6.2 阿那亚系列项目跟踪（秦皇岛 / 九龙湖 / 雾灵山 / 金山岭 / 常熟 / 三亚）",
-   "type": "case",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_83a6828115",
-   "text": "**（b）【上海二手房市场筛选·本期持续关注】五维框架**",
-   "type": "insight",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_688da31ffb",
-   "text": "实测数据优先，标注来源与时间。综合候选（非荐买）：桃浦老工房 / 杨浦周家嘴路 / 徐汇长桥凌云 + 世博板块（本期重点实例）；风险：房龄贷款限制、远郊流动性弱、风貌区无拆改可能、不宜纯赌拆迁。",
-   "type": "quote",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_4a93997088",
-   "text": "6.5 万华系项目跟踪（成都麓湖生态城 / 武汉麓洲 / 万宁万岭麓湾 / 三亚麓之丘·东岸麓州）",
-   "type": "case",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_6f3eb4cc44",
-   "text": "数据源：① 链家/贝壳世博商圈成交房源页；② 上海网上房地产二手网签（全市/浦东宏观量）；③ 幸福里/我爱我家/安居客/大房鸭世博小区在售。",
-   "type": "quote",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_realestate_2026-11-12_aeca64ba8d",
    "text": "**铁律**：真实逐套网签明细链家/贝壳未公开 → 以下以「在售报价 / 参考成交均价」呈现，并标注类型（在售报价/参考均价），**不编造网签成交**。世博花园（虹口临平路）已剔除（非浦东世博板块）。",
-   "type": "quote",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_2bc5452b84",
-   "text": "聚焦楼市政策/房价走势/买房逻辑/城市选择/房企风险，检索近 1–2 周高声量内容。区分文章与视频，链接须真实可访问，无法核实标「链接待核实」。",
    "type": "quote",
    "board": "realestate",
    "date": "2026-11-12",
@@ -1938,72 +3585,9 @@
    "auto": true
   },
   {
-   "id": "auto_realestate_2026-11-12_bcbdfffc9d",
-   "text": "按项目分栏：酒店/民宿、商业、活动、园区客流、价格入住率、营业额。当日无法获取项标注「待补充」，条目保留。",
-   "type": "quote",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_realestate_2026-11-12_7a4757408d",
    "text": "周更条件：总预算 ≤350 万、浦西（黄浦江以西）、两室、新房、有电梯、近地铁、单程通勤 ≤40 分钟。以下为公开在售新盘实测筛选，非荐买，购房决策以官方公示为准。",
    "type": "quote",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_83ee73f94f",
-   "text": "上海（含【上海二手房市场筛选·五维框架】）\n**（a）核心板块 / 改善豪宅 / 土拍与二手韧性**",
-   "type": "insight",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_5c713906d9",
-   "text": "6.7 武清楼市专项跟踪（天津·长期关注）",
-   "type": "case",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_eac40c2d67",
-   "text": "本工作台持续关注武清作为京津通勤外溢与低总价刚需承接板块，本期补充官方/第三方真实数据。",
-   "type": "quote",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_0fa3bc30f5",
-   "text": "6.8 诸暨楼市专项跟踪（绍兴·长期关注）",
-   "type": "case",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_db78a9c18b",
-   "text": "本工作台持续关注诸暨作为杭州外溢与县域改善承接板块，本期补充真实数据。",
-   "type": "quote",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_a61547632b",
-   "text": "6.3 阿那亚运营深度监测（专项）",
-   "type": "case",
    "board": "realestate",
    "date": "2026-11-12",
    "ts": 1794412800000,
@@ -2022,15 +3606,6 @@
    "id": "auto_realestate_2026-11-12_43e7df6cc8",
    "text": "6.6 上海世博区域二手房网签监测（每日明细）\n**全市/浦东宏观量（网上房地产口径）**：上海 11-11 二手 748 套（浦东口径含在内，未单列世博）；世博板块（浦东世博/三林世博家园/浦江世博家园/上南花城/齐一小区/万科金色城品等）**真实逐套网签明细仍无公开渠道** → 维持「在售报价 + 参考成交均价」呈现，逐套网签标注「数据源不可用」。",
    "type": "case",
-   "board": "realestate",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-12_7fa1ef0a83",
-   "text": "**【文章】**《上海楼市,又爆了!》— 网易/睿见投资（平台/自媒体，作者：睿见投资）— 链接：https://www.163.com/dy/article/LBEVNQJ80519X10F.html — 发布 2026-11-11。核心观点：上海二手 11 月前 7 天累计 5,994 套、日均 856 套、同比 +19%；10 月二手 2.47 万套创本轮调整同期新高；房价连续 8 个月上涨、9 月二手同比由跌转涨；第六批次土拍杨浦/徐汇宅地楼面价破 10 万/㎡。热度：网易（待核实）。",
-   "type": "insight",
    "board": "realestate",
    "date": "2026-11-12",
    "ts": 1794412800000,
@@ -2118,69 +3693,6 @@
    "auto": true
   },
   {
-   "id": "auto_tourism_2026-11-12_e8f6312983",
-   "text": "生成方式：WebSearch / WebFetch 抓取公开数据源，真实数据优先；凡未检得可核实出处者，一律标注「数据源不可用 / 待核实」，严禁编造数字。",
-   "type": "quote",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_a909f1e051",
-   "text": "（1）客流量",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_e8fc8278c3",
-   "text": "（2）客群",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_24176eac13",
-   "text": "（3）区域商业",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_b5ec8d57ab",
-   "text": "（5）度假地产【维持前期观察】",
-   "type": "insight",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_fbea611a98",
-   "text": "（6）典型项目与房价监测",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_802acf5288",
-   "text": "（3）数据缺口",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_tourism_2026-11-12_3401ee4b63",
    "text": "监测日期：2026-11-12（周四）",
    "type": "quote",
@@ -2199,15 +3711,6 @@
    "auto": true
   },
   {
-   "id": "auto_tourism_2026-11-12_cf5944745b",
-   "text": "（4）酒店与民宿【未重新抓取实时 OTA 价 · 标「数据源不可用 / 待核实」】",
-   "type": "insight",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_tourism_2026-11-12_f1a626cdc5",
    "text": "（1）跨境 / 避寒航线【周四执行日 · 携程实测在售】",
    "type": "insight",
@@ -2217,107 +3720,8 @@
    "auto": true
   },
   {
-   "id": "auto_tourism_2026-11-12_37bb2776f9",
-   "text": "（2）业态与客群【暖冬旅居新信号】",
-   "type": "insight",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_3137129ba9",
-   "text": "（1）阿那亚",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_bfaecae3c9",
-   "text": "（2）海南万宁",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_d6616b1e13",
-   "text": "（3）浙江诸暨",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_tourism_2026-11-12_cfa0d90289",
    "text": "沙特阿拉伯 · 埃尔奥拉 AlUla（RCU / 2030 愿景旗舰）——遗产+当代文化+野奢三位一体（第二十七期）",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_69cec144bd",
-   "text": "来源：vision2030.ai、rcu.gov.sa、携程攻略、候鸟旅行；客群结构未公开 → 标「待核实」。",
-   "type": "quote",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_9737f1d70c",
-   "text": "9.1 监测对象\n乌镇（东栅/西栅）、乌镇戏剧节、古北水镇、濮院、乌江寨。",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_2a34e503ce",
-   "text": "9.2 业态",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_9cdded2a98",
-   "text": "9.3 客流",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_6050c75d1c",
-   "text": "9.4 运营",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_2f0575709c",
-   "text": "注：陈向宏作品经营数据多未公开 → 标「待核实」。",
-   "type": "quote",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_91e93f4e8d",
-   "text": "10.1 微度假与秋假亲子",
    "type": "case",
    "board": "tourism",
    "date": "2026-11-12",
@@ -2334,26 +3738,8 @@
    "auto": true
   },
   {
-   "id": "auto_tourism_2026-11-12_5bec27eeb2",
-   "text": "10.3 度假区 KPI",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_tourism_2026-11-12_a10a02a6f1",
    "text": "10.4 冰雪双引擎",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-12_f629c9cbe9",
-   "text": "10.5 方法论总结",
    "type": "case",
    "board": "tourism",
    "date": "2026-11-12",
@@ -2478,15 +3864,6 @@
    "auto": true
   },
   {
-   "id": "auto_content_2026-11-12_ea5d3d6f11",
-   "text": "可直接落地的二创选题（平台 / 内容 / 改编方向 / 适配形式 / 生命周期）",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_content_2026-11-12_dccab1a9d8",
    "text": "**【新近出版】**",
    "type": "insight",
@@ -2559,27 +3936,9 @@
    "auto": true
   },
   {
-   "id": "auto_content_2026-11-12_e12e35d300",
-   "text": "情绪反差分析（同一事物在不同平台情绪差异）",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
    "id": "auto_content_2026-11-12_6a7ea9e248",
    "text": "以下均为近 1–2 周高声量内容，含真实链接；区分「文章」与「音频/播客」两类。",
    "type": "quote",
-   "board": "content",
-   "date": "2026-11-12",
-   "ts": 1794412800000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-12_40249a2a03",
-   "text": "**【音频 / 播客】**",
-   "type": "insight",
    "board": "content",
    "date": "2026-11-12",
    "ts": 1794412800000,
@@ -5841,1365 +7200,6 @@
    "board": "business",
    "date": "2026-11-09",
    "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_30a0a253a0",
-   "text": "本节约为 14:30 触发增补，严格遵循「遇已存在报告一律追加、严禁 Write 覆盖」铁律，**未改动一～五章原内容**。检索区间 2026-11-06～11-09 公开信息，仅补录一～五章未覆盖的真实增量，避免重复注水。日本东京/大阪/福冈/有乐町与双十一主线已在一～五章充分覆盖，本补仅补国内存量城市更新样本、泰国 Platinum POP/隆披尼竞争、日本 PUPPET SUNSUN 常设店与 REIT 资本侧增量。",
-   "type": "quote",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_bdd0b4ab68",
-   "text": "6.1 国内：首店矩阵 + 离境退税 2.0 双样本（补强一章）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_9b5402bde8",
-   "text": "6.2 泰国：Platinum POP 重焕 + 隆披尼双综合体对决（补强二章）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_b182c0e758",
-   "text": "6.3 日本：PUPPET SUNSUN 首间常设店（补强三章）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_9e1a7ec8b4",
-   "text": "6.4 资本侧：华润商业 REIT 获批（补强五章）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_4a64065dea",
-   "text": "本节约为 10:48 二次触发增补，严格遵循「遇已存在报告一律追加、严禁 Write 覆盖」铁律，**未改动一～八章原内容**。检索区间聚焦 2026-11-06～11-09 公开信息中一～八章尚未覆盖的真实增量，避免重复注水。国内 TOD/非标存量、泰国节庆商业引擎、日本东京 sanrio/LINE 预约运营参数与池袋/有乐町 IP 展、东京外（大阪/福岡/名古屋）角色商场与百货试水模型、双十一结构数据与监管新信号为本期重点。抓取时间：2026-11-09 10:48（GMT+8）。",
-   "type": "quote",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_0ff3924e5e",
-   "text": "6B.1 国内：TOD 公园式 + 非标多业态新开业群（补强一章）\n**① 上海泗泾招商花园城（松江首个大型 TOD，11-20 开业）**",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_35976184a6",
-   "text": "6B.2 泰国：节庆商业引擎 + Pokémon BANGKOK 入店细则（补强二章）\n**① CentralWorld「Disney & Pixar Christmas 2026」（节庆商业新引擎）**",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_83eb88bab6",
-   "text": "6B.3 日本·东京：创新动态聚焦（补强三章）\n**① 涩谷 PARCO「sanrio house」运营参数深化（11-13 开业）**",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_90f23ca49f",
-   "text": "东京四类框架本日优先；下列为 11-06～11-09 新核实的运营参数与新增 IP 展，主报告三章已覆盖涩谷 PARCO 三店（WILDSIDE/sanrio house 11-13/GUNDAM BASE 11-20）基线，本期做参数深化与增量补充。",
-   "type": "quote",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_904fc026b8",
-   "text": "6B.4 日本·其他主要都市（东京外常态化覆盖，满足每期 ≥1 东京外增量）\n**① 大阪 LUCUA SOUTH「ちいかわパークストア」11-24 全国初开业（角色商场补强）**",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_8a8919657e",
-   "text": "6B.5 非标商业与主理人商业专项（补强四章）\n**案例 N：北京湾里·汀云小镇（多业态非标街区 + 首店矩阵）**",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_b61f4f57f3",
-   "text": "6B.6 行业资讯观察（五章 supplement·11-09 真实 URL）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_dad7455b37",
-   "text": "下为 2026-11-09 当日新公开、且一～五章及 11-08 增补未覆盖的行业观点/数据文，均文章类；视频类直链未检得可验证链接，标「待核实」不编造。",
-   "type": "quote",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-09_889296d43b",
-   "text": "6B.7 本期补充待核实（与一～八章去重后新增）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-09_7546b4e640",
-   "text": "以下为近 1–2 周高声量内容，区分文章/视频，链接均来自真实抓取；热度/讨论指标公开端未披露，统一标「待核实」。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-09_68d64026e7",
-   "text": "**案例主线**：险企养老社区进入「开园即满负荷招商 + 产业链外溢」阶段（泰康禅园带动紫南村文旅联动、佛山制造与长寿需求融合）；对岸长庚养生村提供「医养一体+义工自治」长效样本，其历史运营数据对国内高端社区有成本结构参考价值，但须以官方当期披露更新。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-09_9f699d7ae6",
-   "text": "标题格式遵循「泗月 · 养老｜2026-11-09（周一）」。本期为养老板块日报，风格、结构、篇幅对齐仓库最新一期样本（2026-11-08.md，约 55KB）。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-09_45e4efb38c",
-   "text": "**铁律自检**：全文数据均来自真实抓取（WebSearch / WebFetch / 公开政务与媒体源），标注来源与抓取时间；多口径数据并列标注，无法核实内容一律标注「数据源不可用 / 待核实」并说明口径；严禁编造数字。本期 12 批检索全部成功，无工具 5xx 报错。全球标杆轮换至**加拿大**（此前已覆盖德国多代屋、新加坡、日本、荷兰 De Hogeweyk、英国 Extra Care、丹麦、瑞典、美国 CCRC、澳大利亚、法国 EHPAD、欧洲时间银行、韩国）。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-09_3ffc246799",
-   "text": "**本期增量判定**：长护险进入「省级实施方案密集印发 + 地级统筹全面落地」阶段（湖北 3 年路线图、阿克苏 0.3% 费率全员覆盖、天津城乡居民扩面）；民政部以「改革+法治」双轮驱动，重庆条例成为地方立法样板；探访关爱、银发人才开发同步制度化。制度底座从「倡导」转向「建制+考核+立法」。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-09_0788a94fcd",
-   "text": "**业态主线**：适老化改造从「零散工程」转为「以旧换新+消费券」双轮财政牵引（临泽 30%/上限 2 万、广东中度失能券抵扣、兰州撬动超 1 亿）；进博会标志适老化产品从「单品堆砌」转向「空间协同 + 自主消费」（银发消费从「子女孝心」向「老人自主」迁移）；「嵌入式 + 公建民营 + 社区辐射」成为市辖区与县域共性路径。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-09_813a455499",
-   "text": "**数据锚点**：3.23 亿老人（深度老龄化中段）；银发经济「宽口径 12 万亿 / 主流量 9.8 万亿 / 全球 8.2 万亿 / 低口径 8–9 万亿」四套并存，本质是统计边界差异（是否含养老地产/金融）；养老金「11.2 万亿结余 + 3.42 万亿委托投资 + 3.34 万亿战略储备 + 1.25 万亿转移支付」四层托底。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-09_294aa4ef75",
-   "text": "**创新主线**：康养机器人「机构先行、价格下探」确立（骅羲 HT-X2 预定破千台、南京多款进机构试点、天翼获国际赛事一等奖、心言巴布切入家庭情感陪伴）；多传感融合+自主跟随+情绪感知+AIGC 成产品标配；毫米波雷达无感监测成社区/居家标配方向；但「机构跑通 ≠ 入户解决」，B 端短期仍是主战场。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-09_e0b6a72e18",
-   "text": "轮换说明：近期已覆盖德国多代屋、新加坡、日本地域包括、荷兰 De Hogeweyk、英国 Extra Care、丹麦、瑞典、美国 CCRC、澳大利亚、法国 EHPAD、欧洲时间银行、韩国；本期聚焦**加拿大**——作为 G7 中老龄化速度领先、且「全民免费医疗 + 市场化退休社区 + 长期护理险（省立）」三者并存的典型，与国内「政策+市场+保险保单」路径形成对照，亦为万宁/阿那亚等旅居项目提供「中度老龄化社会如何平衡公共托底与市场化供给」的镜鉴。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-09_a7880b992a",
-   "text": "**对万宁阿那亚等异地康养项目的参考价值**：加拿大「活跃老化 + 社交联结 + 跨代际」理念，可为国内康养社区注入「活力老人价值再创造」轻量内容（低改造成本、强社群黏性）；其退休社区 REIT 化融资路径，对国内险企/房企养老社区的资本结构优化有借鉴。但加拿大高福利底色与国内差异显著，宜作「情绪/社交补位 + 资本结构」借鉴，不宜照搬支付机制。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-09_2955577225",
-   "text": "**【综合体/标杆】泰康之家·禅园 11-05 正式开园（佛山南庄绿岛湖）。** 泰康保险集团在粤港澳大湾区运营的第三座大规模、全功能、国际标准高品质养老社区，与粤园、鹏园、梅沙府（预计明年开业）构成「三园一府」网络。一期占地约 **28 亩**、总投资约 **10 亿元**、建面 **5.2 万㎡**、设养老单元 **660 个**、配建医疗机构，依托 CCRC 模式提供独立生活/协助生活/专业护理/记忆照护全链条服务；今年 10 月迎首批居民，至今已 **170 余位**入住；完全达产预计年营收超 **1.5 亿元**。开业当日启动「佛山银发经济产业供需对接平台」，禅城区牵线紫南村与禅园共建全市首个「名村+名企」康养平台。（来源：泰康之家官网、腾讯新闻、今日头条，2026-11-05/06）",
-   "type": "insight",
-   "board": "elderly",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-09_3d31e4e285",
-   "text": "**【标杆/对岸样本】台湾长庚养生文化村（维持前期深度拆解，本期无新披露）。** 由台塑集团王永庆创立、长庚医疗财团法人营运，位于桃园市龟山区，占地 **34 公顷**（约 **510 亩**），绿地占约一半；计划建 A/B/C/D 四栋、全住满 **4000 户**，为台湾唯一依循老人住宅法令兴办的高龄出租住宅。A 栋 2004 年取得使用执照、2005 年营运，共 **706 套**；投资金额 **500 亿新台币**（约 **100 亿人民币**）；定位年满 60 岁、配偶 50 岁、体检合格、生活自理；早期公开收费一室一厅月租金单人 **1.8 万**、双人 **2.3 万新台币**（约 3700/4750 元人民币），设村民管理委员会、做满义工可减免管理费。理念「活到老、做到老」——村民既当学生也当老师，紧邻长庚医院。**本期未检索到该项目的当期新运营数据（occupancy/收费更新），维持前期观察，最新数字以官方当期披露为准、标注待核实**。（来源：台湾内政部 pip.moi.gov.tw 研究报告、中新网 2016 探访、凤凰网、九九康寿，资料日期 2016–2020，部分运营数字为历史口径）",
-   "type": "insight",
-   "board": "elderly",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-09_220b3dc1df",
-   "text": "**【一周要闻速览（2026-11-09 综合）】**",
-   "type": "insight",
-   "board": "elderly",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_02c6180d1b",
-   "text": "2.4 访谈逐字稿\n「岩中花述 GIADA | 87 - S9E9 鲁豫对话刘索拉 | 一生不断找北，直到天高地广。欢迎来到智性女性的精神衣橱，本节目是由意大利静奢品牌 GIADA 推出的一档播客节目……S9E9 鲁豫对话刘索拉：鲁豫见到了一头银发的刘索拉。她正从一场漫长的疾病中慢慢恢复。曾经，她可以持续创作与演出，如今一天只能工作约一个小时。状态最差时，她每一秒都在对付身体，音乐与文学都无法让她从中抽离。刘索拉学作曲出身，她所在的中央音乐学院作曲系 77/78 级聚集了谭盾、陈其钢、郭文景、叶小纲、周龙、陈怡等后来享誉国际的作曲家。她回忆，1977 年恢复高考后，大家像是",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_05a68b28f9",
-   "text": "【Ek·谈研究先于创新】「Before even committing to this idea, the 'why not' part, I probably spent 500 hours learning about this problem.」（在真正承诺这个想法之前，光是「为什么不」的部分，我大概花了 500 小时去研究这个问题。——radio-australia 00:02:07 真实引述）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_9200a1d556",
-   "text": "【Ek·谈创业妄想】「And believe that you could change that, for me, is a special type of delusion.」（相信自己能改变现状，对我而言是一种特殊的妄想。——radio-australia 00:01:17 真实引述）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_8dcc4ffd00",
-   "text": "【Ek·谈守门人】「These assistants, you better befriend them because they are the keys to the kingdom.」（这些助理，你最好和他们做朋友，因为他们是王国的钥匙。——radio-australia 00:13:47 真实引述）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_b8fa1ae96b",
-   "text": "【Ek·谈风险与责任】「There's this constant tension between being innovative, taking risks, and, at the same time, obviously being responsible.」（创新、冒险与对用户和创作者负责之间，存在持续的张力。——radio-australia 00:30:31）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_59861f3d02",
-   "text": "【Ek·谈医疗数据】「把 Spotify 的数据驱动与用户留存思路移植到医疗，核心假设是足够多的纵向多模态数据可以把被动医疗转向以预防与早期发现为主的模式。」（来源：miracleplus 解读，待独立核实）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_27c7aa08e4",
-   "text": "2.4 访谈逐字稿\n【章节时间轴】（来源 radio-australia，供切片与定位） 00:00:04 The Power of Deep Problem-Solving（深度解题的力量）",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_bfc86b926a",
-   "text": "【章节时间轴】（来源 radio-australia，供切片与定位）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_a8ed6b8011",
-   "text": "【Ek·谈研究先于创新】（radio-australia 00:02:07 真实引述）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_1dbc406976",
-   "text": "【Ek·谈创业妄想】（radio-australia 00:01:17 真实引述）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_9b91723086",
-   "text": "【Ek·谈守门人】（radio-australia 00:13:47 真实引述）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_d5c6b05a2e",
-   "text": "【Ek·谈风险与责任】（radio-australia 00:30:31 真实引述）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_c840f97da8",
-   "text": "【Ek·谈医疗延展】（据 miracleplus 中文解读还原，标注「待独立核实」）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_db731f2f5f",
-   "text": "说明：以上英文句为 radio-australia 章节页真实摘录，非 Lex 式官方 transcript；医疗部分数据来自 miracleplus 社区解读，标注「待独立核实」。如后续官方释出完整 transcript，应以官方原文替换本节。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_e24e384c15",
-   "text": "**7. 【文章】Daniel Ek 谈离开 Spotify 后的新创业与 AI 潜力**",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_9bbf2f85e8",
-   "text": "- **轨一（国内原有）**：筛选国内优质人物访谈、商业访谈、行业大咖访谈节目片段/全集；本期重点覆盖视频播客《陈鲁豫·慢谈》（王传君新一期于 11-09 12:00 上线）、知识类播客《独树不成林》（EP375 中期选举专题）、女性深度访谈《岩中花述》、《十三邀》。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_555b50c8c7",
-   "text": "**本期节目列表（6 档）**：①《陈鲁豫·慢谈》× 王传君（11-09 12:00 当日上线·新）；②《独树不成林》EP375 × 仲树（中期选举惨败后共和党何去何从·11-03）；③《岩中花述》S9E9 × 刘索拉（09-23·最新可检索期次）；④《十三邀》特别篇《寻找费孝通》（第九季收官·09-16·最新可检索期次）；⑤ Lex Fridman Podcast #503 × Brunton/Moitra/Kontorovich（AI 与数学危机·10-27）；⑥ The Diary Of A CEO × Daniel Ek（11-06 最新）。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_83d40f20bb",
-   "text": "**数据抓取时间**：2026-11-09（WebSearch / WebFetch，外网经本会话代理可用）。**数据窗口说明**：本期各栏目「最新可检索期次」并非均落在 11-09 当日——其中《陈鲁豫·慢谈》王传君一期确于 2026-11-09 12:00 上线（属当日新更，为本期最强新增信号）；《独树不成林》EP375 为 2026-11-03 上线（本期新增覆盖）；《岩中花述》S9E9、《十三邀》费孝通特别篇分别早于当日约 7 周、8 周，且 11 月上旬暂无更新信号；凡此类情况均已在正文标注具体可核验日期，未以「当日新更」作虚假表述。另，《陈鲁豫·慢谈》王传君一期虽于 11-09 12:00 上线，但撰写/抓取时点距上线不足一日，官方逐字稿与切片尚未充分沉淀，本期仅作「已上线·内容待补全」处理，金句与逐字稿均标注「待正片释出后补全」，未以想象填充。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_b2dab11f34",
-   "text": "节目一：《陈鲁豫·慢谈》× 王传君（2026-11-09 当日上线）",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_6deccf786e",
-   "text": "说明：以上梗概基于官方官宣文案（微博，2026-11-08/09）还原，非正片逐字；正片于 11-09 12:00 上线，撰写时已上线不足一日，内容提炼、金句与逐字稿均待正片切片/字幕沉淀后补全，未以想象填充。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_d3080ceaf3",
-   "text": "本节观点均基于官宣文案与栏目方法论推演，因正片上线不足一日、尚无公开二创长文/字幕交叉核实，统一标注「待正片释出后补全 / 待核实」，未以编造的具体表述冒充嘉宾原话。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_888a1300f4",
-   "text": "本节金句分两类：官宣文案级（已确认，标注「官宣文案」）与正片级（待释出，标注「待正片」）。凡正片级均不作编造。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_6a26c56a6d",
-   "text": "【官宣文案·谈人生】「聊了他三十岁那年的人生骤变，聊了争议背后的真实心境，也聊了一个演员如何把自己打碎、再慢慢长回来。」（语境：@鲁豫有约 官宣文案）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_2a876abb2c",
-   "text": "【待正片·金句】正片金句（如关于「打碎—重建」「争议心境」的原话）待 11-09 上线后切片/字幕沉淀，本期不预填。",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_f05814efa8",
-   "text": "**优先级 3（兜底，仅当前两者不可得时）**：本期正片于 2026-11-09 12:00 上线，撰写/抓取时上线不足一日，官方逐字稿与字幕尚未公开发布，第三方二创长文亦未充分沉淀。以下为基于微博官方官宣文案（真实文本）的结构化还原（非逐字稿），已标注出处；未以提炼冒充逐字。官方官宣原文如下（来源 `https://weibo.com/6212695115/5362225306402939`，抓取 2026-11-09）：",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_4546fe3ac6",
-   "text": "说明：以上为微博官宣文案（真实文本）的结构化还原，非节目原声逐字；如后续官方释出字幕/文稿，应以官方原文替换本节。凡正片级内容、金句与逐字稿，均待 11-09 上线后补全，未以想象填充。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_e5ba53d48a",
-   "text": "**优先级 1（可用）**：本期 podscan 提供完整 transcript（真实逐字），以下为按时间轴摘录的嘉宾原话（中文为 podscan transcript 原文，来源 `https://podscan.fm/podcasts/du-shu-bu-cheng-lin/episodes/375-zhong-qi-xuan-ju-can-bai-hou-gong-he-dang-he-qu-he-cong`，抓取 2026-11-09）。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_9e8a6a12e5",
-   "text": "**优先级 3（兜底）**：本期无官方公开发布的全文逐字稿/字幕，以下为基于 radio-singapore / rephonic / getpodcast 节目官方介绍（真实文本）多源交叉核实的「结构化还原（非逐字稿）」，已标注出处，未以提炼冒充逐字。节目官方介绍原文如下（来源 `https://www.radio-singapore.com/podcasts/yan-zhong-hua-shu`，抓取 2026-11-09）：",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_d250f7cd5b",
-   "text": "说明：以上为公开节目介绍文本的结构化还原，非节目原声逐字；如后续官方释出字幕/文稿，应以官方原文替换本节。本期标注：经 2026-11-09 检索，《岩中花述》第九季最新可检索期次仍为 S9E9，S9E10 暂无更新信号，故沿用该期次，未以虚构新一期填充。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_7e3e4f7bb1",
-   "text": "**优先级 3（兜底）**：本期无官方公开发布的全文逐字稿/字幕，以下为基于微信节目资料页（真实文本，含完整分集介绍与特别篇详述）的「结构化还原（非逐字稿）」，已标注出处，未以提炼冒充逐字。节目资料页原文节选如下（来源 `http://mp.weixin.qq.com/s?__biz=MzI5NTk3OTAzMg==&mid=2247486383&idx=1&sn=99a82936287db3ffe9a63732aefba767&chksm=ed258de6a0a9be1320617282da545277d246ba25dcbeae27726854fd89451c8edbb5ef9eab4e`，抓取 2026-11-09）：",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_ccfe7866d7",
-   "text": "节目六：The Diary Of A CEO × Daniel Ek",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_ea4d8a5896",
-   "text": "**优先级 2（可用）**：本期无官方全文逐字稿公开，但 radio-australia 聚合页对 DOAC 该集做了章节拆解并摘录了多段真实引述（时间戳可定位），以下为按「主持人引入 → 嘉宾核心论点」时间线还原的真实原话（英文 verbatim，来源 `https://www.radio-australia.org/podcasts/the-diary-of-a-ceo-by-steven-bartlett`，抓取 2026-11-09）。完整正片长度以官方 YouTube/Spotify 为准（本期以 31 分钟剪辑版发布，完整对话时长待核实）。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_5a08507742",
-   "text": "聚焦「媒体/内容/访谈行业」近 1–2 周高声量内容，区分文章与视频，标题、平台/博主、真实 URL、热度指标与核心观点如下（抓取时间 2026-11-09，外网经本会话代理可用）。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_3188fe9423",
-   "text": "**1. 【事件/官宣】鲁豫对话王传君 11 月 9 日 12:00 上线**",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_84f4aa613f",
-   "text": "**2. 【文章】名人构成了一个小圈子，大家就会不耐烦地划走**",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_72d59b9a2f",
-   "text": "**3. 【文章】鲁豫，播客时代的「神父」**",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_648304dc17",
-   "text": "**4. 【文章/数据】「跛脚鸭」折射美国政治困局（中期选举专题）**",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_4deb3da12b",
-   "text": "**5. 【文章】特朗普最危险的时刻来了：MAGA 支持者开始质疑特朗普本人**",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_ce9baf0390",
-   "text": "**6. 【视频/图文】鲁豫金句被称「电子医生处方」**",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-09_1917b97fc1",
-   "text": "**8. 【文章】DOAC 登顶 YouTube 美/加双区「最受欢迎播客」周榜**",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-09_ce2e5cadfa",
-   "text": "上海（含【上海二手房市场筛选·五维框架】）\n**（a）徐家汇等核心板块 / 改善豪宅 / 土拍与二手韧性**",
-   "type": "insight",
-   "board": "realestate",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-09_1da1d66e58",
-   "text": "基线：2026-08-28 五部门（住建部/自然资源部/央行/金融监管总局/证监会）密集发布「828 新政」系列文件。第 43 期承前追踪「较上一期（11-08 第 42 期）新增」，当日无实质新增则明确标注。",
-   "type": "quote",
-   "board": "realestate",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-09_9865bba386",
-   "text": "6.6 上海世博区域二手房网签监测（每日明细）\n**全市/浦东宏观量（网上房地产口径）**：上海 11-08 二手 1117 套（浦东口径含在内，未单列世博）；世博板块（浦东世博/三林世博家园/浦江世博家园/上南花城/齐一小区/万科金色城品等）**真实逐套网签明细仍无公开渠道** → 维持「在售报价 + 参考成交均价」呈现，逐套网签标注「数据源不可用」。",
-   "type": "case",
-   "board": "realestate",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-09_17c1c15442",
-   "text": "**【文章】**《房价下跌的后遗症，开始浮现了！不仅仅是亏钱》— 腾讯新闻（平台/媒体）— 链接：https://news.qq.com/rain/a/20261105A0AOBX00 — 发布 2026-11-05。核心观点：调整是中国经济换挡必经「体检」，普通人应守现金流、控负债率、不被情绪牵着走；城市分化已明显（核心抗跌、小城压力）。热度：腾讯新闻推荐（待核实）。",
-   "type": "insight",
-   "board": "realestate",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_realestate_2026-11-09_31bc752e13",
-   "text": "**【文章】**《六成企业仍在亏损，房企三季报透露什么信号？》— 新浪财经/界面新闻（平台/媒体）— 链接：https://cj.sina.com.cn/articles/view/5182171545/134e1a99902002lal4 — 发布 2026-11 月（三季报密集期）。核心观点：95 家 A 股房企 38 盈利/57 亏损；利润集中出清、现金流小幅修复、资源向头部集中；现房销售抬高资金周转门槛。热度：新浪财经（待核实）。",
-   "type": "insight",
-   "board": "realestate",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-09_61d0e5f276",
-   "text": "监测日期：2026-11-09（周一）",
-   "type": "quote",
-   "board": "tourism",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-09_fb4c919f30",
-   "text": "本期重点：2026-11-09 为周一，处于「第九届进博会 11-05—10 第五日（国家会展中心·上海，距 11-10 闭幕仅 1 天）＋ 上海国际艺术节首演周第 6 日（11-04 起 6 天 13 部首演，今日为最后一日）＋ 哈尔滨亚布力 2026—2027 雪季已开板第 4 日（11-06 正式开板）＋ 双 11 囤货峰值周（11-11 实际付尾款/现货高峰，距今日 2 天）＋ 冬春航季第三周 ＋ 秋假错峰周末收口、周一开工日」多节点交汇日。本期关键增量：① **西双版纳三条东南亚国际航线 11-09 周一仍为空窗日**（班期仅周二/四/六，上一执行窗口为 11-07 周六、下一为 11-10 周二），携程航班实测显示 11-09 西双版纳→清迈/胡志明仅有中转联程、西双版纳→万象直飞 QW9915 首班为 11-10，与 11-07 周六执行、11-08 周日空窗、11-09 周一空窗构成「执—空—空」连续两空窗；② **用户项目相关目的地第四期继续监测——阿那亚（中旅·阿那亚·九龙湖「花城出版社 45 周年暨第九届花城文学奖」已于 11-08 收官，下一节点为 11-23 阿那亚艺术中心广州馆启幕）／海南万宁（中旅逐浪「浪尖经济」）／浙江诸暨（入选 2026 中国旅游产业影响力案例、1-9 月游客 1398.5 万人次）**；③ 文旅部前三季度国内居民出游 **53.07 亿人次、+6.2%**，总花费 **4.95 万亿元、+2.2%** 继续作为全年结构判断底座；④ **进博会 11-09 为第五日（距闭幕 1 天）**（162 国/地区/国际组织参与、4142 家境外企业、面积首破 44 万㎡、480+ 全球首发首展首秀、美国企业参展面积超 5 万㎡连续 8 届第一、上海交易团意向成交额连续 8 年居全国地方交易团第一、绿电约 610 万千瓦时、现场智能退税终端「即买即退」、爱达·魔都号 11-08 起五天四晚邮轮连班开行）；⑤ **双 11 距 11-11 仅 2 天**，飞猪线路游成交同比近 +100%、乐园门票 +200%、三峡游轮 +120%，国际酒店集团通兑与主题乐园套餐进入核销前最后囤货窗口。",
-   "type": "quote",
-   "board": "tourism",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-09_3f4315d6d1",
-   "text": "（1）跨境 / 避寒航线【本期关键更新 · 11-09 周一为空窗日 · 携程实测验证】",
-   "type": "insight",
-   "board": "tourism",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-09_c10ffe0edb",
-   "text": "沙特阿拉伯 · 埃尔奥拉 AlUla（Royal Commission for AlUla / 沙特 2030 愿景文旅旗舰）——遗产 + 当代文化 + 野奢度假三位一体 × 主权基金统一运营（第二十四期 · 联动西双版纳避寒/跨境、青城山康养、万宁逐浪、星野 TOMAMU）\n埃尔奥拉位于沙特西北部，是沙特首个联合国教科文组织世界遗产地（黑格拉 Hegra，纳巴泰文明）、拥有约 9000 处岩石艺术与铭文遗址、7000 年人类历史，被沙特「2030 愿景」列为高价值文化旅游锚点。本期拆解其「遗产保护 + 当代文化引擎 + 野奢度假住宿」三位一体、由皇家委员会（RCU）统一规划运营的超级目的地模型。",
-   "type": "case",
-   "board": "tourism",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_tourism_2026-11-09_78f4e0c170",
-   "text": "检索窗口：近 1—2 周（2026-10 下旬—11/09）文旅行业高声量内容；标题与链接均抓取所得、可访问，互动指标平台未公开处标「待核实」。",
-   "type": "quote",
-   "board": "tourism",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_58247289aa",
-   "text": "D. 可直接落地的二创选题（平台 / 内容 / 改编方向 / 适配形式 / 生命周期）",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_3483be8f5d",
-   "text": "数据抓取时间：2026-11-09 09:30–11:00（GMT+8）",
-   "type": "quote",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_cf4fa95744",
-   "text": "数据来源：央视网 / 新华网 / 腾讯新闻 / rshub.site（抖音·微博·百度·知乎热搜实测 2026-11-09 05:59）/ rebang.today 全网热榜 / data.newrank.cn 小红书趋势 PDF / 什么值得买 / 三个皮匠报告 / 当当新书榜 / 中信出版书讯 / 网易号（半佛仙人·运营研究社）/ 新榜 / 人人都是产品经理 / 小宇宙（刀姐doris·小马宋）/ podscan（小马宋商业观察）。",
-   "type": "quote",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_a8bd868d7a",
-   "text": "说明：本报告中所有链接、热度值、标题均来自上述来源实测，未核实项标注「待核实」，无编造 URL。",
-   "type": "quote",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_25c5f65295",
-   "text": "筛选标准：讨论度 / 争议性 / 情绪共鸣 / 可延展。以下 5 条为今日（11-09）具自媒体跟进价值的事件。",
-   "type": "quote",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_e389427a5c",
-   "text": "1. 我国成功发射卫星互联网低轨 29 组卫星",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_0494b13b1c",
-   "text": "2. 中东部强降雪寒潮，多地启动民生保障",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_6554c61608",
-   "text": "3. 第九届进博会进入第四天：AI 产业新脉动 + 央企集中签约",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_1bd667e158",
-   "text": "4. 特朗普称如谈判有进展\"极不可能\"再对伊大动武",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_e1bd20846e",
-   "text": "5. 英伟达 CEO 黄仁勋内部信承认出轨，多平台爆发",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_3fab1b7cb3",
-   "text": "抖音实测源 wuaishare.cn 近期持续不可达，本次以 rshub.site（含抖音热度值）、rebang.today 真实数据替代，未触发 500 重试，不标注\"数据源不可用\"。",
-   "type": "quote",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_f9db891269",
-   "text": "A. 抖音（rshub.site 实测 2026-11-09 05:59，含热度值）",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_3ddb9c7e10",
-   "text": "B. 小红书（data.newrank.cn 趋势 PDF + 什么值得买 + 三个皮匠报告）",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_59dd0ec28c",
-   "text": "C. 微信 / 全网（rshub 头条·toutiao + rebang + 知乎）",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_96720fb835",
-   "text": "E. 情绪反差分析（同一事物在不同平台情绪差异，更易出爆款）",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_a218084431",
-   "text": "区分\"新近出版\"与\"长销经典被热议\"两类。以下 3 本均为近期可购/热议。",
-   "type": "quote",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_c08d445c04",
-   "text": "1.《房地产正传》— 冯仑（新近出版，2026-10-26，北京联合出版有限公司·果麦文化）",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_e5268a5c3c",
-   "text": "2.《白领的消亡》— [日]富山和彦（新近出版，2026-11-18，中信出版社）",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_3b8cf489a2",
-   "text": "3.《信息规则：网络经济的策略指导》— 卡尔·夏皮罗 / 哈尔·R.范里安（长销经典再版，2026-10-1，中国人民大学出版社）",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_e2d88537a3",
-   "text": "1.《崩坏：星穹铁道》星神★阿哈角色 PV——「让骰子飞」（B站，375.3 万播放）",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_45fc644171",
-   "text": "2. 国漫《牧神记》第 108 集「相逢何必曾相识」（B站，232.2 万播放）",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_a8f3f239d9",
-   "text": "3. 神人短剧·农村大席之抽象盛宴（B站，59.1 万播放，联动 mj 宇宙「AI 全民制作人」）",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_4bdfdd43bb",
-   "text": "附：B站 11 月片单《人生一串 4》（11-05 开播）、《蓝色星球 3》等长效优质长视频，适合做\"陪伴式\"内容二次解读。",
-   "type": "quote",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_627565d962",
-   "text": "综合上述新闻、平台热点、书籍、视频，给出当日可操作方向。每条含 3–5 个可直接使用的标题（情绪钩子/悬念/数字/反差）+ 适配平台与形式。",
-   "type": "quote",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_bdcc2f556d",
-   "text": "方向 1｜大连 21 年重夺中超冠军：城市体育情怀",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_a0c1e275f4",
-   "text": "方向 2｜胖东来\"赔到破产也守原则\"：商业信任",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_51304b14fe",
-   "text": "方向 3｜姐系高智感秋冬穿搭：职场女性衣橱",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_d415cdb655",
-   "text": "方向 4｜黄仁勋出轨：商业人物私德",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_e98a562c50",
-   "text": "方向 5｜强降雪寒潮保民生：民生温情与科普",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_72a9a7470b",
-   "text": "方向 6｜卫星互联网低轨 29 组发射：航天科普与自豪",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_85e8bc3397",
-   "text": "方向 7｜AI Token 进李佳琦直播间：科技消费启蒙",
-   "type": "case",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_a8e1f7d13e",
-   "text": "检索近 1–2 周高声量内容，代表账号：半佛仙人 / 新榜 / 运营研究社 / 小马宋 / 人人都是产品经理 / 刀姐doris。所有链接均来自 WebSearch 抓取，无编造；区分「文章」与「视频/音频」。",
-   "type": "quote",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_12eb9fc21e",
-   "text": "【文章】\n**① 半佛仙人《千问办公上李佳琦直播间是疯了吗？》**",
-   "type": "insight",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-09_befdba4240",
-   "text": "【视频 / 音频】\n**⑥ 小马宋商业观察《今天的小红书，仍是一片蓝海》（播客）**",
-   "type": "insight",
-   "board": "content",
-   "date": "2026-11-09",
-   "ts": 1794153600000,
-   "auto": true
-  },
-  {
-   "id": "auto_content_2026-11-08_8b3bd0aa35",
-   "text": "【文章】",
-   "type": "insight",
-   "board": "content",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_d32147c013",
-   "text": "1.13 杭州嘉里城（工业遗存复合体，年底开业）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_3573e68b79",
-   "text": "1.14 长春坊·超级市集（非遗市集，东北室内之最）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_4a9ddf798e",
-   "text": "1.15 武汉麓洲无界商业开工（万华集团，2029 初开业）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_461c436ce8",
-   "text": "1.16 天津津界·NewBay（青年夜娱综合体，本周六启幕）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_2ec270d4f0",
-   "text": "1.17 天津劝业场百年地标回归（文保活化）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_d097856b32",
-   "text": "1.18 重庆三洞桥 2 号主理人街区（本周六开街）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_009847dacb",
-   "text": "1.19 西宁昆仑墟沉浸式文旅新空间（文旅混改样本）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_95d9368ca9",
-   "text": "1.20 长沙 MAYA·AI 未来之城与存量更新群",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_a3728c0985",
-   "text": "1.21 品牌动态速览（零售与餐饮连锁）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_1334e69353",
-   "text": "2.2 Pokémon Center BANGKOK（12-1 开业，细节再确认）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_2b3369fb1b",
-   "text": "2.3 MINISO LAND centralwOrld 开业（11-6，IP 首发）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_85f8eaad1c",
-   "text": "4.4 长春坊·超级市集（非遗市集）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_2d39f1f44c",
-   "text": "4.5 亲橙 556 / 杭州嘉里城 / 长沙 MAYA（存量与复合更新群）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_73ab942c38",
-   "text": "本节约为 15:25 二次触发增补，严格遵循「遇已存在报告一律追加、严禁 Write 覆盖」铁律，**未改动一～五章原内容**。检索区间 2026-11-06～11-08 公开信息，仅补录一～五章未覆盖的真实增量，避免重复注水。日本东京/大阪/福冈/有乐町与双十一主线已在一～五章充分覆盖，本补仅补国际品牌旗舰与国内存量/折扣新案。",
-   "type": "quote",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_2108cdc5f8",
-   "text": "6.1 泰国：国际品牌「体验型旗舰」三案例（补强二章）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_af047d400d",
-   "text": "6.2 国内：仓储折扣·城市奥莱·非标社区四案例（补强一章）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_845d1c279f",
-   "text": "6.3 非标主理人专项拆解（补强四章）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_business_2026-11-08_08d1063c99",
-   "text": "6.4 行业资讯补充：体验型旗舰成为国际品牌入泰主流打法（补强五章）",
-   "type": "case",
-   "board": "business",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-08_4b966b544a",
-   "text": "标题格式遵循「泗月 · 养老｜2026-11-08（周日）」。本期为养老板块日报，风格、结构、篇幅对齐仓库最新一期样本（2026-11-06.md）。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-08_3ed0b0cbe3",
-   "text": "**铁律自检**：全文数据均来自真实抓取（WebSearch / WebFetch / 公开政务与媒体源），标注来源与抓取时间；多口径数据并列标注，无法核实内容一律标注「数据源不可用 / 待核实」并说明口径；严禁编造数字。本期 11 批检索全部成功，无工具 5xx 报错。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-08_7df5c61fb8",
-   "text": "**本期增量判定**：国家层面三级养老服务网络建设进入「标准化+量化指标」落地期（70% 设施覆盖率、73% 护理型床位、「五千工程」）；长护险由试点升格全国建制、筹资机制与居民端扩面路径清晰化；探访关爱、地方养老立法（重庆）、银发人才开发同步细化，制度底座从「倡导」转向「建制+考核+就业」。制度底座从「倡导」转向「建制+考核」。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-08_999c806a81",
-   "text": "**业态主线**：适老化改造从「零散工程」转为「以旧换新+消费券」双轮财政牵引（甘肃 30%/上限 2 万、广东中度失能券抵扣、衢州撬动近 1 亿）；「嵌入式 + 公建民营 + 社区辐射」成为市辖区与县域共性路径；跨境（港澳）养老标准互认破题。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-08_5e8a644cc0",
-   "text": "**数据锚点**：3.23 亿老人（深度老龄化中段）；银发经济「宽口径 12 万亿 / 主流量 9.8 万亿 / 全球 8.2 万亿 / 低口径 8–9 万亿」四套并存，本质是统计边界差异（是否含养老地产/金融），对外引用须标注口径；养老金「11.2 万亿结余 + 3.42 万亿委托投资 + 3.34 万亿战略储备 + 1.25 万亿转移支付」四层托底，职工年度调整迟到但基金底气充足。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-08_77f6efd68d",
-   "text": "**创新主线**：康养机器人「机构先行、价格下探」确立（按摩/艾灸机器人进入 3 万元家庭区间）；多传感融合+自主跟随+情绪感知+AIGC 成产品标配；毫米波雷达无感监测成社区/居家标配方向；但「机构跑通 ≠ 入户解决」，B 端短期仍是主战场。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-08_95b141ba48",
-   "text": "轮换说明：近期已覆盖德国多代屋、新加坡、日本地域包括、荷兰 De Hogeweyk、英国 Extra Care、丹麦、瑞典、美国 CCRC、澳大利亚、法国 EHPAD、欧洲时间银行；本期聚焦**韩国**——作为同处东亚、超高龄化速度全球最快、且「财阀+技术」双轮驱动的典型，与国内「政策+市场」路径形成对照。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-08_57284fcdcd",
-   "text": "**对万宁阿那亚等异地康养项目的参考价值**：韩国 HAHA「闲置设施+活跃老化+再就业」模式，可为国内康养社区注入「活力老人价值再创造」轻量内容（低改造成本、强社群黏性）；但其高端 CCRC 高入住率（97%）依赖强医疗与财阀信用，对国内轻资产旅居项目不可简单复制，宜作「情绪/社交补位 + 社群运营」借鉴。",
-   "type": "quote",
-   "board": "elderly",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-08_c301d536aa",
-   "text": "**【综合体/标杆】泰康之家·禅园 11-05 正式开园（佛山南庄绿岛湖）。** 泰康保险集团在粤港澳大湾区运营的第三座大规模、全功能、国际标准高品质养老社区，与粤园、鹏园、梅沙府（预计明年开业）构成「三园一府」网络。一期占地约 **28 亩**、总投资约 **10 亿元**、建面 **5.2 万㎡**、设养老单元 **660 个**、配建医疗机构，依托 CCRC 模式提供独立生活/协助生活/专业护理/记忆照护全链条服务；今年 10 月迎首批居民，至今已 **170 余位**入住；完全达产预计年营收超 **1.5 亿元**。开业当日启动「佛山银发经济产业供需对接平台」，禅城区牵线紫南村与禅园共建全市首个「名村+名企」康养平台，预计每年为紫南村带 **6 万人次**客流。陈东升提出以「支付+服务+投资」三端协同应对长寿风险。（来源：泰康之家官网 taikangzhijia.com、腾讯新闻、网易、佛山+，2026-11-05/06）",
-   "type": "insight",
-   "board": "elderly",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-08_d982a2b582",
-   "text": "**【标杆/对岸样本】台湾长庚养生文化村（深度拆解）。** 由台塑集团王永庆创立、长庚医疗财团法人营运，位于桃园市龟山区，占地 **34 公顷**（约 **510 亩**），绿地占约一半；计划建 A/B/C/D 四栋、全住满 **4000 户**，为台湾唯一依循老人住宅法令兴办的高龄出租住宅。",
-   "type": "insight",
-   "board": "elderly",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-08_beb2c8c577",
-   "text": "**【维持前期基线】** 太保家园（14 社区/3500 长住）、大家保险城心养老（在营 12 家、北京友谊/朝阳近 100%）、万科随园嘉树（入住率 90%+）、绿城乌镇雅园（1.2 万长者）等维持前期观察；本期未检索到上述项目新的入住率/收费披露，标注「维持前期观察」。",
-   "type": "insight",
-   "board": "elderly",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_elderly_2026-11-08_88d00a357e",
-   "text": "**【一周要闻速览（2026-11-08）】**",
-   "type": "insight",
-   "board": "elderly",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-08_21e9f73df8",
-   "text": "说明：以上为公开信息交叉还原，非节目原声逐字；如后续官方释出字幕/文稿，应以官方原文替换本节。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-08_1dd86b6b7e",
-   "text": "- **轨一（国内原有）**：筛选国内优质人物访谈、商业访谈、行业大咖访谈节目片段/全集；本期重点覆盖知识类播客《独树不成林》（仲树复出）、女性深度访谈《岩中花述》、《陈鲁豫·慢谈》、纪实访谈《十三邀》。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-08_67f2fdf261",
-   "text": "- **轨二（头部案例观察·新增）**：对《独树不成林》《岩中花述》《陈鲁豫·慢谈》《The Diary Of A CEO》《Lex Fridman Podcast》等国内外头部栏目做专项拆解（内容差异化、受众偏好、叙事框架、提问逻辑、剪辑手法、轻量化剪辑与流量密码）。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-08_5297d10204",
-   "text": "**本期节目列表（6 档）**：①《独树不成林》× Roger Berkowitz（仲树复出·朋友是否比真理更重要）；②《岩中花述》S9E9 × 刘索拉；③《陈鲁豫·慢谈》EP27 × 王凯；④ Lex Fridman Podcast #503 × Brunton/Moitra/Kontorovich（AI 与数学危机）；⑤ The Diary Of A CEO × Daniel Ek（11-06 最新）；⑥《十三邀》特别篇《寻找费孝通》（第九季收官）。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-08_64d51ca05c",
-   "text": "**数据抓取时间**：2026-11-08（WebSearch / WebFetch，外网经本会话代理可用）。**数据窗口说明**：本期各栏目「最新可检索期次」并非均落在 11-08 当日——部分栏目（如《独树不成林》复出期为 2026-09-30、《十三邀》第九季收官特别篇为 2026-09-16）其最新一期早于当日，且 11 月上旬暂无更新信号；凡此类情况均已在正文标注具体可核验日期，未以「当日新更」作虚假表述。另，《陈鲁豫·慢谈》王传君一期官方已于 11-08 前官宣「11 月 9 日 12:00 上线」，属「待播预告」而非已播内容，本期仅作预告收录。",
-   "type": "quote",
-   "board": "interview",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-08_5ff3321f56",
-   "text": "节目一：《独树不成林》× Roger Berkowitz（仲树复出）",
-   "type": "case",
-   "board": "interview",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-08_01f9fd7204",
-   "text": "【Berkowitz·谈友谊本质】「朋友不是意见相同的人，而是即使意见完全不同，仍然能够彼此承认、彼此尊重的人。」（语境：解释阿伦特笔下友谊的政治含义）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
-   "auto": true
-  },
-  {
-   "id": "auto_interview_2026-11-08_0bd1d47265",
-   "text": "【Berkowitz·谈真理的暴政】「说『我们已经掌握真理，因此你们只需要听我们的教育和被我们说服』，这是真理的暴政。」（语境：批评专家/技术精英主导的政治传统）",
-   "type": "insight",
-   "board": "interview",
-   "date": "2026-11-08",
-   "ts": 1794067200000,
    "auto": true
   }
  ]
